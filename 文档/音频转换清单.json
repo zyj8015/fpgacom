@@ -1,0 +1,332 @@
+{
+  "method": "Arithmetic stereo mean, round to nearest; 24-to-16-bit round to nearest; no normalization, limiting, trimming, resampling or duration change",
+  "downmix": "average",
+  "total_duration_seconds": 117.62,
+  "files_verified": 12,
+  "files": [
+    {
+      "source": "1.wav",
+      "source_sha256": "9f9a9c2f73996af4c03f76d0cbab60c02d7098361c3f8f9de0066da0d8367b86",
+      "output": "1.WAV",
+      "output_sha256": "f797e0327c9934ea69adea98721addab21188b7e06649b9d52e0d306d99b1ab8",
+      "downmix": "average",
+      "selected_channel": null,
+      "left_rms_24bit": 133511.26,
+      "right_rms_24bit": 1345148.46,
+      "left_peak_24bit": 835038,
+      "right_peak_24bit": 8386560,
+      "frames": 379456,
+      "duration_seconds": 7.905,
+      "rms": 2579.13,
+      "peak_amplitude": 16197,
+      "quantization_upper_bound_clamps": 0,
+      "source_format": {
+        "channels": 2,
+        "bits_per_sample": 24,
+        "sample_rate": 48000
+      },
+      "target_format": {
+        "channels": 1,
+        "bits_per_sample": 16,
+        "sample_rate": 48000
+      }
+    },
+    {
+      "source": "2.wav",
+      "source_sha256": "a9de2587f7e8a664682aaa8510b8357095157b1cf1b6d06bac6bc36835026e0e",
+      "output": "2.WAV",
+      "output_sha256": "5c4542f7562f8fbae1ea0c2ef4113080e768811ed223652e0b52b9fba059e3eb",
+      "downmix": "average",
+      "selected_channel": null,
+      "left_rms_24bit": 149239.94,
+      "right_rms_24bit": 1205577.58,
+      "left_peak_24bit": 1026002,
+      "right_peak_24bit": 7739738,
+      "frames": 286336,
+      "duration_seconds": 5.965,
+      "rms": 2324.7,
+      "peak_amplitude": 15721,
+      "quantization_upper_bound_clamps": 0,
+      "source_format": {
+        "channels": 2,
+        "bits_per_sample": 24,
+        "sample_rate": 48000
+      },
+      "target_format": {
+        "channels": 1,
+        "bits_per_sample": 16,
+        "sample_rate": 48000
+      }
+    },
+    {
+      "source": "3.wav",
+      "source_sha256": "b8c22c26c6fb11972034524227ef704e96a5f6181ae4de39ca96994663a3c548",
+      "output": "3.WAV",
+      "output_sha256": "5cc5a6a710c017f37692e933233d8fbeed3662f31cc1174814744ce8d0106c69",
+      "downmix": "average",
+      "selected_channel": null,
+      "left_rms_24bit": 76504.45,
+      "right_rms_24bit": 1247009.85,
+      "left_peak_24bit": 756692,
+      "right_peak_24bit": 8224346,
+      "frames": 448576,
+      "duration_seconds": 9.345,
+      "rms": 2429.14,
+      "peak_amplitude": 15740,
+      "quantization_upper_bound_clamps": 0,
+      "source_format": {
+        "channels": 2,
+        "bits_per_sample": 24,
+        "sample_rate": 48000
+      },
+      "target_format": {
+        "channels": 1,
+        "bits_per_sample": 16,
+        "sample_rate": 48000
+      }
+    },
+    {
+      "source": "4.wav",
+      "source_sha256": "de59e0998885b841553c7ff4e00de5aee5cac3321f908d45667ce3ecfb20a59d",
+      "output": "4.WAV",
+      "output_sha256": "d52b471c139138ddc82f1a75963eb4f2b65d5981f7dd72a7119515128fb92293",
+      "downmix": "average",
+      "selected_channel": null,
+      "left_rms_24bit": 134057.23,
+      "right_rms_24bit": 1188803.09,
+      "left_peak_24bit": 893514,
+      "right_peak_24bit": 8271215,
+      "frames": 444736,
+      "duration_seconds": 9.265,
+      "rms": 2307.72,
+      "peak_amplitude": 15939,
+      "quantization_upper_bound_clamps": 0,
+      "source_format": {
+        "channels": 2,
+        "bits_per_sample": 24,
+        "sample_rate": 48000
+      },
+      "target_format": {
+        "channels": 1,
+        "bits_per_sample": 16,
+        "sample_rate": 48000
+      }
+    },
+    {
+      "source": "5.wav",
+      "source_sha256": "01752722c9d441686909d8b99b6bef208d776278efd38c107d242b18abee0bcc",
+      "output": "5.WAV",
+      "output_sha256": "6e6b03ef852e88fb38c2255eda2949bdccc87344874ddfe639d7cb4b6bc95a7f",
+      "downmix": "average",
+      "selected_channel": null,
+      "left_rms_24bit": 172284.54,
+      "right_rms_24bit": 1082940.6,
+      "left_peak_24bit": 951637,
+      "right_peak_24bit": 7658099,
+      "frames": 341056,
+      "duration_seconds": 7.105,
+      "rms": 2122.64,
+      "peak_amplitude": 14521,
+      "quantization_upper_bound_clamps": 0,
+      "source_format": {
+        "channels": 2,
+        "bits_per_sample": 24,
+        "sample_rate": 48000
+      },
+      "target_format": {
+        "channels": 1,
+        "bits_per_sample": 16,
+        "sample_rate": 48000
+      }
+    },
+    {
+      "source": "6.wav",
+      "source_sha256": "c479e1d889db693b957a3520606891bddd2e9e626b4d4b4eb0d64194579cb392",
+      "output": "6.WAV",
+      "output_sha256": "c4645b23c59f10182322c0f9dc4b25a019cb14b0048025489ed3bdaf01356385",
+      "downmix": "average",
+      "selected_channel": null,
+      "left_rms_24bit": 147336.61,
+      "right_rms_24bit": 1273684.55,
+      "left_peak_24bit": 797907,
+      "right_peak_24bit": 8386560,
+      "frames": 525376,
+      "duration_seconds": 10.945,
+      "rms": 2499.87,
+      "peak_amplitude": 16546,
+      "quantization_upper_bound_clamps": 0,
+      "source_format": {
+        "channels": 2,
+        "bits_per_sample": 24,
+        "sample_rate": 48000
+      },
+      "target_format": {
+        "channels": 1,
+        "bits_per_sample": 16,
+        "sample_rate": 48000
+      }
+    },
+    {
+      "source": "7.wav",
+      "source_sha256": "d5fb25d41e5c2e78b64089155678bc6984954f258b8c1e86939471a298f03034",
+      "output": "7.WAV",
+      "output_sha256": "b3042d78b586bb00e6c4953a905d0b22308067e835721c63a1856b99c36ddaec",
+      "downmix": "average",
+      "selected_channel": null,
+      "left_rms_24bit": 129866.1,
+      "right_rms_24bit": 1315645.02,
+      "left_peak_24bit": 915709,
+      "right_peak_24bit": 8029866,
+      "frames": 427456,
+      "duration_seconds": 8.905,
+      "rms": 2561.0,
+      "peak_amplitude": 16056,
+      "quantization_upper_bound_clamps": 0,
+      "source_format": {
+        "channels": 2,
+        "bits_per_sample": 24,
+        "sample_rate": 48000
+      },
+      "target_format": {
+        "channels": 1,
+        "bits_per_sample": 16,
+        "sample_rate": 48000
+      }
+    },
+    {
+      "source": "8.wav",
+      "source_sha256": "d9154407e8247cfb31027dbc9c735fa94f5b636d93f0640c88363222bd88af69",
+      "output": "8.WAV",
+      "output_sha256": "7f3bffea5490f981375ce8967f65741bf34b4c912e6df8471f16043ad4dd01b1",
+      "downmix": "average",
+      "selected_channel": null,
+      "left_rms_24bit": 128696.11,
+      "right_rms_24bit": 1312706.66,
+      "left_peak_24bit": 892974,
+      "right_peak_24bit": 8386560,
+      "frames": 513856,
+      "duration_seconds": 10.705,
+      "rms": 2574.34,
+      "peak_amplitude": 17000,
+      "quantization_upper_bound_clamps": 0,
+      "source_format": {
+        "channels": 2,
+        "bits_per_sample": 24,
+        "sample_rate": 48000
+      },
+      "target_format": {
+        "channels": 1,
+        "bits_per_sample": 16,
+        "sample_rate": 48000
+      }
+    },
+    {
+      "source": "9.wav",
+      "source_sha256": "e32907dbfcdd2bb6ebe11c07e35e7941b89a50d0771e3dab51339f148ab5ce54",
+      "output": "9.WAV",
+      "output_sha256": "225f201c6a04b6ae8a10a909e79fbeb8da675af50f647121efb27e35cd9fbc06",
+      "downmix": "average",
+      "selected_channel": null,
+      "left_rms_24bit": 132389.03,
+      "right_rms_24bit": 1266472.86,
+      "left_peak_24bit": 899484,
+      "right_peak_24bit": 8386560,
+      "frames": 687616,
+      "duration_seconds": 14.325,
+      "rms": 2458.32,
+      "peak_amplitude": 16048,
+      "quantization_upper_bound_clamps": 0,
+      "source_format": {
+        "channels": 2,
+        "bits_per_sample": 24,
+        "sample_rate": 48000
+      },
+      "target_format": {
+        "channels": 1,
+        "bits_per_sample": 16,
+        "sample_rate": 48000
+      }
+    },
+    {
+      "source": "10.wav",
+      "source_sha256": "d7cafc68fc887f9b2d8e34c99ed5206c4924f2944d33b8fe8600b86ff7fe767b",
+      "output": "10.WAV",
+      "output_sha256": "efb001f62ca3a5e86a113bdc100acac2086f27d6acd328db4f6f9ff03cd0e194",
+      "downmix": "average",
+      "selected_channel": null,
+      "left_rms_24bit": 149352.35,
+      "right_rms_24bit": 1165965.14,
+      "left_peak_24bit": 1083814,
+      "right_peak_24bit": 8386560,
+      "frames": 809536,
+      "duration_seconds": 16.865,
+      "rms": 2291.99,
+      "peak_amplitude": 16703,
+      "quantization_upper_bound_clamps": 0,
+      "source_format": {
+        "channels": 2,
+        "bits_per_sample": 24,
+        "sample_rate": 48000
+      },
+      "target_format": {
+        "channels": 1,
+        "bits_per_sample": 16,
+        "sample_rate": 48000
+      }
+    },
+    {
+      "source": "11.wav",
+      "source_sha256": "2758898dcbbf7f48ea8ee6d4cb08ce124dd4c1535fd614ae7da7bf2c312b4df3",
+      "output": "11.WAV",
+      "output_sha256": "8fe1fe7254819583fe197612b6ae0aeffdbf5e36cc46cd7816020b5c063054a3",
+      "downmix": "average",
+      "selected_channel": null,
+      "left_rms_24bit": 96434.77,
+      "right_rms_24bit": 1403665.36,
+      "left_peak_24bit": 840512,
+      "right_peak_24bit": 7887801,
+      "frames": 634816,
+      "duration_seconds": 13.225,
+      "rms": 2706.49,
+      "peak_amplitude": 15469,
+      "quantization_upper_bound_clamps": 0,
+      "source_format": {
+        "channels": 2,
+        "bits_per_sample": 24,
+        "sample_rate": 48000
+      },
+      "target_format": {
+        "channels": 1,
+        "bits_per_sample": 16,
+        "sample_rate": 48000
+      }
+    },
+    {
+      "source": "12.wav",
+      "source_sha256": "af0dc2e2ea0a084fb6740777081f6649e68632c65c43b75d9ecfa581529b2059",
+      "output": "12.WAV",
+      "output_sha256": "f1c4a2995001c8e41ce150466a8d881dbd4d1675d8f03977025103a97e5628d2",
+      "downmix": "average",
+      "selected_channel": null,
+      "left_rms_24bit": 108362.37,
+      "right_rms_24bit": 1288750.93,
+      "left_peak_24bit": 888015,
+      "right_peak_24bit": 7674704,
+      "frames": 147136,
+      "duration_seconds": 3.065,
+      "rms": 2476.73,
+      "peak_amplitude": 15726,
+      "quantization_upper_bound_clamps": 0,
+      "source_format": {
+        "channels": 2,
+        "bits_per_sample": 24,
+        "sample_rate": 48000
+      },
+      "target_format": {
+        "channels": 1,
+        "bits_per_sample": 16,
+        "sample_rate": 48000
+      }
+    }
+  ]
+}
