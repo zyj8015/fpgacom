@@ -1,0 +1,1217 @@
+eagle_s20
+13 4499 617 1907 32000 1237542 0 0
+0.019 0.055 top eagle_s20 EG4S20BG256 Detail NA 30 7
+clock: clk
+13 1272 94 2
+Setup check
+23 3
+Endpoint: rst_all_reg_reg_syn_17
+23 13.889000 16 3
+Timing path: reg5_syn_107.clk->rst_all_reg_reg_syn_17
+reg5_syn_107.clk
+rst_all_reg_reg_syn_17
+25 13.889000 23.470000 9.581000 3 8
+rst_cnt[7] lt0_syn_70.a[0]
+lt0_syn_10 lt0_syn_73.fci
+lt0_syn_14 lt0_syn_76.fci
+lt0_syn_18 lt0_syn_79.fci
+lt0_syn_22 lt0_syn_82.fci
+lt0_syn_26 lt0_syn_85.fci
+lt0_syn_30 lt0_syn_88.fci
+rst_all_reg_n4 rst_all_reg_reg_syn_17.a[0]
+
+Timing path: reg5_syn_107.clk->rst_all_reg_reg_syn_17
+reg5_syn_107.clk
+rst_all_reg_reg_syn_17
+77 13.958000 23.470000 9.512000 3 8
+rst_cnt[8] lt0_syn_70.a[1]
+lt0_syn_10 lt0_syn_73.fci
+lt0_syn_14 lt0_syn_76.fci
+lt0_syn_18 lt0_syn_79.fci
+lt0_syn_22 lt0_syn_82.fci
+lt0_syn_26 lt0_syn_85.fci
+lt0_syn_30 lt0_syn_88.fci
+rst_all_reg_n4 rst_all_reg_reg_syn_17.a[0]
+
+Timing path: reg5_syn_116.clk->rst_all_reg_reg_syn_17
+reg5_syn_116.clk
+rst_all_reg_reg_syn_17
+129 14.104000 23.470000 9.366000 3 6
+rst_cnt[12] lt0_syn_76.a[1]
+lt0_syn_18 lt0_syn_79.fci
+lt0_syn_22 lt0_syn_82.fci
+lt0_syn_26 lt0_syn_85.fci
+lt0_syn_30 lt0_syn_88.fci
+rst_all_reg_n4 rst_all_reg_reg_syn_17.a[0]
+
+
+Endpoint: rst_all_reg_reg_syn_16
+177 14.267000 16 3
+Timing path: reg5_syn_107.clk->rst_all_reg_reg_syn_16
+reg5_syn_107.clk
+rst_all_reg_reg_syn_16
+179 14.267000 23.470000 9.203000 3 8
+rst_cnt[7] lt0_syn_70.a[0]
+lt0_syn_10 lt0_syn_73.fci
+lt0_syn_14 lt0_syn_76.fci
+lt0_syn_18 lt0_syn_79.fci
+lt0_syn_22 lt0_syn_82.fci
+lt0_syn_26 lt0_syn_85.fci
+lt0_syn_30 lt0_syn_88.fci
+rst_all_reg_n4 rst_all_reg_reg_syn_16.a[0]
+
+Timing path: reg5_syn_107.clk->rst_all_reg_reg_syn_16
+reg5_syn_107.clk
+rst_all_reg_reg_syn_16
+231 14.336000 23.470000 9.134000 3 8
+rst_cnt[8] lt0_syn_70.a[1]
+lt0_syn_10 lt0_syn_73.fci
+lt0_syn_14 lt0_syn_76.fci
+lt0_syn_18 lt0_syn_79.fci
+lt0_syn_22 lt0_syn_82.fci
+lt0_syn_26 lt0_syn_85.fci
+lt0_syn_30 lt0_syn_88.fci
+rst_all_reg_n4 rst_all_reg_reg_syn_16.a[0]
+
+Timing path: reg5_syn_116.clk->rst_all_reg_reg_syn_16
+reg5_syn_116.clk
+rst_all_reg_reg_syn_16
+283 14.482000 23.470000 8.988000 3 6
+rst_cnt[12] lt0_syn_76.a[1]
+lt0_syn_18 lt0_syn_79.fci
+lt0_syn_22 lt0_syn_82.fci
+lt0_syn_26 lt0_syn_85.fci
+lt0_syn_30 lt0_syn_88.fci
+rst_all_reg_n4 rst_all_reg_reg_syn_16.a[0]
+
+
+Endpoint: rst_all_reg_reg_syn_15
+331 14.532000 16 3
+Timing path: reg5_syn_107.clk->rst_all_reg_reg_syn_15
+reg5_syn_107.clk
+rst_all_reg_reg_syn_15
+333 14.532000 23.470000 8.938000 3 8
+rst_cnt[7] lt0_syn_70.a[0]
+lt0_syn_10 lt0_syn_73.fci
+lt0_syn_14 lt0_syn_76.fci
+lt0_syn_18 lt0_syn_79.fci
+lt0_syn_22 lt0_syn_82.fci
+lt0_syn_26 lt0_syn_85.fci
+lt0_syn_30 lt0_syn_88.fci
+rst_all_reg_n4 rst_all_reg_reg_syn_15.a[0]
+
+Timing path: reg5_syn_107.clk->rst_all_reg_reg_syn_15
+reg5_syn_107.clk
+rst_all_reg_reg_syn_15
+385 14.601000 23.470000 8.869000 3 8
+rst_cnt[8] lt0_syn_70.a[1]
+lt0_syn_10 lt0_syn_73.fci
+lt0_syn_14 lt0_syn_76.fci
+lt0_syn_18 lt0_syn_79.fci
+lt0_syn_22 lt0_syn_82.fci
+lt0_syn_26 lt0_syn_85.fci
+lt0_syn_30 lt0_syn_88.fci
+rst_all_reg_n4 rst_all_reg_reg_syn_15.a[0]
+
+Timing path: reg5_syn_116.clk->rst_all_reg_reg_syn_15
+reg5_syn_116.clk
+rst_all_reg_reg_syn_15
+437 14.747000 23.470000 8.723000 3 6
+rst_cnt[12] lt0_syn_76.a[1]
+lt0_syn_18 lt0_syn_79.fci
+lt0_syn_22 lt0_syn_82.fci
+lt0_syn_26 lt0_syn_85.fci
+lt0_syn_30 lt0_syn_88.fci
+rst_all_reg_n4 rst_all_reg_reg_syn_15.a[0]
+
+
+
+Hold check
+485 3
+Endpoint: reg5_syn_125
+487 0.429000 1 1
+Timing path: rst_all_reg_reg_syn_12.clk->reg5_syn_125
+rst_all_reg_reg_syn_12.clk
+reg5_syn_125
+489 0.429000 3.046000 3.475000 0 1
+rst_all_reg reg5_syn_125.ce
+
+
+Endpoint: reg5_syn_110
+527 0.429000 1 1
+Timing path: rst_all_reg_reg_syn_12.clk->reg5_syn_110
+rst_all_reg_reg_syn_12.clk
+reg5_syn_110
+529 0.429000 3.046000 3.475000 0 1
+rst_all_reg reg5_syn_110.ce
+
+
+Endpoint: reg5_syn_107
+567 0.535000 1 1
+Timing path: rst_all_reg_reg_syn_12.clk->reg5_syn_107
+rst_all_reg_reg_syn_12.clk
+reg5_syn_107
+569 0.535000 3.046000 3.581000 0 1
+rst_all_reg reg5_syn_107.ce
+
+
+
+
+clock: sd_card_clk
+607 504188 19104 5
+Setup check
+617 3
+Endpoint: sd_card_bmp_m0/bmp_read_m0/reg9_syn_179
+617 0.019000 183 3
+Timing path: sd_card_bmp_m0/bmp_read_m0/reg36_syn_130.clk->sd_card_bmp_m0/bmp_read_m0/reg9_syn_179
+sd_card_bmp_m0/bmp_read_m0/reg36_syn_130.clk
+sd_card_bmp_m0/bmp_read_m0/reg9_syn_179
+619 0.019000 12.096000 12.077000 7 23
+sd_card_bmp_m0/bmp_read_m0/entry_size[1] sd_card_bmp_m0/bmp_read_m0/lt35_syn_135.b[1]
+sd_card_bmp_m0/bmp_read_m0/lt35_syn_6 sd_card_bmp_m0/bmp_read_m0/lt35_syn_138.fci
+sd_card_bmp_m0/bmp_read_m0/lt35_syn_10 sd_card_bmp_m0/bmp_read_m0/lt35_syn_141.fci
+sd_card_bmp_m0/bmp_read_m0/lt35_syn_14 sd_card_bmp_m0/bmp_read_m0/lt35_syn_144.fci
+sd_card_bmp_m0/bmp_read_m0/lt35_syn_18 sd_card_bmp_m0/bmp_read_m0/lt35_syn_147.fci
+sd_card_bmp_m0/bmp_read_m0/lt35_syn_22 sd_card_bmp_m0/bmp_read_m0/lt35_syn_150.fci
+sd_card_bmp_m0/bmp_read_m0/lt35_syn_26 sd_card_bmp_m0/bmp_read_m0/lt35_syn_153.fci
+sd_card_bmp_m0/bmp_read_m0/lt35_syn_30 sd_card_bmp_m0/bmp_read_m0/lt35_syn_156.fci
+sd_card_bmp_m0/bmp_read_m0/lt35_syn_34 sd_card_bmp_m0/bmp_read_m0/lt35_syn_159.fci
+sd_card_bmp_m0/bmp_read_m0/lt35_syn_38 sd_card_bmp_m0/bmp_read_m0/lt35_syn_162.fci
+sd_card_bmp_m0/bmp_read_m0/lt35_syn_42 sd_card_bmp_m0/bmp_read_m0/lt35_syn_165.fci
+sd_card_bmp_m0/bmp_read_m0/lt35_syn_46 sd_card_bmp_m0/bmp_read_m0/lt35_syn_168.fci
+sd_card_bmp_m0/bmp_read_m0/lt35_syn_50 sd_card_bmp_m0/bmp_read_m0/lt35_syn_171.fci
+sd_card_bmp_m0/bmp_read_m0/lt35_syn_54 sd_card_bmp_m0/bmp_read_m0/lt35_syn_174.fci
+sd_card_bmp_m0/bmp_read_m0/lt35_syn_58 sd_card_bmp_m0/bmp_read_m0/lt35_syn_177.fci
+sd_card_bmp_m0/bmp_read_m0/lt35_syn_62 sd_card_bmp_m0/bmp_read_m0/lt35_syn_180.fci
+sd_card_bmp_m0/bmp_read_m0/lt35_syn_66 sd_card_bmp_m0/bmp_read_m0/lt35_syn_182.fci
+sd_card_bmp_m0/bmp_read_m0/candidate_cluster_b3_n1 sd_card_bmp_m0/bmp_read_m0/reg6_syn_160.a[1]
+sd_card_bmp_m0/bmp_read_m0/dir_resume_offset_b2[7]_syn_16 sd_card_bmp_m0/bmp_read_m0/reg6_syn_162.a[0]
+sd_card_bmp_m0/bmp_read_m0/dir_resume_offset_b2[7]_syn_22 sd_card_bmp_m0/bmp_read_m0/reg33_syn_52.a[1]
+sd_card_bmp_m0/bmp_read_m0/dir_resume_offset_b2[7]_syn_44 sd_card_bmp_m0/bmp_read_m0/reg45_syn_54.d[1]
+sd_card_bmp_m0/bmp_read_m0/candidate_pending_n_syn_2 sd_card_bmp_m0/bmp_read_m0/reg95_syn_161.d[1]
+sd_card_bmp_m0/bmp_read_m0/mux6_syn_103 sd_card_bmp_m0/bmp_read_m0/reg9_syn_179.ce
+
+Timing path: sd_card_bmp_m0/bmp_read_m0/reg36_syn_121.clk->sd_card_bmp_m0/bmp_read_m0/reg9_syn_179
+sd_card_bmp_m0/bmp_read_m0/reg36_syn_121.clk
+sd_card_bmp_m0/bmp_read_m0/reg9_syn_179
+701 0.185000 12.096000 11.911000 7 19
+sd_card_bmp_m0/bmp_read_m0/entry_size[8] sd_card_bmp_m0/bmp_read_m0/lt35_syn_147.b[0]
+sd_card_bmp_m0/bmp_read_m0/lt35_syn_22 sd_card_bmp_m0/bmp_read_m0/lt35_syn_150.fci
+sd_card_bmp_m0/bmp_read_m0/lt35_syn_26 sd_card_bmp_m0/bmp_read_m0/lt35_syn_153.fci
+sd_card_bmp_m0/bmp_read_m0/lt35_syn_30 sd_card_bmp_m0/bmp_read_m0/lt35_syn_156.fci
+sd_card_bmp_m0/bmp_read_m0/lt35_syn_34 sd_card_bmp_m0/bmp_read_m0/lt35_syn_159.fci
+sd_card_bmp_m0/bmp_read_m0/lt35_syn_38 sd_card_bmp_m0/bmp_read_m0/lt35_syn_162.fci
+sd_card_bmp_m0/bmp_read_m0/lt35_syn_42 sd_card_bmp_m0/bmp_read_m0/lt35_syn_165.fci
+sd_card_bmp_m0/bmp_read_m0/lt35_syn_46 sd_card_bmp_m0/bmp_read_m0/lt35_syn_168.fci
+sd_card_bmp_m0/bmp_read_m0/lt35_syn_50 sd_card_bmp_m0/bmp_read_m0/lt35_syn_171.fci
+sd_card_bmp_m0/bmp_read_m0/lt35_syn_54 sd_card_bmp_m0/bmp_read_m0/lt35_syn_174.fci
+sd_card_bmp_m0/bmp_read_m0/lt35_syn_58 sd_card_bmp_m0/bmp_read_m0/lt35_syn_177.fci
+sd_card_bmp_m0/bmp_read_m0/lt35_syn_62 sd_card_bmp_m0/bmp_read_m0/lt35_syn_180.fci
+sd_card_bmp_m0/bmp_read_m0/lt35_syn_66 sd_card_bmp_m0/bmp_read_m0/lt35_syn_182.fci
+sd_card_bmp_m0/bmp_read_m0/candidate_cluster_b3_n1 sd_card_bmp_m0/bmp_read_m0/reg6_syn_160.a[1]
+sd_card_bmp_m0/bmp_read_m0/dir_resume_offset_b2[7]_syn_16 sd_card_bmp_m0/bmp_read_m0/reg6_syn_162.a[0]
+sd_card_bmp_m0/bmp_read_m0/dir_resume_offset_b2[7]_syn_22 sd_card_bmp_m0/bmp_read_m0/reg33_syn_52.a[1]
+sd_card_bmp_m0/bmp_read_m0/dir_resume_offset_b2[7]_syn_44 sd_card_bmp_m0/bmp_read_m0/reg45_syn_54.d[1]
+sd_card_bmp_m0/bmp_read_m0/candidate_pending_n_syn_2 sd_card_bmp_m0/bmp_read_m0/reg95_syn_161.d[1]
+sd_card_bmp_m0/bmp_read_m0/mux6_syn_103 sd_card_bmp_m0/bmp_read_m0/reg9_syn_179.ce
+
+Timing path: sd_card_bmp_m0/bmp_read_m0/reg36_syn_130.clk->sd_card_bmp_m0/bmp_read_m0/reg9_syn_179
+sd_card_bmp_m0/bmp_read_m0/reg36_syn_130.clk
+sd_card_bmp_m0/bmp_read_m0/reg9_syn_179
+775 0.296000 12.096000 11.800000 7 22
+sd_card_bmp_m0/bmp_read_m0/entry_size[2] sd_card_bmp_m0/bmp_read_m0/lt35_syn_138.b[0]
+sd_card_bmp_m0/bmp_read_m0/lt35_syn_10 sd_card_bmp_m0/bmp_read_m0/lt35_syn_141.fci
+sd_card_bmp_m0/bmp_read_m0/lt35_syn_14 sd_card_bmp_m0/bmp_read_m0/lt35_syn_144.fci
+sd_card_bmp_m0/bmp_read_m0/lt35_syn_18 sd_card_bmp_m0/bmp_read_m0/lt35_syn_147.fci
+sd_card_bmp_m0/bmp_read_m0/lt35_syn_22 sd_card_bmp_m0/bmp_read_m0/lt35_syn_150.fci
+sd_card_bmp_m0/bmp_read_m0/lt35_syn_26 sd_card_bmp_m0/bmp_read_m0/lt35_syn_153.fci
+sd_card_bmp_m0/bmp_read_m0/lt35_syn_30 sd_card_bmp_m0/bmp_read_m0/lt35_syn_156.fci
+sd_card_bmp_m0/bmp_read_m0/lt35_syn_34 sd_card_bmp_m0/bmp_read_m0/lt35_syn_159.fci
+sd_card_bmp_m0/bmp_read_m0/lt35_syn_38 sd_card_bmp_m0/bmp_read_m0/lt35_syn_162.fci
+sd_card_bmp_m0/bmp_read_m0/lt35_syn_42 sd_card_bmp_m0/bmp_read_m0/lt35_syn_165.fci
+sd_card_bmp_m0/bmp_read_m0/lt35_syn_46 sd_card_bmp_m0/bmp_read_m0/lt35_syn_168.fci
+sd_card_bmp_m0/bmp_read_m0/lt35_syn_50 sd_card_bmp_m0/bmp_read_m0/lt35_syn_171.fci
+sd_card_bmp_m0/bmp_read_m0/lt35_syn_54 sd_card_bmp_m0/bmp_read_m0/lt35_syn_174.fci
+sd_card_bmp_m0/bmp_read_m0/lt35_syn_58 sd_card_bmp_m0/bmp_read_m0/lt35_syn_177.fci
+sd_card_bmp_m0/bmp_read_m0/lt35_syn_62 sd_card_bmp_m0/bmp_read_m0/lt35_syn_180.fci
+sd_card_bmp_m0/bmp_read_m0/lt35_syn_66 sd_card_bmp_m0/bmp_read_m0/lt35_syn_182.fci
+sd_card_bmp_m0/bmp_read_m0/candidate_cluster_b3_n1 sd_card_bmp_m0/bmp_read_m0/reg6_syn_160.a[1]
+sd_card_bmp_m0/bmp_read_m0/dir_resume_offset_b2[7]_syn_16 sd_card_bmp_m0/bmp_read_m0/reg6_syn_162.a[0]
+sd_card_bmp_m0/bmp_read_m0/dir_resume_offset_b2[7]_syn_22 sd_card_bmp_m0/bmp_read_m0/reg33_syn_52.a[1]
+sd_card_bmp_m0/bmp_read_m0/dir_resume_offset_b2[7]_syn_44 sd_card_bmp_m0/bmp_read_m0/reg45_syn_54.d[1]
+sd_card_bmp_m0/bmp_read_m0/candidate_pending_n_syn_2 sd_card_bmp_m0/bmp_read_m0/reg95_syn_161.d[1]
+sd_card_bmp_m0/bmp_read_m0/mux6_syn_103 sd_card_bmp_m0/bmp_read_m0/reg9_syn_179.ce
+
+
+Endpoint: sd_card_bmp_m0/bmp_read_m0/reg51_syn_52
+855 0.133000 246 3
+Timing path: sd_card_bmp_m0/bmp_read_m0/reg1_syn_196.clk->sd_card_bmp_m0/bmp_read_m0/reg51_syn_52
+sd_card_bmp_m0/bmp_read_m0/reg1_syn_196.clk
+sd_card_bmp_m0/bmp_read_m0/reg51_syn_52
+857 0.133000 12.096000 11.963000 8 24
+sd_card_bmp_m0/bmp_read_m0/bmp_len_cnt[0] sd_card_bmp_m0/bmp_read_m0/lt3_syn_142.b[1]
+sd_card_bmp_m0/bmp_read_m0/lt3_syn_5 sd_card_bmp_m0/bmp_read_m0/lt3_syn_145.fci
+sd_card_bmp_m0/bmp_read_m0/lt3_syn_9 sd_card_bmp_m0/bmp_read_m0/lt3_syn_148.fci
+sd_card_bmp_m0/bmp_read_m0/lt3_syn_13 sd_card_bmp_m0/bmp_read_m0/lt3_syn_151.fci
+sd_card_bmp_m0/bmp_read_m0/lt3_syn_17 sd_card_bmp_m0/bmp_read_m0/lt3_syn_154.fci
+sd_card_bmp_m0/bmp_read_m0/lt3_syn_21 sd_card_bmp_m0/bmp_read_m0/lt3_syn_157.fci
+sd_card_bmp_m0/bmp_read_m0/lt3_syn_25 sd_card_bmp_m0/bmp_read_m0/lt3_syn_160.fci
+sd_card_bmp_m0/bmp_read_m0/lt3_syn_29 sd_card_bmp_m0/bmp_read_m0/lt3_syn_163.fci
+sd_card_bmp_m0/bmp_read_m0/lt3_syn_33 sd_card_bmp_m0/bmp_read_m0/lt3_syn_166.fci
+sd_card_bmp_m0/bmp_read_m0/lt3_syn_37 sd_card_bmp_m0/bmp_read_m0/lt3_syn_169.fci
+sd_card_bmp_m0/bmp_read_m0/lt3_syn_41 sd_card_bmp_m0/bmp_read_m0/lt3_syn_172.fci
+sd_card_bmp_m0/bmp_read_m0/lt3_syn_45 sd_card_bmp_m0/bmp_read_m0/lt3_syn_175.fci
+sd_card_bmp_m0/bmp_read_m0/lt3_syn_49 sd_card_bmp_m0/bmp_read_m0/lt3_syn_178.fci
+sd_card_bmp_m0/bmp_read_m0/lt3_syn_53 sd_card_bmp_m0/bmp_read_m0/lt3_syn_181.fci
+sd_card_bmp_m0/bmp_read_m0/lt3_syn_57 sd_card_bmp_m0/bmp_read_m0/lt3_syn_184.fci
+sd_card_bmp_m0/bmp_read_m0/lt3_syn_61 sd_card_bmp_m0/bmp_read_m0/lt3_syn_187.fci
+sd_card_bmp_m0/bmp_read_m0/lt3_syn_65 sd_card_bmp_m0/bmp_read_m0/lt3_syn_190.fci
+sd_card_bmp_m0/bmp_read_m0/lt3_syn_69 sd_card_bmp_m0/bmp_read_m0/lt3_syn_192.fci
+sd_card_bmp_m0/bmp_read_m0/pixels_complete sd_card_bmp_m0/bmp_read_m0/file_sector_in_cluster_b2[2]_syn_41.d[1]
+sd_card_bmp_m0/bmp_read_m0/state_b23[18] sd_card_bmp_m0/bmp_read_m0/state_b[33]_syn_14.d[0]
+sd_card_bmp_m0/bmp_read_m0/file_sector_in_cluster_b2[2]_syn_5 sd_card_bmp_m0/reg33_syn_235.d[1]
+sd_card_bmp_m0/bmp_read_m0/file_sector_in_cluster_b2[2]_syn_7 sd_card_bmp_m0/bmp_read_m0/file_sector_in_cluster_b2[2]_syn_37.a[1]
+sd_card_bmp_m0/bmp_read_m0/file_sector_in_cluster_b2[2]_syn_11 sd_card_bmp_m0/bmp_read_m0/error_code_b[1]_syn_72.a[0]
+sd_card_bmp_m0/bmp_read_m0/file_sector_in_cluster_b2[2]_syn_19 sd_card_bmp_m0/bmp_read_m0/reg51_syn_52.a[0]
+
+Timing path: sd_card_bmp_m0/bmp_read_m0/reg1_syn_202.clk->sd_card_bmp_m0/bmp_read_m0/reg51_syn_52
+sd_card_bmp_m0/bmp_read_m0/reg1_syn_202.clk
+sd_card_bmp_m0/bmp_read_m0/reg51_syn_52
+941 0.229000 12.096000 11.867000 8 22
+sd_card_bmp_m0/bmp_read_m0/bmp_len_cnt[3] sd_card_bmp_m0/bmp_read_m0/lt3_syn_148.b[0]
+sd_card_bmp_m0/bmp_read_m0/lt3_syn_13 sd_card_bmp_m0/bmp_read_m0/lt3_syn_151.fci
+sd_card_bmp_m0/bmp_read_m0/lt3_syn_17 sd_card_bmp_m0/bmp_read_m0/lt3_syn_154.fci
+sd_card_bmp_m0/bmp_read_m0/lt3_syn_21 sd_card_bmp_m0/bmp_read_m0/lt3_syn_157.fci
+sd_card_bmp_m0/bmp_read_m0/lt3_syn_25 sd_card_bmp_m0/bmp_read_m0/lt3_syn_160.fci
+sd_card_bmp_m0/bmp_read_m0/lt3_syn_29 sd_card_bmp_m0/bmp_read_m0/lt3_syn_163.fci
+sd_card_bmp_m0/bmp_read_m0/lt3_syn_33 sd_card_bmp_m0/bmp_read_m0/lt3_syn_166.fci
+sd_card_bmp_m0/bmp_read_m0/lt3_syn_37 sd_card_bmp_m0/bmp_read_m0/lt3_syn_169.fci
+sd_card_bmp_m0/bmp_read_m0/lt3_syn_41 sd_card_bmp_m0/bmp_read_m0/lt3_syn_172.fci
+sd_card_bmp_m0/bmp_read_m0/lt3_syn_45 sd_card_bmp_m0/bmp_read_m0/lt3_syn_175.fci
+sd_card_bmp_m0/bmp_read_m0/lt3_syn_49 sd_card_bmp_m0/bmp_read_m0/lt3_syn_178.fci
+sd_card_bmp_m0/bmp_read_m0/lt3_syn_53 sd_card_bmp_m0/bmp_read_m0/lt3_syn_181.fci
+sd_card_bmp_m0/bmp_read_m0/lt3_syn_57 sd_card_bmp_m0/bmp_read_m0/lt3_syn_184.fci
+sd_card_bmp_m0/bmp_read_m0/lt3_syn_61 sd_card_bmp_m0/bmp_read_m0/lt3_syn_187.fci
+sd_card_bmp_m0/bmp_read_m0/lt3_syn_65 sd_card_bmp_m0/bmp_read_m0/lt3_syn_190.fci
+sd_card_bmp_m0/bmp_read_m0/lt3_syn_69 sd_card_bmp_m0/bmp_read_m0/lt3_syn_192.fci
+sd_card_bmp_m0/bmp_read_m0/pixels_complete sd_card_bmp_m0/bmp_read_m0/file_sector_in_cluster_b2[2]_syn_41.d[1]
+sd_card_bmp_m0/bmp_read_m0/state_b23[18] sd_card_bmp_m0/bmp_read_m0/state_b[33]_syn_14.d[0]
+sd_card_bmp_m0/bmp_read_m0/file_sector_in_cluster_b2[2]_syn_5 sd_card_bmp_m0/reg33_syn_235.d[1]
+sd_card_bmp_m0/bmp_read_m0/file_sector_in_cluster_b2[2]_syn_7 sd_card_bmp_m0/bmp_read_m0/file_sector_in_cluster_b2[2]_syn_37.a[1]
+sd_card_bmp_m0/bmp_read_m0/file_sector_in_cluster_b2[2]_syn_11 sd_card_bmp_m0/bmp_read_m0/error_code_b[1]_syn_72.a[0]
+sd_card_bmp_m0/bmp_read_m0/file_sector_in_cluster_b2[2]_syn_19 sd_card_bmp_m0/bmp_read_m0/reg51_syn_52.a[0]
+
+Timing path: sd_card_bmp_m0/bmp_read_m0/reg77_syn_131.clk->sd_card_bmp_m0/bmp_read_m0/reg51_syn_52
+sd_card_bmp_m0/bmp_read_m0/reg77_syn_131.clk
+sd_card_bmp_m0/bmp_read_m0/reg51_syn_52
+1021 0.373000 12.096000 11.723000 8 23
+sd_card_bmp_m0/bmp_read_m0/pixel_end_offset[1] sd_card_bmp_m0/bmp_read_m0/lt3_syn_145.a[0]
+sd_card_bmp_m0/bmp_read_m0/lt3_syn_9 sd_card_bmp_m0/bmp_read_m0/lt3_syn_148.fci
+sd_card_bmp_m0/bmp_read_m0/lt3_syn_13 sd_card_bmp_m0/bmp_read_m0/lt3_syn_151.fci
+sd_card_bmp_m0/bmp_read_m0/lt3_syn_17 sd_card_bmp_m0/bmp_read_m0/lt3_syn_154.fci
+sd_card_bmp_m0/bmp_read_m0/lt3_syn_21 sd_card_bmp_m0/bmp_read_m0/lt3_syn_157.fci
+sd_card_bmp_m0/bmp_read_m0/lt3_syn_25 sd_card_bmp_m0/bmp_read_m0/lt3_syn_160.fci
+sd_card_bmp_m0/bmp_read_m0/lt3_syn_29 sd_card_bmp_m0/bmp_read_m0/lt3_syn_163.fci
+sd_card_bmp_m0/bmp_read_m0/lt3_syn_33 sd_card_bmp_m0/bmp_read_m0/lt3_syn_166.fci
+sd_card_bmp_m0/bmp_read_m0/lt3_syn_37 sd_card_bmp_m0/bmp_read_m0/lt3_syn_169.fci
+sd_card_bmp_m0/bmp_read_m0/lt3_syn_41 sd_card_bmp_m0/bmp_read_m0/lt3_syn_172.fci
+sd_card_bmp_m0/bmp_read_m0/lt3_syn_45 sd_card_bmp_m0/bmp_read_m0/lt3_syn_175.fci
+sd_card_bmp_m0/bmp_read_m0/lt3_syn_49 sd_card_bmp_m0/bmp_read_m0/lt3_syn_178.fci
+sd_card_bmp_m0/bmp_read_m0/lt3_syn_53 sd_card_bmp_m0/bmp_read_m0/lt3_syn_181.fci
+sd_card_bmp_m0/bmp_read_m0/lt3_syn_57 sd_card_bmp_m0/bmp_read_m0/lt3_syn_184.fci
+sd_card_bmp_m0/bmp_read_m0/lt3_syn_61 sd_card_bmp_m0/bmp_read_m0/lt3_syn_187.fci
+sd_card_bmp_m0/bmp_read_m0/lt3_syn_65 sd_card_bmp_m0/bmp_read_m0/lt3_syn_190.fci
+sd_card_bmp_m0/bmp_read_m0/lt3_syn_69 sd_card_bmp_m0/bmp_read_m0/lt3_syn_192.fci
+sd_card_bmp_m0/bmp_read_m0/pixels_complete sd_card_bmp_m0/bmp_read_m0/file_sector_in_cluster_b2[2]_syn_41.d[1]
+sd_card_bmp_m0/bmp_read_m0/state_b23[18] sd_card_bmp_m0/bmp_read_m0/state_b[33]_syn_14.d[0]
+sd_card_bmp_m0/bmp_read_m0/file_sector_in_cluster_b2[2]_syn_5 sd_card_bmp_m0/reg33_syn_235.d[1]
+sd_card_bmp_m0/bmp_read_m0/file_sector_in_cluster_b2[2]_syn_7 sd_card_bmp_m0/bmp_read_m0/file_sector_in_cluster_b2[2]_syn_37.a[1]
+sd_card_bmp_m0/bmp_read_m0/file_sector_in_cluster_b2[2]_syn_11 sd_card_bmp_m0/bmp_read_m0/error_code_b[1]_syn_72.a[0]
+sd_card_bmp_m0/bmp_read_m0/file_sector_in_cluster_b2[2]_syn_19 sd_card_bmp_m0/bmp_read_m0/reg51_syn_52.a[0]
+
+
+Endpoint: sd_card_bmp_m0/bmp_read_m0/reg51_syn_52
+1103 0.133000 248 3
+Timing path: sd_card_bmp_m0/bmp_read_m0/reg1_syn_196.clk->sd_card_bmp_m0/bmp_read_m0/reg51_syn_52
+sd_card_bmp_m0/bmp_read_m0/reg1_syn_196.clk
+sd_card_bmp_m0/bmp_read_m0/reg51_syn_52
+1105 0.133000 12.096000 11.963000 8 24
+sd_card_bmp_m0/bmp_read_m0/bmp_len_cnt[0] sd_card_bmp_m0/bmp_read_m0/lt3_syn_142.b[1]
+sd_card_bmp_m0/bmp_read_m0/lt3_syn_5 sd_card_bmp_m0/bmp_read_m0/lt3_syn_145.fci
+sd_card_bmp_m0/bmp_read_m0/lt3_syn_9 sd_card_bmp_m0/bmp_read_m0/lt3_syn_148.fci
+sd_card_bmp_m0/bmp_read_m0/lt3_syn_13 sd_card_bmp_m0/bmp_read_m0/lt3_syn_151.fci
+sd_card_bmp_m0/bmp_read_m0/lt3_syn_17 sd_card_bmp_m0/bmp_read_m0/lt3_syn_154.fci
+sd_card_bmp_m0/bmp_read_m0/lt3_syn_21 sd_card_bmp_m0/bmp_read_m0/lt3_syn_157.fci
+sd_card_bmp_m0/bmp_read_m0/lt3_syn_25 sd_card_bmp_m0/bmp_read_m0/lt3_syn_160.fci
+sd_card_bmp_m0/bmp_read_m0/lt3_syn_29 sd_card_bmp_m0/bmp_read_m0/lt3_syn_163.fci
+sd_card_bmp_m0/bmp_read_m0/lt3_syn_33 sd_card_bmp_m0/bmp_read_m0/lt3_syn_166.fci
+sd_card_bmp_m0/bmp_read_m0/lt3_syn_37 sd_card_bmp_m0/bmp_read_m0/lt3_syn_169.fci
+sd_card_bmp_m0/bmp_read_m0/lt3_syn_41 sd_card_bmp_m0/bmp_read_m0/lt3_syn_172.fci
+sd_card_bmp_m0/bmp_read_m0/lt3_syn_45 sd_card_bmp_m0/bmp_read_m0/lt3_syn_175.fci
+sd_card_bmp_m0/bmp_read_m0/lt3_syn_49 sd_card_bmp_m0/bmp_read_m0/lt3_syn_178.fci
+sd_card_bmp_m0/bmp_read_m0/lt3_syn_53 sd_card_bmp_m0/bmp_read_m0/lt3_syn_181.fci
+sd_card_bmp_m0/bmp_read_m0/lt3_syn_57 sd_card_bmp_m0/bmp_read_m0/lt3_syn_184.fci
+sd_card_bmp_m0/bmp_read_m0/lt3_syn_61 sd_card_bmp_m0/bmp_read_m0/lt3_syn_187.fci
+sd_card_bmp_m0/bmp_read_m0/lt3_syn_65 sd_card_bmp_m0/bmp_read_m0/lt3_syn_190.fci
+sd_card_bmp_m0/bmp_read_m0/lt3_syn_69 sd_card_bmp_m0/bmp_read_m0/lt3_syn_192.fci
+sd_card_bmp_m0/bmp_read_m0/pixels_complete sd_card_bmp_m0/bmp_read_m0/file_sector_in_cluster_b2[2]_syn_41.d[1]
+sd_card_bmp_m0/bmp_read_m0/state_b23[18] sd_card_bmp_m0/bmp_read_m0/state_b[33]_syn_14.d[0]
+sd_card_bmp_m0/bmp_read_m0/file_sector_in_cluster_b2[2]_syn_5 sd_card_bmp_m0/reg33_syn_235.d[1]
+sd_card_bmp_m0/bmp_read_m0/file_sector_in_cluster_b2[2]_syn_7 sd_card_bmp_m0/bmp_read_m0/file_sector_in_cluster_b2[2]_syn_37.a[1]
+sd_card_bmp_m0/bmp_read_m0/file_sector_in_cluster_b2[2]_syn_11 sd_card_bmp_m0/bmp_read_m0/error_code_b[1]_syn_72.a[0]
+sd_card_bmp_m0/bmp_read_m0/file_sector_in_cluster_b2[2]_syn_19 sd_card_bmp_m0/bmp_read_m0/reg51_syn_52.a[1]
+
+Timing path: sd_card_bmp_m0/bmp_read_m0/reg1_syn_202.clk->sd_card_bmp_m0/bmp_read_m0/reg51_syn_52
+sd_card_bmp_m0/bmp_read_m0/reg1_syn_202.clk
+sd_card_bmp_m0/bmp_read_m0/reg51_syn_52
+1189 0.229000 12.096000 11.867000 8 22
+sd_card_bmp_m0/bmp_read_m0/bmp_len_cnt[3] sd_card_bmp_m0/bmp_read_m0/lt3_syn_148.b[0]
+sd_card_bmp_m0/bmp_read_m0/lt3_syn_13 sd_card_bmp_m0/bmp_read_m0/lt3_syn_151.fci
+sd_card_bmp_m0/bmp_read_m0/lt3_syn_17 sd_card_bmp_m0/bmp_read_m0/lt3_syn_154.fci
+sd_card_bmp_m0/bmp_read_m0/lt3_syn_21 sd_card_bmp_m0/bmp_read_m0/lt3_syn_157.fci
+sd_card_bmp_m0/bmp_read_m0/lt3_syn_25 sd_card_bmp_m0/bmp_read_m0/lt3_syn_160.fci
+sd_card_bmp_m0/bmp_read_m0/lt3_syn_29 sd_card_bmp_m0/bmp_read_m0/lt3_syn_163.fci
+sd_card_bmp_m0/bmp_read_m0/lt3_syn_33 sd_card_bmp_m0/bmp_read_m0/lt3_syn_166.fci
+sd_card_bmp_m0/bmp_read_m0/lt3_syn_37 sd_card_bmp_m0/bmp_read_m0/lt3_syn_169.fci
+sd_card_bmp_m0/bmp_read_m0/lt3_syn_41 sd_card_bmp_m0/bmp_read_m0/lt3_syn_172.fci
+sd_card_bmp_m0/bmp_read_m0/lt3_syn_45 sd_card_bmp_m0/bmp_read_m0/lt3_syn_175.fci
+sd_card_bmp_m0/bmp_read_m0/lt3_syn_49 sd_card_bmp_m0/bmp_read_m0/lt3_syn_178.fci
+sd_card_bmp_m0/bmp_read_m0/lt3_syn_53 sd_card_bmp_m0/bmp_read_m0/lt3_syn_181.fci
+sd_card_bmp_m0/bmp_read_m0/lt3_syn_57 sd_card_bmp_m0/bmp_read_m0/lt3_syn_184.fci
+sd_card_bmp_m0/bmp_read_m0/lt3_syn_61 sd_card_bmp_m0/bmp_read_m0/lt3_syn_187.fci
+sd_card_bmp_m0/bmp_read_m0/lt3_syn_65 sd_card_bmp_m0/bmp_read_m0/lt3_syn_190.fci
+sd_card_bmp_m0/bmp_read_m0/lt3_syn_69 sd_card_bmp_m0/bmp_read_m0/lt3_syn_192.fci
+sd_card_bmp_m0/bmp_read_m0/pixels_complete sd_card_bmp_m0/bmp_read_m0/file_sector_in_cluster_b2[2]_syn_41.d[1]
+sd_card_bmp_m0/bmp_read_m0/state_b23[18] sd_card_bmp_m0/bmp_read_m0/state_b[33]_syn_14.d[0]
+sd_card_bmp_m0/bmp_read_m0/file_sector_in_cluster_b2[2]_syn_5 sd_card_bmp_m0/reg33_syn_235.d[1]
+sd_card_bmp_m0/bmp_read_m0/file_sector_in_cluster_b2[2]_syn_7 sd_card_bmp_m0/bmp_read_m0/file_sector_in_cluster_b2[2]_syn_37.a[1]
+sd_card_bmp_m0/bmp_read_m0/file_sector_in_cluster_b2[2]_syn_11 sd_card_bmp_m0/bmp_read_m0/error_code_b[1]_syn_72.a[0]
+sd_card_bmp_m0/bmp_read_m0/file_sector_in_cluster_b2[2]_syn_19 sd_card_bmp_m0/bmp_read_m0/reg51_syn_52.a[1]
+
+Timing path: sd_card_bmp_m0/bmp_read_m0/reg77_syn_131.clk->sd_card_bmp_m0/bmp_read_m0/reg51_syn_52
+sd_card_bmp_m0/bmp_read_m0/reg77_syn_131.clk
+sd_card_bmp_m0/bmp_read_m0/reg51_syn_52
+1269 0.373000 12.096000 11.723000 8 23
+sd_card_bmp_m0/bmp_read_m0/pixel_end_offset[1] sd_card_bmp_m0/bmp_read_m0/lt3_syn_145.a[0]
+sd_card_bmp_m0/bmp_read_m0/lt3_syn_9 sd_card_bmp_m0/bmp_read_m0/lt3_syn_148.fci
+sd_card_bmp_m0/bmp_read_m0/lt3_syn_13 sd_card_bmp_m0/bmp_read_m0/lt3_syn_151.fci
+sd_card_bmp_m0/bmp_read_m0/lt3_syn_17 sd_card_bmp_m0/bmp_read_m0/lt3_syn_154.fci
+sd_card_bmp_m0/bmp_read_m0/lt3_syn_21 sd_card_bmp_m0/bmp_read_m0/lt3_syn_157.fci
+sd_card_bmp_m0/bmp_read_m0/lt3_syn_25 sd_card_bmp_m0/bmp_read_m0/lt3_syn_160.fci
+sd_card_bmp_m0/bmp_read_m0/lt3_syn_29 sd_card_bmp_m0/bmp_read_m0/lt3_syn_163.fci
+sd_card_bmp_m0/bmp_read_m0/lt3_syn_33 sd_card_bmp_m0/bmp_read_m0/lt3_syn_166.fci
+sd_card_bmp_m0/bmp_read_m0/lt3_syn_37 sd_card_bmp_m0/bmp_read_m0/lt3_syn_169.fci
+sd_card_bmp_m0/bmp_read_m0/lt3_syn_41 sd_card_bmp_m0/bmp_read_m0/lt3_syn_172.fci
+sd_card_bmp_m0/bmp_read_m0/lt3_syn_45 sd_card_bmp_m0/bmp_read_m0/lt3_syn_175.fci
+sd_card_bmp_m0/bmp_read_m0/lt3_syn_49 sd_card_bmp_m0/bmp_read_m0/lt3_syn_178.fci
+sd_card_bmp_m0/bmp_read_m0/lt3_syn_53 sd_card_bmp_m0/bmp_read_m0/lt3_syn_181.fci
+sd_card_bmp_m0/bmp_read_m0/lt3_syn_57 sd_card_bmp_m0/bmp_read_m0/lt3_syn_184.fci
+sd_card_bmp_m0/bmp_read_m0/lt3_syn_61 sd_card_bmp_m0/bmp_read_m0/lt3_syn_187.fci
+sd_card_bmp_m0/bmp_read_m0/lt3_syn_65 sd_card_bmp_m0/bmp_read_m0/lt3_syn_190.fci
+sd_card_bmp_m0/bmp_read_m0/lt3_syn_69 sd_card_bmp_m0/bmp_read_m0/lt3_syn_192.fci
+sd_card_bmp_m0/bmp_read_m0/pixels_complete sd_card_bmp_m0/bmp_read_m0/file_sector_in_cluster_b2[2]_syn_41.d[1]
+sd_card_bmp_m0/bmp_read_m0/state_b23[18] sd_card_bmp_m0/bmp_read_m0/state_b[33]_syn_14.d[0]
+sd_card_bmp_m0/bmp_read_m0/file_sector_in_cluster_b2[2]_syn_5 sd_card_bmp_m0/reg33_syn_235.d[1]
+sd_card_bmp_m0/bmp_read_m0/file_sector_in_cluster_b2[2]_syn_7 sd_card_bmp_m0/bmp_read_m0/file_sector_in_cluster_b2[2]_syn_37.a[1]
+sd_card_bmp_m0/bmp_read_m0/file_sector_in_cluster_b2[2]_syn_11 sd_card_bmp_m0/bmp_read_m0/error_code_b[1]_syn_72.a[0]
+sd_card_bmp_m0/bmp_read_m0/file_sector_in_cluster_b2[2]_syn_19 sd_card_bmp_m0/bmp_read_m0/reg51_syn_52.a[1]
+
+
+
+Hold check
+1351 3
+Endpoint: frame_read_write_m0/write_buf/ram_inst/ramread0_syn_28
+1353 0.104000 9 3
+Timing path: frame_read_write_m0/write_buf/reg1_syn_51.clk->frame_read_write_m0/write_buf/ram_inst/ramread0_syn_28
+frame_read_write_m0/write_buf/reg1_syn_51.clk
+frame_read_write_m0/write_buf/ram_inst/ramread0_syn_28
+1355 0.104000 2.183000 2.287000 1 1
+frame_read_write_m0/write_buf/wr_addr[8] frame_read_write_m0/write_buf/ram_inst/ramread0_syn_28.addra[12]
+
+Timing path: frame_read_write_m0/write_buf/reg1_syn_56.clk->frame_read_write_m0/write_buf/ram_inst/ramread0_syn_28
+frame_read_write_m0/write_buf/reg1_syn_56.clk
+frame_read_write_m0/write_buf/ram_inst/ramread0_syn_28
+1393 0.219000 2.183000 2.402000 1 1
+frame_read_write_m0/write_buf/wr_addr[6] frame_read_write_m0/write_buf/ram_inst/ramread0_syn_28.addra[10]
+
+Timing path: frame_read_write_m0/write_buf/reg1_syn_51.clk->frame_read_write_m0/write_buf/ram_inst/ramread0_syn_28
+frame_read_write_m0/write_buf/reg1_syn_51.clk
+frame_read_write_m0/write_buf/ram_inst/ramread0_syn_28
+1431 0.306000 2.183000 2.489000 1 1
+frame_read_write_m0/write_buf/wr_addr[5] frame_read_write_m0/write_buf/ram_inst/ramread0_syn_28.addra[9]
+
+
+Endpoint: sd_card_bmp_m0/bmp_read_m0/ramread0_syn_9
+1469 0.130000 8 3
+Timing path: sd_card_bmp_m0/bmp_read_m0/reg4_syn_47.clk->sd_card_bmp_m0/bmp_read_m0/ramread0_syn_9
+sd_card_bmp_m0/bmp_read_m0/reg4_syn_47.clk
+sd_card_bmp_m0/bmp_read_m0/ramread0_syn_9
+1471 0.130000 2.183000 2.313000 1 1
+sd_card_bmp_m0/bmp_read_m0/buffer_byte[1] sd_card_bmp_m0/bmp_read_m0/ramread0_syn_9.dia[1]
+
+Timing path: sd_card_bmp_m0/bmp_read_m0/reg4_syn_47.clk->sd_card_bmp_m0/bmp_read_m0/ramread0_syn_9
+sd_card_bmp_m0/bmp_read_m0/reg4_syn_47.clk
+sd_card_bmp_m0/bmp_read_m0/ramread0_syn_9
+1509 0.230000 2.183000 2.413000 1 1
+sd_card_bmp_m0/bmp_read_m0/buffer_byte[7] sd_card_bmp_m0/bmp_read_m0/ramread0_syn_9.dia[7]
+
+Timing path: sd_card_bmp_m0/bmp_read_m0/reg4_syn_50.clk->sd_card_bmp_m0/bmp_read_m0/ramread0_syn_9
+sd_card_bmp_m0/bmp_read_m0/reg4_syn_50.clk
+sd_card_bmp_m0/bmp_read_m0/ramread0_syn_9
+1547 0.248000 2.183000 2.431000 1 1
+sd_card_bmp_m0/bmp_read_m0/buffer_byte[0] sd_card_bmp_m0/bmp_read_m0/ramread0_syn_9.dia[0]
+
+
+Endpoint: sd_card_bmp_m0/bmp_read_m0/scaler/ramread0_syn_31
+1585 0.232000 4 3
+Timing path: sd_card_bmp_m0/bmp_read_m0/scaler/reg12_syn_136.clk->sd_card_bmp_m0/bmp_read_m0/scaler/ramread0_syn_31
+sd_card_bmp_m0/bmp_read_m0/scaler/reg12_syn_136.clk
+sd_card_bmp_m0/bmp_read_m0/scaler/ramread0_syn_31
+1587 0.232000 2.183000 2.415000 1 1
+sd_card_bmp_m0/bmp_read_m0/scaler/incoming_pixel[21] sd_card_bmp_m0/bmp_read_m0/scaler/ramread0_syn_31.dia[1]
+
+Timing path: sd_card_bmp_m0/bmp_read_m0/scaler/reg12_syn_142.clk->sd_card_bmp_m0/bmp_read_m0/scaler/ramread0_syn_31
+sd_card_bmp_m0/bmp_read_m0/scaler/reg12_syn_142.clk
+sd_card_bmp_m0/bmp_read_m0/scaler/ramread0_syn_31
+1625 0.232000 2.183000 2.415000 1 1
+sd_card_bmp_m0/bmp_read_m0/scaler/incoming_pixel[20] sd_card_bmp_m0/bmp_read_m0/scaler/ramread0_syn_31.dia[0]
+
+Timing path: sd_card_bmp_m0/bmp_read_m0/scaler/reg12_syn_142.clk->sd_card_bmp_m0/bmp_read_m0/scaler/ramread0_syn_31
+sd_card_bmp_m0/bmp_read_m0/scaler/reg12_syn_142.clk
+sd_card_bmp_m0/bmp_read_m0/scaler/ramread0_syn_31
+1663 0.236000 2.183000 2.419000 1 1
+sd_card_bmp_m0/bmp_read_m0/scaler/incoming_pixel[23] sd_card_bmp_m0/bmp_read_m0/scaler/ramread0_syn_31.dia[3]
+
+
+
+Recovery check
+1701 3
+Endpoint: frame_read_write_m0/write_ready_reg_syn_5
+1703 0.469000 1 1
+Timing path: reg3_syn_36.clk->frame_read_write_m0/write_ready_reg_syn_5
+reg3_syn_36.clk
+frame_read_write_m0/write_ready_reg_syn_5
+1705 0.469000 3.745000 3.276000 0 1
+mem_reset_sync[2] frame_read_write_m0/write_ready_reg_syn_5.sr
+
+
+Endpoint: frame_read_write_m0/write_buf/asy_w_rst1_reg_syn_4
+1741 0.725000 1 1
+Timing path: frame_read_write_m0/frame_fifo_write_m0/fifo_aclr_reg_syn_8.clk->frame_read_write_m0/write_buf/asy_w_rst1_reg_syn_4
+frame_read_write_m0/frame_fifo_write_m0/fifo_aclr_reg_syn_8.clk
+frame_read_write_m0/write_buf/asy_w_rst1_reg_syn_4
+1743 0.725000 3.745000 3.020000 0 1
+frame_read_write_m0/frame_fifo_write_m0/fifo_aclr frame_read_write_m0/write_buf/asy_w_rst1_reg_syn_4.sr
+
+
+Endpoint: sd_card_bmp_m0/bmp_read_m0/scaler/output_x_b[3]_syn_11
+1779 3.419000 3 3
+Timing path: sd_card_bmp_m0/sd_card_top_m0/sd_card_sec_read_write_m0/sel6_syn_2378.clk->sd_card_bmp_m0/bmp_read_m0/scaler/output_x_b[3]_syn_11
+sd_card_bmp_m0/sd_card_top_m0/sd_card_sec_read_write_m0/sel6_syn_2378.clk
+sd_card_bmp_m0/bmp_read_m0/scaler/output_x_b[3]_syn_11
+1781 3.419000 11.840000 8.421000 2 3
+sd_card_bmp_m0/sd_init_done sd_card_bmp_m0/reg28_syn_199.c[0]
+sd_card_bmp_m0/bmp_read_m0/fat_for_file_i_syn_3 sd_card_bmp_m0/bmp_read_m0/reg98_syn_152.d[0]
+sd_card_bmp_m0/bmp_read_m0/scaler/rst sd_card_bmp_m0/bmp_read_m0/scaler/output_x_b[3]_syn_11.sr
+
+Timing path: sd_card_bmp_m0/source_done_seen_n_syn_178.clk->sd_card_bmp_m0/bmp_read_m0/scaler/output_x_b[3]_syn_11
+sd_card_bmp_m0/source_done_seen_n_syn_178.clk
+sd_card_bmp_m0/bmp_read_m0/scaler/output_x_b[3]_syn_11
+1823 4.182000 11.840000 7.658000 2 3
+sd_card_bmp_m0/bmp_read_m0/load_abort sd_card_bmp_m0/reg28_syn_199.d[0]
+sd_card_bmp_m0/bmp_read_m0/fat_for_file_i_syn_3 sd_card_bmp_m0/bmp_read_m0/reg98_syn_152.d[0]
+sd_card_bmp_m0/bmp_read_m0/scaler/rst sd_card_bmp_m0/bmp_read_m0/scaler/output_x_b[3]_syn_11.sr
+
+Timing path: reg6_syn_444.clk->sd_card_bmp_m0/bmp_read_m0/scaler/output_x_b[3]_syn_11
+reg6_syn_444.clk
+sd_card_bmp_m0/bmp_read_m0/scaler/output_x_b[3]_syn_11
+1865 5.986000 11.840000 5.854000 1 2
+sd_reset_sync[2]_dup_11 sd_card_bmp_m0/bmp_read_m0/reg98_syn_152.c[0]
+sd_card_bmp_m0/bmp_read_m0/scaler/rst sd_card_bmp_m0/bmp_read_m0/scaler/output_x_b[3]_syn_11.sr
+
+
+
+Removal check
+1905 3
+Endpoint: frame_read_write_m0/write_buf/asy_w_rst1_reg_syn_4
+1907 0.055000 1 1
+Timing path: frame_read_write_m0/frame_fifo_write_m0/fifo_aclr_reg_syn_8.clk->frame_read_write_m0/write_buf/asy_w_rst1_reg_syn_4
+frame_read_write_m0/frame_fifo_write_m0/fifo_aclr_reg_syn_8.clk
+frame_read_write_m0/write_buf/asy_w_rst1_reg_syn_4
+1909 0.055000 2.383000 2.438000 0 1
+frame_read_write_m0/frame_fifo_write_m0/fifo_aclr frame_read_write_m0/write_buf/asy_w_rst1_reg_syn_4.sr
+
+
+Endpoint: sd_card_bmp_m0/sd_card_top_m0/sd_card_cmd_m0/byte_cnt_b[9]_syn_64
+1945 0.111000 1 1
+Timing path: sd_card_bmp_m0/sd_card_top_m0/sd_card_cmd_m0/byte_cnt_b[0]_syn_35.clk->sd_card_bmp_m0/sd_card_top_m0/sd_card_cmd_m0/byte_cnt_b[9]_syn_64
+sd_card_bmp_m0/sd_card_top_m0/sd_card_cmd_m0/byte_cnt_b[0]_syn_35.clk
+sd_card_bmp_m0/sd_card_top_m0/sd_card_cmd_m0/byte_cnt_b[9]_syn_64
+1947 0.111000 2.236000 2.347000 0 1
+sd_reset_sync[2]_dup_69 sd_card_bmp_m0/sd_card_top_m0/sd_card_cmd_m0/byte_cnt_b[9]_syn_64.sr
+
+
+Endpoint: sd_card_bmp_m0/g_wav$u_wav_player/reg33_syn_24
+1985 0.111000 1 1
+Timing path: sd_card_bmp_m0/g_wav$u_wav_player/fault_b[2]_syn_24.clk->sd_card_bmp_m0/g_wav$u_wav_player/reg33_syn_24
+sd_card_bmp_m0/g_wav$u_wav_player/fault_b[2]_syn_24.clk
+sd_card_bmp_m0/g_wav$u_wav_player/reg33_syn_24
+1987 0.111000 2.220000 2.331000 0 1
+sd_reset_sync[2]_dup_65 sd_card_bmp_m0/g_wav$u_wav_player/reg33_syn_24.sr
+
+
+
+Period check
+2025 3
+Endpoint: sd_card_bmp_m0/bmp_read_m0/scaler/mult1_syn_3.clk
+2029 6.586000 1 0
+
+Endpoint: sd_card_bmp_m0/bmp_read_m0/scaler/mult0_syn_3.clk
+2030 6.586000 1 0
+
+Endpoint: sd_card_bmp_m0/bmp_read_m0/mult1_syn_2.clk
+2031 6.586000 1 0
+
+
+
+clock: ext_mem_clk
+2032 16508 1794 4
+Setup check
+2042 3
+Endpoint: frame_read_write_m0/frame_fifo_write_m0/reg3_syn_15
+2042 0.748000 1 1
+Timing path: sd_card_bmp_m0/reg22_syn_15.clk->frame_read_write_m0/frame_fifo_write_m0/reg3_syn_15
+sd_card_bmp_m0/reg22_syn_15.clk
+frame_read_write_m0/frame_fifo_write_m0/reg3_syn_15
+2044 0.748000 4.050000 3.302000 0 1
+sd_card_bmp_m0/pending_buf_idx[0] frame_read_write_m0/frame_fifo_write_m0/reg3_syn_15.mi[0]
+
+
+Endpoint: frame_read_write_m0/frame_fifo_write_m0/reg3_syn_15
+2080 0.758000 1 1
+Timing path: sd_card_bmp_m0/source_done_seen_n_syn_180.clk->frame_read_write_m0/frame_fifo_write_m0/reg3_syn_15
+sd_card_bmp_m0/source_done_seen_n_syn_180.clk
+frame_read_write_m0/frame_fifo_write_m0/reg3_syn_15
+2082 0.758000 4.050000 3.292000 0 1
+sd_card_bmp_m0/cancel_wait frame_read_write_m0/frame_fifo_write_m0/reg3_syn_15.mi[1]
+
+
+Endpoint: frame_read_write_m0/write_buf/ram_inst/ramread0_syn_9
+2118 1.024000 793 3
+Timing path: frame_read_write_m0/write_buf/wr_to_rd_cross_inst/reg2_syn_48.clk->frame_read_write_m0/write_buf/ram_inst/ramread0_syn_9
+frame_read_write_m0/write_buf/wr_to_rd_cross_inst/reg2_syn_48.clk
+frame_read_write_m0/write_buf/ram_inst/ramread0_syn_9
+2120 1.024000 10.096000 9.072000 7 8
+frame_read_write_m0/write_buf/wr_to_rd_addr[2] frame_read_write_m0/write_buf/sub1_syn_49.b[1]
+frame_read_write_m0/write_buf/sub1_syn_42 frame_read_write_m0/write_buf/sub1_syn_50.fci
+frame_read_write_m0/write_buf/sub1_syn_46 frame_read_write_m0/write_buf/sub1_syn_51.fci
+frame_read_write_m0/frame_fifo_write_m0/rdusedw[8] frame_read_write_m0/write_buf/reg0_syn_65.d[0]
+frame_read_write_m0/write_buf/reg0_syn_16 frame_read_write_m0/write_buf/wr_to_rd_cross_inst/reg0_syn_49.b[0]
+frame_read_write_m0/write_buf/rd_en_s frame_read_write_m0/write_buf/add2_syn_56.e[0]
+frame_read_write_m0/write_buf/add2_syn_49 frame_read_write_m0/write_buf/add2_syn_57.fci
+frame_read_write_m0/write_buf/ram_inst/addrb[6] frame_read_write_m0/write_buf/ram_inst/ramread0_syn_9.addrb[10]
+
+Timing path: frame_read_write_m0/write_buf/reg0_syn_57.clk->frame_read_write_m0/write_buf/ram_inst/ramread0_syn_9
+frame_read_write_m0/write_buf/reg0_syn_57.clk
+frame_read_write_m0/write_buf/ram_inst/ramread0_syn_9
+2168 1.097000 10.096000 8.999000 7 8
+frame_read_write_m0/write_buf/rd_addr[2] frame_read_write_m0/write_buf/sub1_syn_49.e[1]
+frame_read_write_m0/write_buf/sub1_syn_42 frame_read_write_m0/write_buf/sub1_syn_50.fci
+frame_read_write_m0/write_buf/sub1_syn_46 frame_read_write_m0/write_buf/sub1_syn_51.fci
+frame_read_write_m0/frame_fifo_write_m0/rdusedw[8] frame_read_write_m0/write_buf/reg0_syn_65.d[0]
+frame_read_write_m0/write_buf/reg0_syn_16 frame_read_write_m0/write_buf/wr_to_rd_cross_inst/reg0_syn_49.b[0]
+frame_read_write_m0/write_buf/rd_en_s frame_read_write_m0/write_buf/add2_syn_56.e[0]
+frame_read_write_m0/write_buf/add2_syn_49 frame_read_write_m0/write_buf/add2_syn_57.fci
+frame_read_write_m0/write_buf/ram_inst/addrb[6] frame_read_write_m0/write_buf/ram_inst/ramread0_syn_9.addrb[10]
+
+Timing path: frame_read_write_m0/write_buf/wr_to_rd_cross_inst/reg2_syn_51.clk->frame_read_write_m0/write_buf/ram_inst/ramread0_syn_9
+frame_read_write_m0/write_buf/wr_to_rd_cross_inst/reg2_syn_51.clk
+frame_read_write_m0/write_buf/ram_inst/ramread0_syn_9
+2216 1.105000 10.096000 8.991000 7 8
+frame_read_write_m0/write_buf/wr_to_rd_addr[0] frame_read_write_m0/write_buf/sub1_syn_49.b[0]
+frame_read_write_m0/write_buf/sub1_syn_42 frame_read_write_m0/write_buf/sub1_syn_50.fci
+frame_read_write_m0/write_buf/sub1_syn_46 frame_read_write_m0/write_buf/sub1_syn_51.fci
+frame_read_write_m0/frame_fifo_write_m0/rdusedw[8] frame_read_write_m0/write_buf/reg0_syn_65.d[0]
+frame_read_write_m0/write_buf/reg0_syn_16 frame_read_write_m0/write_buf/wr_to_rd_cross_inst/reg0_syn_49.b[0]
+frame_read_write_m0/write_buf/rd_en_s frame_read_write_m0/write_buf/add2_syn_56.e[0]
+frame_read_write_m0/write_buf/add2_syn_49 frame_read_write_m0/write_buf/add2_syn_57.fci
+frame_read_write_m0/write_buf/ram_inst/addrb[6] frame_read_write_m0/write_buf/ram_inst/ramread0_syn_9.addrb[10]
+
+
+
+Hold check
+2264 3
+Endpoint: frame_read_write_m0/frame_fifo_write_m0/write_req_d0_reg_syn_8
+2266 0.067000 1 1
+Timing path: sd_card_bmp_m0/ack_last_reg_syn_8.clk->frame_read_write_m0/frame_fifo_write_m0/write_req_d0_reg_syn_8
+sd_card_bmp_m0/ack_last_reg_syn_8.clk
+frame_read_write_m0/frame_fifo_write_m0/write_req_d0_reg_syn_8
+2268 0.067000 2.291000 2.358000 0 1
+sd_card_bmp_m0/bmp_read_m0/write_req frame_read_write_m0/frame_fifo_write_m0/write_req_d0_reg_syn_8.mi[0]
+
+
+Endpoint: frame_read_write_m0/read_buf/ram_inst/ramread0_syn_11
+2304 0.096000 9 3
+Timing path: frame_read_write_m0/read_buf/reg1_syn_44.clk->frame_read_write_m0/read_buf/ram_inst/ramread0_syn_11
+frame_read_write_m0/read_buf/reg1_syn_44.clk
+frame_read_write_m0/read_buf/ram_inst/ramread0_syn_11
+2306 0.096000 2.274000 2.370000 1 1
+frame_read_write_m0/read_buf/wr_addr[2] frame_read_write_m0/read_buf/ram_inst/ramread0_syn_11.addra[6]
+
+Timing path: frame_read_write_m0/read_buf/reg1_syn_41.clk->frame_read_write_m0/read_buf/ram_inst/ramread0_syn_11
+frame_read_write_m0/read_buf/reg1_syn_41.clk
+frame_read_write_m0/read_buf/ram_inst/ramread0_syn_11
+2340 0.194000 2.274000 2.468000 1 1
+frame_read_write_m0/read_buf/wr_addr[4] frame_read_write_m0/read_buf/ram_inst/ramread0_syn_11.addra[8]
+
+Timing path: frame_read_write_m0/read_buf/reg1_syn_41.clk->frame_read_write_m0/read_buf/ram_inst/ramread0_syn_11
+frame_read_write_m0/read_buf/reg1_syn_41.clk
+frame_read_write_m0/read_buf/ram_inst/ramread0_syn_11
+2374 0.203000 2.274000 2.477000 1 1
+frame_read_write_m0/read_buf/wr_addr[5] frame_read_write_m0/read_buf/ram_inst/ramread0_syn_11.addra[9]
+
+
+Endpoint: frame_read_write_m0/read_buf/ram_inst/ramread0_syn_30
+2408 0.112000 9 3
+Timing path: frame_read_write_m0/read_buf/reg1_syn_35.clk->frame_read_write_m0/read_buf/ram_inst/ramread0_syn_30
+frame_read_write_m0/read_buf/reg1_syn_35.clk
+frame_read_write_m0/read_buf/ram_inst/ramread0_syn_30
+2410 0.112000 2.274000 2.386000 1 1
+frame_read_write_m0/read_buf/wr_addr[7] frame_read_write_m0/read_buf/ram_inst/ramread0_syn_30.addra[10]
+
+Timing path: frame_read_write_m0/read_buf/reg1_syn_41.clk->frame_read_write_m0/read_buf/ram_inst/ramread0_syn_30
+frame_read_write_m0/read_buf/reg1_syn_41.clk
+frame_read_write_m0/read_buf/ram_inst/ramread0_syn_30
+2444 0.194000 2.274000 2.468000 1 1
+frame_read_write_m0/read_buf/wr_addr[5] frame_read_write_m0/read_buf/ram_inst/ramread0_syn_30.addra[8]
+
+Timing path: frame_read_write_m0/read_buf/reg1_syn_44.clk->frame_read_write_m0/read_buf/ram_inst/ramread0_syn_30
+frame_read_write_m0/read_buf/reg1_syn_44.clk
+frame_read_write_m0/read_buf/ram_inst/ramread0_syn_30
+2478 0.226000 2.274000 2.500000 1 1
+frame_read_write_m0/read_buf/wr_addr[2] frame_read_write_m0/read_buf/ram_inst/ramread0_syn_30.addra[5]
+
+
+
+Recovery check
+2512 3
+Endpoint: reg3_syn_33
+2514 0.732000 1 1
+Timing path: rst_all_reg_reg_syn_13.clk->reg3_syn_33
+rst_all_reg_reg_syn_13.clk
+reg3_syn_33
+2516 0.732000 5.866000 5.134000 0 1
+rst_all_reg_syn_3 reg3_syn_33.sr
+
+
+Endpoint: reg3_syn_40
+2552 0.771000 1 1
+Timing path: rst_all_reg_reg_syn_14.clk->reg3_syn_40
+rst_all_reg_reg_syn_14.clk
+reg3_syn_40
+2554 0.771000 5.866000 5.095000 0 1
+rst_all_reg_syn_4 reg3_syn_40.sr
+
+
+Endpoint: u_audio_waveform/grid_s0_n_syn_37
+2590 1.048000 1 1
+Timing path: rst_all_reg_reg_syn_15.clk->u_audio_waveform/grid_s0_n_syn_37
+rst_all_reg_reg_syn_15.clk
+u_audio_waveform/grid_s0_n_syn_37
+2592 1.048000 5.866000 4.818000 0 1
+rst_all_reg_syn_5 u_audio_waveform/grid_s0_n_syn_37.sr
+
+
+
+Removal check
+2628 3
+Endpoint: frame_read_write_m0/frame_fifo_write_m0/reg9_syn_105
+2630 0.119000 1 1
+Timing path: frame_read_write_m0/frame_fifo_write_m0/add0_syn_80.clk->frame_read_write_m0/frame_fifo_write_m0/reg9_syn_105
+frame_read_write_m0/frame_fifo_write_m0/add0_syn_80.clk
+frame_read_write_m0/frame_fifo_write_m0/reg9_syn_105
+2632 0.119000 2.311000 2.430000 0 1
+mem_reset_sync[2]_dup_28 frame_read_write_m0/frame_fifo_write_m0/reg9_syn_105.sr
+
+
+Endpoint: u_teaching_scene/sprite_pixel[5]_syn_72
+2666 0.119000 1 1
+Timing path: frame_read_write_m0/frame_fifo_write_m0/add0_syn_80.clk->u_teaching_scene/sprite_pixel[5]_syn_72
+frame_read_write_m0/frame_fifo_write_m0/add0_syn_80.clk
+u_teaching_scene/sprite_pixel[5]_syn_72
+2668 0.119000 2.311000 2.430000 0 1
+mem_reset_sync[2]_dup_28 u_teaching_scene/sprite_pixel[5]_syn_72.sr
+
+
+Endpoint: frame_read_write_m0/frame_fifo_write_m0/reg9_syn_96
+2702 0.220000 1 1
+Timing path: frame_read_write_m0/frame_fifo_write_m0/add0_syn_80.clk->frame_read_write_m0/frame_fifo_write_m0/reg9_syn_96
+frame_read_write_m0/frame_fifo_write_m0/add0_syn_80.clk
+frame_read_write_m0/frame_fifo_write_m0/reg9_syn_96
+2704 0.220000 2.327000 2.547000 0 1
+mem_reset_sync[2]_dup_28 frame_read_write_m0/frame_fifo_write_m0/reg9_syn_96.sr
+
+
+
+
+clock: ext_mem_clk_sft
+2740 0 0 0
+
+clock: video_clk
+2748 715290 10846 4
+Setup check
+2758 3
+Endpoint: u_teaching_scene/reg36_syn_157
+2758 1.186000 2517 3
+Timing path: u_teaching_scene/reg43_syn_42.clk->u_teaching_scene/reg36_syn_157
+u_teaching_scene/reg43_syn_42.clk
+u_teaching_scene/reg36_syn_157
+2760 1.186000 15.698000 14.512000 8 8
+u_teaching_scene/palette/index[3] u_teaching_scene/palette/mux0_syn_490.d[1]
+u_teaching_scene/teacher_rgb[2] u_teaching_scene/sub40_syn_48.b[1]
+u_teaching_scene/sub40_syn_41 u_teaching_scene/sub40_syn_49.fci
+u_teaching_scene/rgb_composite_b12[4] u_teaching_scene/mult17_syn_4.a[4]
+u_teaching_scene/rgb_composite_b9[6] u_teaching_scene/add60_syn_46.e[1]
+u_teaching_scene/add60_syn_40 u_teaching_scene/add60_syn_47.fci
+u_teaching_scene/rgb_composite_b6[4] u_teaching_scene/rgb_composite_b[4]_syn_7.a[0]
+u_teaching_scene/rgb_composite_b3[4] u_teaching_scene/reg36_syn_157.a[1]
+
+Timing path: u_teaching_scene/reg43_syn_42.clk->u_teaching_scene/reg36_syn_157
+u_teaching_scene/reg43_syn_42.clk
+u_teaching_scene/reg36_syn_157
+2812 1.186000 15.698000 14.512000 8 8
+u_teaching_scene/palette/index[3] u_teaching_scene/palette/mux0_syn_490.d[0]
+u_teaching_scene/teacher_rgb[2] u_teaching_scene/sub40_syn_48.b[1]
+u_teaching_scene/sub40_syn_41 u_teaching_scene/sub40_syn_49.fci
+u_teaching_scene/rgb_composite_b12[4] u_teaching_scene/mult17_syn_4.a[4]
+u_teaching_scene/rgb_composite_b9[6] u_teaching_scene/add60_syn_46.e[1]
+u_teaching_scene/add60_syn_40 u_teaching_scene/add60_syn_47.fci
+u_teaching_scene/rgb_composite_b6[4] u_teaching_scene/rgb_composite_b[4]_syn_7.a[0]
+u_teaching_scene/rgb_composite_b3[4] u_teaching_scene/reg36_syn_157.a[1]
+
+Timing path: u_teaching_scene/reg43_syn_42.clk->u_teaching_scene/reg36_syn_157
+u_teaching_scene/reg43_syn_42.clk
+u_teaching_scene/reg36_syn_157
+2864 1.186000 15.698000 14.512000 8 8
+u_teaching_scene/palette/index[3] u_teaching_scene/palette/mux0_syn_490.d[1]
+u_teaching_scene/teacher_rgb[2] u_teaching_scene/sub40_syn_48.b[1]
+u_teaching_scene/sub40_syn_41 u_teaching_scene/sub40_syn_49.fci
+u_teaching_scene/rgb_composite_b12[4] u_teaching_scene/mult17_syn_4.a[4]
+u_teaching_scene/rgb_composite_b9[6] u_teaching_scene/add60_syn_46.e[1]
+u_teaching_scene/add60_syn_40 u_teaching_scene/add60_syn_47.fci
+u_teaching_scene/rgb_composite_b6[4] u_teaching_scene/rgb_composite_b[4]_syn_7.a[0]
+u_teaching_scene/rgb_composite_b3[4] u_teaching_scene/reg36_syn_157.a[0]
+
+
+Endpoint: u_teaching_scene/assets/ramread6_syn_7
+2916 1.260000 1035 3
+Timing path: u_teaching_scene/assets/ramread5_syn_7.clka->u_teaching_scene/assets/ramread6_syn_7
+u_teaching_scene/assets/ramread5_syn_7.clka
+u_teaching_scene/assets/ramread6_syn_7
+2918 1.260000 14.563000 13.303000 7 8
+u_teaching_scene/assets/sprite_span_q[0] u_teaching_scene/assets/sub1_syn_49.b[1]
+u_teaching_scene/assets/sub1_syn_27 u_teaching_scene/assets/sub1_syn_52.fci
+u_teaching_scene/assets/sprite_offset[2] u_teaching_scene/assets/lt3_syn_37.a[1]
+u_teaching_scene/assets/lt3_syn_9 u_teaching_scene/assets/lt3_syn_40.fci
+u_teaching_scene/assets/lt3_syn_13 u_teaching_scene/assets/lt3_syn_43.fci
+u_teaching_scene/assets/sprite_hit_n1 u_teaching_scene/assets/sprite_valid_q_reg_syn_8.d[0]
+u_teaching_scene/assets/sprite_hit frame_read_write_m0/write_buf/reg0_syn_60.d[0]
+u_teaching_scene/assets/sprite_word_q_b1[9] u_teaching_scene/assets/ramread6_syn_7.addra[8]
+
+Timing path: u_teaching_scene/assets/ramread5_syn_7.clka->u_teaching_scene/assets/ramread6_syn_7
+u_teaching_scene/assets/ramread5_syn_7.clka
+u_teaching_scene/assets/ramread6_syn_7
+2970 1.368000 14.563000 13.195000 7 7
+u_teaching_scene/assets/sprite_span_q[1] u_teaching_scene/assets/sub1_syn_52.b[0]
+u_teaching_scene/assets/sub1_syn_29 u_teaching_scene/assets/sub1_syn_55.fci
+u_teaching_scene/assets/sprite_offset[4] u_teaching_scene/assets/lt3_syn_40.a[1]
+u_teaching_scene/assets/lt3_syn_13 u_teaching_scene/assets/lt3_syn_43.fci
+u_teaching_scene/assets/sprite_hit_n1 u_teaching_scene/assets/sprite_valid_q_reg_syn_8.d[0]
+u_teaching_scene/assets/sprite_hit frame_read_write_m0/write_buf/reg0_syn_60.d[0]
+u_teaching_scene/assets/sprite_word_q_b1[9] u_teaching_scene/assets/ramread6_syn_7.addra[8]
+
+Timing path: u_teaching_scene/assets/ramread5_syn_7.clka->u_teaching_scene/assets/ramread6_syn_7
+u_teaching_scene/assets/ramread5_syn_7.clka
+u_teaching_scene/assets/ramread6_syn_7
+3020 1.383000 14.563000 13.180000 7 8
+u_teaching_scene/assets/sprite_span_q[0] u_teaching_scene/assets/sub1_syn_49.b[1]
+u_teaching_scene/assets/sub1_syn_27 u_teaching_scene/assets/sub1_syn_52.fci
+u_teaching_scene/assets/sub1_syn_29 u_teaching_scene/assets/sub1_syn_55.fci
+u_teaching_scene/assets/sprite_offset[4] u_teaching_scene/assets/lt3_syn_40.a[1]
+u_teaching_scene/assets/lt3_syn_13 u_teaching_scene/assets/lt3_syn_43.fci
+u_teaching_scene/assets/sprite_hit_n1 u_teaching_scene/assets/sprite_valid_q_reg_syn_8.d[0]
+u_teaching_scene/assets/sprite_hit frame_read_write_m0/write_buf/reg0_syn_60.d[0]
+u_teaching_scene/assets/sprite_word_q_b1[9] u_teaching_scene/assets/ramread6_syn_7.addra[8]
+
+
+Endpoint: u_teaching_scene/sub_ink3_n_syn_91
+3072 1.314000 247 3
+Timing path: u_teaching_scene/assets/ramread4_syn_34.clka->u_teaching_scene/sub_ink3_n_syn_91
+u_teaching_scene/assets/ramread4_syn_34.clka
+u_teaching_scene/sub_ink3_n_syn_91
+3074 1.314000 15.626000 14.312000 7 7
+u_teaching_scene/assets/ramread4_syn_38 u_teaching_scene/focus_ink3_n_syn_153.a[1]
+u_teaching_scene/assets/subtitle_font_row[27] u_teaching_scene/sub_ink3_n_syn_89.a[1]
+u_teaching_scene/sub_ink3_n_syn_2 u_teaching_scene/sub_ink3_n_syn_91.c[1]
+u_teaching_scene/mux0_syn_44 u_teaching_scene/sub_ink3_n_syn_99.a[1]
+u_teaching_scene/sub_ink3_n_syn_9 u_teaching_scene/sub_ink3_n_syn_87.a[1]
+u_teaching_scene/sub_ink3_n_syn_20 u_teaching_scene/sub_ink3_n_syn_81.a[1]
+u_teaching_scene/sub_ink3_n_syn_32 u_teaching_scene/sub_ink3_n_syn_91.d[0]
+
+Timing path: u_teaching_scene/assets/ramread4_syn_34.clka->u_teaching_scene/sub_ink3_n_syn_91
+u_teaching_scene/assets/ramread4_syn_34.clka
+u_teaching_scene/sub_ink3_n_syn_91
+3124 1.314000 15.626000 14.312000 7 7
+u_teaching_scene/assets/ramread4_syn_38 u_teaching_scene/focus_ink3_n_syn_153.a[1]
+u_teaching_scene/assets/subtitle_font_row[27] u_teaching_scene/sub_ink3_n_syn_89.a[1]
+u_teaching_scene/sub_ink3_n_syn_2 u_teaching_scene/sub_ink3_n_syn_91.c[1]
+u_teaching_scene/mux0_syn_44 u_teaching_scene/sub_ink3_n_syn_99.a[0]
+u_teaching_scene/sub_ink3_n_syn_9 u_teaching_scene/sub_ink3_n_syn_87.a[1]
+u_teaching_scene/sub_ink3_n_syn_20 u_teaching_scene/sub_ink3_n_syn_81.a[1]
+u_teaching_scene/sub_ink3_n_syn_32 u_teaching_scene/sub_ink3_n_syn_91.d[0]
+
+Timing path: u_teaching_scene/assets/ramread4_syn_34.clka->u_teaching_scene/sub_ink3_n_syn_91
+u_teaching_scene/assets/ramread4_syn_34.clka
+u_teaching_scene/sub_ink3_n_syn_91
+3174 1.375000 15.626000 14.251000 7 7
+u_teaching_scene/assets/ramread4_syn_37 u_teaching_scene/focus_ink3_n_syn_160.a[0]
+u_teaching_scene/assets/subtitle_font_row[26] u_teaching_scene/sub_ink3_n_syn_89.b[1]
+u_teaching_scene/sub_ink3_n_syn_2 u_teaching_scene/sub_ink3_n_syn_91.c[1]
+u_teaching_scene/mux0_syn_44 u_teaching_scene/sub_ink3_n_syn_99.a[1]
+u_teaching_scene/sub_ink3_n_syn_9 u_teaching_scene/sub_ink3_n_syn_87.a[1]
+u_teaching_scene/sub_ink3_n_syn_20 u_teaching_scene/sub_ink3_n_syn_81.a[1]
+u_teaching_scene/sub_ink3_n_syn_32 u_teaching_scene/sub_ink3_n_syn_91.d[0]
+
+
+
+Hold check
+3224 3
+Endpoint: u_hdmi_1_4b_transmitter_core_wrapper/u_hdmi_tx_controller_wrapper/u_hdmi_island_data_gen/U_audio_sample_packet_2_channel/u_w96_d1024_fifo/u_logic_ramfifo_syn_677
+3226 0.124000 9 3
+Timing path: u_hdmi_1_4b_transmitter_core_wrapper/u_hdmi_tx_controller_wrapper/u_hdmi_island_data_gen/U_audio_sample_packet_2_channel/reg4_syn_155.clk->u_hdmi_1_4b_transmitter_core_wrapper/u_hdmi_tx_controller_wrapper/u_hdmi_island_data_gen/U_audio_sample_packet_2_channel/u_w96_d1024_fifo/u_logic_ramfifo_syn_677
+u_hdmi_1_4b_transmitter_core_wrapper/u_hdmi_tx_controller_wrapper/u_hdmi_island_data_gen/U_audio_sample_packet_2_channel/reg4_syn_155.clk
+u_hdmi_1_4b_transmitter_core_wrapper/u_hdmi_tx_controller_wrapper/u_hdmi_island_data_gen/U_audio_sample_packet_2_channel/u_w96_d1024_fifo/u_logic_ramfifo_syn_677
+3228 0.124000 2.274000 2.398000 1 1
+u_hdmi_1_4b_transmitter_core_wrapper/u_hdmi_tx_controller_wrapper/u_hdmi_island_data_gen/U_audio_sample_packet_2_channel/S_packet_body_1d[15] u_hdmi_1_4b_transmitter_core_wrapper/u_hdmi_tx_controller_wrapper/u_hdmi_island_data_gen/U_audio_sample_packet_2_channel/u_w96_d1024_fifo/u_logic_ramfifo_syn_677.dia[3]
+
+Timing path: u_hdmi_1_4b_transmitter_core_wrapper/u_hdmi_tx_controller_wrapper/u_hdmi_island_data_gen/U_audio_sample_packet_2_channel/reg4_syn_155.clk->u_hdmi_1_4b_transmitter_core_wrapper/u_hdmi_tx_controller_wrapper/u_hdmi_island_data_gen/U_audio_sample_packet_2_channel/u_w96_d1024_fifo/u_logic_ramfifo_syn_677
+u_hdmi_1_4b_transmitter_core_wrapper/u_hdmi_tx_controller_wrapper/u_hdmi_island_data_gen/U_audio_sample_packet_2_channel/reg4_syn_155.clk
+u_hdmi_1_4b_transmitter_core_wrapper/u_hdmi_tx_controller_wrapper/u_hdmi_island_data_gen/U_audio_sample_packet_2_channel/u_w96_d1024_fifo/u_logic_ramfifo_syn_677
+3266 0.130000 2.274000 2.404000 1 1
+u_hdmi_1_4b_transmitter_core_wrapper/u_hdmi_tx_controller_wrapper/u_hdmi_island_data_gen/U_audio_sample_packet_2_channel/S_packet_body_1d[13] u_hdmi_1_4b_transmitter_core_wrapper/u_hdmi_tx_controller_wrapper/u_hdmi_island_data_gen/U_audio_sample_packet_2_channel/u_w96_d1024_fifo/u_logic_ramfifo_syn_677.dia[1]
+
+Timing path: u_hdmi_1_4b_transmitter_core_wrapper/u_hdmi_tx_controller_wrapper/u_hdmi_island_data_gen/U_audio_sample_packet_2_channel/reg4_syn_134.clk->u_hdmi_1_4b_transmitter_core_wrapper/u_hdmi_tx_controller_wrapper/u_hdmi_island_data_gen/U_audio_sample_packet_2_channel/u_w96_d1024_fifo/u_logic_ramfifo_syn_677
+u_hdmi_1_4b_transmitter_core_wrapper/u_hdmi_tx_controller_wrapper/u_hdmi_island_data_gen/U_audio_sample_packet_2_channel/reg4_syn_134.clk
+u_hdmi_1_4b_transmitter_core_wrapper/u_hdmi_tx_controller_wrapper/u_hdmi_island_data_gen/U_audio_sample_packet_2_channel/u_w96_d1024_fifo/u_logic_ramfifo_syn_677
+3304 0.241000 2.274000 2.515000 1 1
+u_hdmi_1_4b_transmitter_core_wrapper/u_hdmi_tx_controller_wrapper/u_hdmi_island_data_gen/U_audio_sample_packet_2_channel/S_packet_body_1d[19] u_hdmi_1_4b_transmitter_core_wrapper/u_hdmi_tx_controller_wrapper/u_hdmi_island_data_gen/U_audio_sample_packet_2_channel/u_w96_d1024_fifo/u_logic_ramfifo_syn_677.dia[7]
+
+
+Endpoint: u_teaching_scene/ramread0_syn_31
+3342 0.186000 4 3
+Timing path: u_teaching_scene/lt14_syn_58.clk->u_teaching_scene/ramread0_syn_31
+u_teaching_scene/lt14_syn_58.clk
+u_teaching_scene/ramread0_syn_31
+3344 0.186000 2.274000 2.460000 1 1
+u_teaching_scene/rgb_pre1[22] u_teaching_scene/ramread0_syn_31.dia[2]
+
+Timing path: u_teaching_scene/lt14_syn_58.clk->u_teaching_scene/ramread0_syn_31
+u_teaching_scene/lt14_syn_58.clk
+u_teaching_scene/ramread0_syn_31
+3382 0.205000 2.274000 2.479000 1 1
+u_teaching_scene/rgb_pre1[23] u_teaching_scene/ramread0_syn_31.dia[3]
+
+Timing path: u_teaching_scene/sub8_syn_45.clk->u_teaching_scene/ramread0_syn_31
+u_teaching_scene/sub8_syn_45.clk
+u_teaching_scene/ramread0_syn_31
+3420 0.205000 2.274000 2.479000 1 1
+u_teaching_scene/rgb_pre1[21] u_teaching_scene/ramread0_syn_31.dia[1]
+
+
+Endpoint: u_hdmi_1_4b_transmitter_core_wrapper/u_hdmi_tx_controller_wrapper/u_hdmi_island_data_gen/U_audio_sample_packet_2_channel/u_w96_d1024_fifo/u_logic_ramfifo_syn_727
+3458 0.186000 3 3
+Timing path: sd_card_bmp_m0/g_wav$u_wav_player/playing_n_syn_198.clk->u_hdmi_1_4b_transmitter_core_wrapper/u_hdmi_tx_controller_wrapper/u_hdmi_island_data_gen/U_audio_sample_packet_2_channel/u_w96_d1024_fifo/u_logic_ramfifo_syn_727
+sd_card_bmp_m0/g_wav$u_wav_player/playing_n_syn_198.clk
+u_hdmi_1_4b_transmitter_core_wrapper/u_hdmi_tx_controller_wrapper/u_hdmi_island_data_gen/U_audio_sample_packet_2_channel/u_w96_d1024_fifo/u_logic_ramfifo_syn_727
+3460 0.186000 2.274000 2.460000 1 1
+u_hdmi_1_4b_transmitter_core_wrapper/u_hdmi_tx_controller_wrapper/u_hdmi_island_data_gen/U_audio_sample_packet_2_channel/S_packet_header_1d[20] u_hdmi_1_4b_transmitter_core_wrapper/u_hdmi_tx_controller_wrapper/u_hdmi_island_data_gen/U_audio_sample_packet_2_channel/u_w96_d1024_fifo/u_logic_ramfifo_syn_727.dia[3]
+
+Timing path: sd_card_bmp_m0/g_wav$u_wav_player/playing_n_syn_198.clk->u_hdmi_1_4b_transmitter_core_wrapper/u_hdmi_tx_controller_wrapper/u_hdmi_island_data_gen/U_audio_sample_packet_2_channel/u_w96_d1024_fifo/u_logic_ramfifo_syn_727
+sd_card_bmp_m0/g_wav$u_wav_player/playing_n_syn_198.clk
+u_hdmi_1_4b_transmitter_core_wrapper/u_hdmi_tx_controller_wrapper/u_hdmi_island_data_gen/U_audio_sample_packet_2_channel/u_w96_d1024_fifo/u_logic_ramfifo_syn_727
+3498 0.195000 2.274000 2.469000 1 1
+u_hdmi_1_4b_transmitter_core_wrapper/u_hdmi_tx_controller_wrapper/u_hdmi_island_data_gen/U_audio_sample_packet_2_channel/S_packet_header_1d[20] u_hdmi_1_4b_transmitter_core_wrapper/u_hdmi_tx_controller_wrapper/u_hdmi_island_data_gen/U_audio_sample_packet_2_channel/u_w96_d1024_fifo/u_logic_ramfifo_syn_727.dia[8]
+
+Timing path: u_hdmi_1_4b_transmitter_core_wrapper/u_hdmi_tx_controller_wrapper/u_hdmi_island_data_gen/U_audio_sample_packet_2_channel/u_BCH_32_24_encode/reg0_syn_16.clk->u_hdmi_1_4b_transmitter_core_wrapper/u_hdmi_tx_controller_wrapper/u_hdmi_island_data_gen/U_audio_sample_packet_2_channel/u_w96_d1024_fifo/u_logic_ramfifo_syn_727
+u_hdmi_1_4b_transmitter_core_wrapper/u_hdmi_tx_controller_wrapper/u_hdmi_island_data_gen/U_audio_sample_packet_2_channel/u_BCH_32_24_encode/reg0_syn_16.clk
+u_hdmi_1_4b_transmitter_core_wrapper/u_hdmi_tx_controller_wrapper/u_hdmi_island_data_gen/U_audio_sample_packet_2_channel/u_w96_d1024_fifo/u_logic_ramfifo_syn_727
+3536 0.454000 2.274000 2.728000 1 1
+u_hdmi_1_4b_transmitter_core_wrapper/u_hdmi_tx_controller_wrapper/u_hdmi_island_data_gen/U_audio_sample_packet_2_channel/S_packet_header_parity[0] u_hdmi_1_4b_transmitter_core_wrapper/u_hdmi_tx_controller_wrapper/u_hdmi_island_data_gen/U_audio_sample_packet_2_channel/u_w96_d1024_fifo/u_logic_ramfifo_syn_727.dia[7]
+
+
+
+Recovery check
+3574 3
+Endpoint: u_hdmi_1_4b_transmitter_core_wrapper/u_hdmi_tx_controller_wrapper/u_video_axi_stream_receiver/u_w24_d1024_fifo/u_logic_ramfifo_syn_945
+3576 10.163000 2 2
+Timing path: u_hdmi_1_4b_transmitter_core_wrapper/u_hdmi_tx_controller_wrapper/u_video_axi_stream_receiver/O_video_locked_reg_syn_8.clk->u_hdmi_1_4b_transmitter_core_wrapper/u_hdmi_tx_controller_wrapper/u_video_axi_stream_receiver/u_w24_d1024_fifo/u_logic_ramfifo_syn_945
+u_hdmi_1_4b_transmitter_core_wrapper/u_hdmi_tx_controller_wrapper/u_video_axi_stream_receiver/O_video_locked_reg_syn_8.clk
+u_hdmi_1_4b_transmitter_core_wrapper/u_hdmi_tx_controller_wrapper/u_video_axi_stream_receiver/u_w24_d1024_fifo/u_logic_ramfifo_syn_945
+3578 10.163000 15.514000 5.351000 1 2
+u_hdmi_1_4b_transmitter_core_wrapper/u_hdmi_tx_controller_wrapper/u_video_axi_stream_receiver/O_video_locked u_hdmi_1_4b_transmitter_core_wrapper/u_hdmi_tx_controller_wrapper/u_hdmi_island_data_assemble/S_vsync_2d_reg_syn_8.c[0]
+u_hdmi_1_4b_transmitter_core_wrapper/u_hdmi_tx_controller_wrapper/u_video_axi_stream_receiver/u_w24_d1024_fifo/I_rst u_hdmi_1_4b_transmitter_core_wrapper/u_hdmi_tx_controller_wrapper/u_video_axi_stream_receiver/u_w24_d1024_fifo/u_logic_ramfifo_syn_945.sr
+
+Timing path: u_hdmi_1_4b_transmitter_core_wrapper/u0_reset_sync/O_sync_reset_reg_syn_95.clk->u_hdmi_1_4b_transmitter_core_wrapper/u_hdmi_tx_controller_wrapper/u_video_axi_stream_receiver/u_w24_d1024_fifo/u_logic_ramfifo_syn_945
+u_hdmi_1_4b_transmitter_core_wrapper/u0_reset_sync/O_sync_reset_reg_syn_95.clk
+u_hdmi_1_4b_transmitter_core_wrapper/u_hdmi_tx_controller_wrapper/u_video_axi_stream_receiver/u_w24_d1024_fifo/u_logic_ramfifo_syn_945
+3618 10.217000 15.514000 5.297000 1 2
+u_hdmi_1_4b_transmitter_core_wrapper/u_hdmi_edid_wrapper/u_iic_master_wrapper/u_iic_receiver_controller/I_rst_dup_29 u_hdmi_1_4b_transmitter_core_wrapper/u_hdmi_tx_controller_wrapper/u_hdmi_island_data_assemble/S_vsync_2d_reg_syn_8.d[0]
+u_hdmi_1_4b_transmitter_core_wrapper/u_hdmi_tx_controller_wrapper/u_video_axi_stream_receiver/u_w24_d1024_fifo/I_rst u_hdmi_1_4b_transmitter_core_wrapper/u_hdmi_tx_controller_wrapper/u_video_axi_stream_receiver/u_w24_d1024_fifo/u_logic_ramfifo_syn_945.sr
+
+
+Endpoint: u_hdmi_1_4b_transmitter_core_wrapper/u_hdmi_tx_controller_wrapper/u_video_axi_stream_receiver/u_w24_d1024_fifo/u_logic_ramfifo_syn_936
+3658 10.163000 2 2
+Timing path: u_hdmi_1_4b_transmitter_core_wrapper/u_hdmi_tx_controller_wrapper/u_video_axi_stream_receiver/O_video_locked_reg_syn_8.clk->u_hdmi_1_4b_transmitter_core_wrapper/u_hdmi_tx_controller_wrapper/u_video_axi_stream_receiver/u_w24_d1024_fifo/u_logic_ramfifo_syn_936
+u_hdmi_1_4b_transmitter_core_wrapper/u_hdmi_tx_controller_wrapper/u_video_axi_stream_receiver/O_video_locked_reg_syn_8.clk
+u_hdmi_1_4b_transmitter_core_wrapper/u_hdmi_tx_controller_wrapper/u_video_axi_stream_receiver/u_w24_d1024_fifo/u_logic_ramfifo_syn_936
+3660 10.163000 15.514000 5.351000 1 2
+u_hdmi_1_4b_transmitter_core_wrapper/u_hdmi_tx_controller_wrapper/u_video_axi_stream_receiver/O_video_locked u_hdmi_1_4b_transmitter_core_wrapper/u_hdmi_tx_controller_wrapper/u_hdmi_island_data_assemble/S_vsync_2d_reg_syn_8.c[0]
+u_hdmi_1_4b_transmitter_core_wrapper/u_hdmi_tx_controller_wrapper/u_video_axi_stream_receiver/u_w24_d1024_fifo/I_rst u_hdmi_1_4b_transmitter_core_wrapper/u_hdmi_tx_controller_wrapper/u_video_axi_stream_receiver/u_w24_d1024_fifo/u_logic_ramfifo_syn_936.sr
+
+Timing path: u_hdmi_1_4b_transmitter_core_wrapper/u0_reset_sync/O_sync_reset_reg_syn_95.clk->u_hdmi_1_4b_transmitter_core_wrapper/u_hdmi_tx_controller_wrapper/u_video_axi_stream_receiver/u_w24_d1024_fifo/u_logic_ramfifo_syn_936
+u_hdmi_1_4b_transmitter_core_wrapper/u0_reset_sync/O_sync_reset_reg_syn_95.clk
+u_hdmi_1_4b_transmitter_core_wrapper/u_hdmi_tx_controller_wrapper/u_video_axi_stream_receiver/u_w24_d1024_fifo/u_logic_ramfifo_syn_936
+3700 10.217000 15.514000 5.297000 1 2
+u_hdmi_1_4b_transmitter_core_wrapper/u_hdmi_edid_wrapper/u_iic_master_wrapper/u_iic_receiver_controller/I_rst_dup_29 u_hdmi_1_4b_transmitter_core_wrapper/u_hdmi_tx_controller_wrapper/u_hdmi_island_data_assemble/S_vsync_2d_reg_syn_8.d[0]
+u_hdmi_1_4b_transmitter_core_wrapper/u_hdmi_tx_controller_wrapper/u_video_axi_stream_receiver/u_w24_d1024_fifo/I_rst u_hdmi_1_4b_transmitter_core_wrapper/u_hdmi_tx_controller_wrapper/u_video_axi_stream_receiver/u_w24_d1024_fifo/u_logic_ramfifo_syn_936.sr
+
+
+Endpoint: video_delay_m0/reg0_syn_142
+3740 10.189000 1 1
+Timing path: sd_card_bmp_m0/g_wav$u_wav_player/return_state_b1[3]_syn_18.clk->video_delay_m0/reg0_syn_142
+sd_card_bmp_m0/g_wav$u_wav_player/return_state_b1[3]_syn_18.clk
+video_delay_m0/reg0_syn_142
+3742 10.189000 15.514000 5.325000 0 1
+video_reset_sync[2]_dup_23 video_delay_m0/reg0_syn_142.sr
+
+
+
+Removal check
+3780 3
+Endpoint: u_hdmi_1_4b_transmitter_core_wrapper/u_hdmi_tx_controller_wrapper/u_hdmi_video_source/reg1_syn_103
+3782 0.111000 1 1
+Timing path: u_hdmi_1_4b_transmitter_core_wrapper/u0_reset_sync/O_sync_reset_reg_syn_95.clk->u_hdmi_1_4b_transmitter_core_wrapper/u_hdmi_tx_controller_wrapper/u_hdmi_video_source/reg1_syn_103
+u_hdmi_1_4b_transmitter_core_wrapper/u0_reset_sync/O_sync_reset_reg_syn_95.clk
+u_hdmi_1_4b_transmitter_core_wrapper/u_hdmi_tx_controller_wrapper/u_hdmi_video_source/reg1_syn_103
+3784 0.111000 2.327000 2.438000 0 1
+u_hdmi_1_4b_transmitter_core_wrapper/u_hdmi_edid_wrapper/u_iic_master_wrapper/u_iic_receiver_controller/I_rst_dup_29 u_hdmi_1_4b_transmitter_core_wrapper/u_hdmi_tx_controller_wrapper/u_hdmi_video_source/reg1_syn_103.sr
+
+
+Endpoint: u_audio_waveform/reg6_syn_40
+3822 0.111000 1 1
+Timing path: u_audio_waveform/lt14_syn_34.clk->u_audio_waveform/reg6_syn_40
+u_audio_waveform/lt14_syn_34.clk
+u_audio_waveform/reg6_syn_40
+3824 0.111000 2.327000 2.438000 0 1
+video_reset_sync[2]_dup_19 u_audio_waveform/reg6_syn_40.sr
+
+
+Endpoint: u_hdmi_1_4b_transmitter_core_wrapper/u_hdmi_tx_controller_wrapper/u_hdmi_island_data_assemble/reg14_syn_126
+3862 0.119000 1 1
+Timing path: u_hdmi_1_4b_transmitter_core_wrapper/u0_reset_sync/O_sync_reset_reg_syn_79.clk->u_hdmi_1_4b_transmitter_core_wrapper/u_hdmi_tx_controller_wrapper/u_hdmi_island_data_assemble/reg14_syn_126
+u_hdmi_1_4b_transmitter_core_wrapper/u0_reset_sync/O_sync_reset_reg_syn_79.clk
+u_hdmi_1_4b_transmitter_core_wrapper/u_hdmi_tx_controller_wrapper/u_hdmi_island_data_assemble/reg14_syn_126
+3864 0.119000 2.327000 2.446000 0 1
+u_hdmi_1_4b_transmitter_core_wrapper/u_hdmi_edid_wrapper/u_iic_master_wrapper/u_iic_receiver_controller/I_rst u_hdmi_1_4b_transmitter_core_wrapper/u_hdmi_tx_controller_wrapper/u_hdmi_island_data_assemble/reg14_syn_126.sr
+
+
+
+
+clock: hdmi_5x_clk
+3902 266 144 4
+Setup check
+3912 3
+Endpoint: u_hdmi2phy_wrapper/u1_lane_lvds_8_1/reg1_syn_72
+3912 0.918000 1 1
+Timing path: u_hdmi_1_4b_transmitter_core_wrapper/u_hdmi_tx_controller_wrapper/u1_hdmi_tmds_encode/reg0_syn_64.clk->u_hdmi2phy_wrapper/u1_lane_lvds_8_1/reg1_syn_72
+u_hdmi_1_4b_transmitter_core_wrapper/u_hdmi_tx_controller_wrapper/u1_hdmi_tmds_encode/reg0_syn_64.clk
+u_hdmi2phy_wrapper/u1_lane_lvds_8_1/reg1_syn_72
+3914 0.918000 4.743000 3.825000 1 1
+u_hdmi2phy_wrapper/I_tmds_channel_1[2] u_hdmi2phy_wrapper/u1_lane_lvds_8_1/reg1_syn_72.c[1]
+
+
+Endpoint: u_hdmi2phy_wrapper/u2_lane_lvds_8_1/reg1_syn_74
+3950 0.972000 1 1
+Timing path: u_hdmi_1_4b_transmitter_core_wrapper/u_hdmi_tx_controller_wrapper/u2_hdmi_tmds_encode/reg0_syn_68.clk->u_hdmi2phy_wrapper/u2_lane_lvds_8_1/reg1_syn_74
+u_hdmi_1_4b_transmitter_core_wrapper/u_hdmi_tx_controller_wrapper/u2_hdmi_tmds_encode/reg0_syn_68.clk
+u_hdmi2phy_wrapper/u2_lane_lvds_8_1/reg1_syn_74
+3952 0.972000 4.743000 3.771000 1 1
+u_hdmi2phy_wrapper/I_tmds_channel_2[0] u_hdmi2phy_wrapper/u2_lane_lvds_8_1/reg1_syn_74.c[1]
+
+
+Endpoint: u_hdmi2phy_wrapper/u1_lane_lvds_8_1/reg1_syn_77
+3988 1.049000 1 1
+Timing path: u_hdmi_1_4b_transmitter_core_wrapper/u_hdmi_tx_controller_wrapper/u1_hdmi_tmds_encode/reg0_syn_64.clk->u_hdmi2phy_wrapper/u1_lane_lvds_8_1/reg1_syn_77
+u_hdmi_1_4b_transmitter_core_wrapper/u_hdmi_tx_controller_wrapper/u1_hdmi_tmds_encode/reg0_syn_64.clk
+u_hdmi2phy_wrapper/u1_lane_lvds_8_1/reg1_syn_77
+3990 1.049000 4.743000 3.694000 1 1
+u_hdmi2phy_wrapper/I_tmds_channel_1[9] u_hdmi2phy_wrapper/u1_lane_lvds_8_1/reg1_syn_77.c[0]
+
+
+
+Hold check
+4026 3
+Endpoint: u_hdmi2phy_wrapper/u0_lane_lvds_8_1/reg1_syn_68
+4028 0.279000 1 1
+Timing path: u_hdmi_1_4b_transmitter_core_wrapper/u_hdmi_tx_controller_wrapper/u0_hdmi_tmds_encode/reg0_syn_69.clk->u_hdmi2phy_wrapper/u0_lane_lvds_8_1/reg1_syn_68
+u_hdmi_1_4b_transmitter_core_wrapper/u_hdmi_tx_controller_wrapper/u0_hdmi_tmds_encode/reg0_syn_69.clk
+u_hdmi2phy_wrapper/u0_lane_lvds_8_1/reg1_syn_68
+4030 0.279000 2.291000 2.570000 1 1
+u_hdmi2phy_wrapper/I_tmds_channel_0[7] u_hdmi2phy_wrapper/u0_lane_lvds_8_1/reg1_syn_68.c[0]
+
+
+Endpoint: u_hdmi2phy_wrapper/u0_lane_lvds_8_1/S_odd_even_1d_reg_syn_4
+4066 0.297000 1 1
+Timing path: u_hdmi2phy_wrapper/u0_lane_lvds_8_1/S_odd_even_reg_syn_8.clk->u_hdmi2phy_wrapper/u0_lane_lvds_8_1/S_odd_even_1d_reg_syn_4
+u_hdmi2phy_wrapper/u0_lane_lvds_8_1/S_odd_even_reg_syn_8.clk
+u_hdmi2phy_wrapper/u0_lane_lvds_8_1/S_odd_even_1d_reg_syn_4
+4068 0.297000 2.291000 2.588000 0 1
+u_hdmi2phy_wrapper/u0_lane_lvds_8_1/S_odd_even u_hdmi2phy_wrapper/u0_lane_lvds_8_1/S_odd_even_1d_reg_syn_4.mi[0]
+
+
+Endpoint: u_hdmi2phy_wrapper/u2_lane_lvds_8_1/reg1_syn_66
+4104 0.304000 1 1
+Timing path: u_hdmi_1_4b_transmitter_core_wrapper/u_hdmi_tx_controller_wrapper/u2_hdmi_tmds_encode/reg0_syn_71.clk->u_hdmi2phy_wrapper/u2_lane_lvds_8_1/reg1_syn_66
+u_hdmi_1_4b_transmitter_core_wrapper/u_hdmi_tx_controller_wrapper/u2_hdmi_tmds_encode/reg0_syn_71.clk
+u_hdmi2phy_wrapper/u2_lane_lvds_8_1/reg1_syn_66
+4106 0.304000 2.291000 2.595000 1 1
+u_hdmi2phy_wrapper/I_tmds_channel_2[5] u_hdmi2phy_wrapper/u2_lane_lvds_8_1/reg1_syn_66.c[0]
+
+
+
+Recovery check
+4142 3
+Endpoint: u_hdmi2phy_wrapper/u0_lane_lvds_8_1/reg1_syn_71
+4144 1.120000 1 1
+Timing path: reg7_syn_134.clk->u_hdmi2phy_wrapper/u0_lane_lvds_8_1/reg1_syn_71
+reg7_syn_134.clk
+u_hdmi2phy_wrapper/u0_lane_lvds_8_1/reg1_syn_71
+4146 1.120000 4.559000 3.439000 0 1
+video_reset_sync[2]_dup_16 u_hdmi2phy_wrapper/u0_lane_lvds_8_1/reg1_syn_71.sr
+
+
+Endpoint: u_hdmi2phy_wrapper/u0_lane_lvds_8_1/reg1_syn_68
+4182 1.120000 1 1
+Timing path: reg7_syn_134.clk->u_hdmi2phy_wrapper/u0_lane_lvds_8_1/reg1_syn_68
+reg7_syn_134.clk
+u_hdmi2phy_wrapper/u0_lane_lvds_8_1/reg1_syn_68
+4184 1.120000 4.559000 3.439000 0 1
+video_reset_sync[2]_dup_16 u_hdmi2phy_wrapper/u0_lane_lvds_8_1/reg1_syn_68.sr
+
+
+Endpoint: u_hdmi2phy_wrapper/u0_lane_lvds_8_1/reg1_syn_65
+4220 1.120000 1 1
+Timing path: reg7_syn_134.clk->u_hdmi2phy_wrapper/u0_lane_lvds_8_1/reg1_syn_65
+reg7_syn_134.clk
+u_hdmi2phy_wrapper/u0_lane_lvds_8_1/reg1_syn_65
+4222 1.120000 4.559000 3.439000 0 1
+video_reset_sync[2]_dup_16 u_hdmi2phy_wrapper/u0_lane_lvds_8_1/reg1_syn_65.sr
+
+
+
+Removal check
+4258 3
+Endpoint: u_hdmi2phy_wrapper/u2_lane_lvds_8_1/reg1_syn_69
+4260 0.071000 1 1
+Timing path: reg7_syn_134.clk->u_hdmi2phy_wrapper/u2_lane_lvds_8_1/reg1_syn_69
+reg7_syn_134.clk
+u_hdmi2phy_wrapper/u2_lane_lvds_8_1/reg1_syn_69
+4262 0.071000 2.483000 2.554000 0 1
+video_reset_sync[2]_dup_16 u_hdmi2phy_wrapper/u2_lane_lvds_8_1/reg1_syn_69.sr
+
+
+Endpoint: u_hdmi2phy_wrapper/u1_lane_lvds_8_1/reg1_syn_75
+4298 0.101000 1 1
+Timing path: reg7_syn_142.clk->u_hdmi2phy_wrapper/u1_lane_lvds_8_1/reg1_syn_75
+reg7_syn_142.clk
+u_hdmi2phy_wrapper/u1_lane_lvds_8_1/reg1_syn_75
+4300 0.101000 2.483000 2.584000 0 1
+video_reset_sync[2]_dup_17 u_hdmi2phy_wrapper/u1_lane_lvds_8_1/reg1_syn_75.sr
+
+
+Endpoint: u_hdmi2phy_wrapper/u0_lane_lvds_8_1/reg1_syn_75
+4336 0.149000 1 1
+Timing path: reg7_syn_134.clk->u_hdmi2phy_wrapper/u0_lane_lvds_8_1/reg1_syn_75
+reg7_syn_134.clk
+u_hdmi2phy_wrapper/u0_lane_lvds_8_1/reg1_syn_75
+4338 0.149000 2.483000 2.632000 0 1
+video_reset_sync[2]_dup_16 u_hdmi2phy_wrapper/u0_lane_lvds_8_1/reg1_syn_75.sr
+
+
+
+
+Path delay: 7.7ns max
+4374 18 18 1
+Max path
+4384 3
+Endpoint: frame_read_write_m0/write_buf/rd_to_wr_cross_inst/reg3_syn_37
+4384 6.257000 1 1
+Timing path: frame_read_write_m0/write_buf/rd_to_wr_cross_inst/reg0_syn_60.clk->frame_read_write_m0/write_buf/rd_to_wr_cross_inst/reg3_syn_37
+frame_read_write_m0/write_buf/rd_to_wr_cross_inst/reg0_syn_60.clk
+frame_read_write_m0/write_buf/rd_to_wr_cross_inst/reg3_syn_37
+4386 6.257000 9.994000 3.737000 0 1
+frame_read_write_m0/write_buf/rd_to_wr_cross_inst/primary_addr_gray_reg[6] frame_read_write_m0/write_buf/rd_to_wr_cross_inst/reg3_syn_37.mi[1]
+
+
+Endpoint: frame_read_write_m0/write_buf/wr_to_rd_cross_inst/reg0_syn_51
+4421 6.546000 1 1
+Timing path: frame_read_write_m0/write_buf/rd_to_wr_cross_inst/reg0_syn_49.clk->frame_read_write_m0/write_buf/wr_to_rd_cross_inst/reg0_syn_51
+frame_read_write_m0/write_buf/rd_to_wr_cross_inst/reg0_syn_49.clk
+frame_read_write_m0/write_buf/wr_to_rd_cross_inst/reg0_syn_51
+4423 6.546000 9.994000 3.448000 0 1
+frame_read_write_m0/write_buf/rd_to_wr_cross_inst/primary_addr_gray_reg[7] frame_read_write_m0/write_buf/wr_to_rd_cross_inst/reg0_syn_51.mi[0]
+
+
+Endpoint: frame_read_write_m0/write_buf/rd_to_wr_cross_inst/reg3_syn_43
+4458 6.670000 1 1
+Timing path: frame_read_write_m0/write_buf/rd_to_wr_cross_inst/reg0_syn_55.clk->frame_read_write_m0/write_buf/rd_to_wr_cross_inst/reg3_syn_43
+frame_read_write_m0/write_buf/rd_to_wr_cross_inst/reg0_syn_55.clk
+frame_read_write_m0/write_buf/rd_to_wr_cross_inst/reg3_syn_43
+4460 6.670000 9.994000 3.324000 0 1
+frame_read_write_m0/write_buf/rd_to_wr_cross_inst/primary_addr_gray_reg[4] frame_read_write_m0/write_buf/rd_to_wr_cross_inst/reg3_syn_43.mi[0]
+
+
+
+
+
+Timing group statistics: 
+	Clock constraints: 
+	  Clock Name                                  Min Period     Max Freq           Skew      Fanout            TNS
+	  sd_card_clk (100.0MHz)                         9.981ns     100.190MHz        0.326ns      2942        0.000ns
+	  video_clk (74.3MHz)                           12.282ns      81.420MHz        0.326ns      2124        0.000ns
+	  ext_mem_clk (125.0MHz)                         7.268ns     137.589MHz        0.480ns       517        0.000ns
+	  hdmi_5x_clk (371.3MHz)                         1.775ns     563.380MHz        0.480ns        32        0.000ns
+	  clk (50.0MHz)                                  6.111ns     163.639MHz        0.480ns        18        0.000ns
+	Minimum input arrival time before clock: no constraint path
+	Maximum output required time after clock: no constraint path
+	Maximum combinational path delay: no constraint path
+
+	Exceptions:
+		Check Type:	MAX
+		----------------------------------------------------------------------------------------------------
+		       Path Num     Constraint                                                                      
+		              0     set_false_path -from [ get_clocks {clk} ] -to [ get_clocks {video_clk} ]        
+		              0     set_false_path -from [ get_clocks {video_clk} ] -through [ get_pins {*u*_lane_lvds_8_1/*.sr} ] -to [ get_clocks {hdmi_5x_clk} ]
+		              0     set_false_path -from [ get_regs {rst_all_reg*} ] -to [ get_clocks {sd_card_clk ext_mem_clk} ]
+		              0     set_false_path -from [ get_regs {*frame_fifo_write*/*fifo_aclr*} ] -through [ get_pins {*write_buf*/*asy_w_rst*.sr} ] -to [ get_clocks {sd_card_clk} ]
+
+		Check Type:	MIN
+		----------------------------------------------------------------------------------------------------
+		       Path Num     Constraint                                                                      
+		              0     set_false_path -from [ get_clocks {clk} ] -to [ get_clocks {video_clk} ]        
+		              0     set_false_path -from [ get_clocks {video_clk} ] -through [ get_pins {*u*_lane_lvds_8_1/*.sr} ] -to [ get_clocks {hdmi_5x_clk} ]
+		              0     set_false_path -from [ get_regs {rst_all_reg*} ] -to [ get_clocks {sd_card_clk ext_mem_clk} ]
+		              0     set_false_path -from [ get_regs {*frame_fifo_write*/*fifo_aclr*} ] -through [ get_pins {*write_buf*/*asy_w_rst*.sr} ] -to [ get_clocks {sd_card_clk} ]
+		              0     set_false_path -hold -from [ get_regs -nowarn {*/primary_addr_gray_reg[*]} ] -to [ get_regs -nowarn {*/sync_r1[*]} ]
+		             18     set_false_path -hold -from [ get_regs -nowarn {*/primary_addr_gray_reg[*]} ] -to [ get_regs -nowarn {*/sync_r1[*]} ]
+
