@@ -1,0 +1,343 @@
+// Runtime scene engine. Kept in registered top source by asset generator.
+// Two coordinate + six scene + one transition stages; markers follow RGB.
+module album_teaching_scene #(
+ parameter integer STATUS_X=16,STATUS_Y=16,ENABLE_TRANSITIONS=0
+)(
+ input clk,rst,hs_in,vs_in,de_in,input [23:0] rgb_in,
+ input frame_valid,input [5:0] visible_page,input [23:0] narration,input sidebar_visible,
+ input [8:0] transition_command,output reg [1:0] transition_reply,
+ output reg hs_out,vs_out,de_out,output reg [23:0] rgb_out
+);
+reg [10:0] raw_x,raw_y;
+reg [10:0] x_pre0,y_pre0,x_pre1,y_pre1;
+reg [23:0] rgb_pre0,rgb_pre1;
+reg [1:0] hs_pre,vs_pre,de_pre;
+wire [10:0] x=x_pre1,y=y_pre1;
+wire pixel_de=de_pre[1],pixel_hs=hs_pre[1],pixel_vs=vs_pre[1];
+wire [23:0] pixel_rgb=rgb_pre1;
+reg de_last,vs_last;
+reg [5:0] page_frame;
+reg epoch_seen,enabled_frame;
+reg [11:0] scroll;
+reg [4:0] focus_mix;
+reg [5:0] entry_age;
+reg teacher_shown;
+reg [7:0] frame_count;
+wire timeline_match=narration[22:17]==visible_page;
+wire [15:0] demo_start,demo_end;
+wire [10:0] teacher_x,teacher_y;
+wire [3:0] scroll_step;
+wire [1:0] focus_lines;
+wire [6:0] text_length;
+wire highlight_now=enabled_frame && timeline_match && narration[16] && focus_lines!=0 &&
+ narration[15:0]>=demo_start && narration[15:0]<demo_end;
+wire page_changed=visible_page!=page_frame;
+wire new_page=page_changed || (timeline_match && narration[23]!=epoch_seen);
+always @(posedge clk or posedge rst) begin
+ if(rst) begin
+  raw_x<=0;raw_y<=0;de_last<=0;vs_last<=0;page_frame<=0;epoch_seen<=0;enabled_frame<=0;
+  scroll<=0;focus_mix<=0;entry_age<=0;teacher_shown<=0;frame_count<=0;
+ end else begin
+  vs_last<=vs_in;de_last<=de_in;
+  if(de_in) raw_x<=raw_x+1'b1; else raw_x<=0;
+  if(de_last && !de_in) raw_y<=raw_y+1'b1;
+  if(vs_in && !vs_last) begin
+   raw_x<=0;raw_y<=0;page_frame<=visible_page;
+   enabled_frame<=frame_valid && visible_page>=1 && visible_page<=12;
+   if(timeline_match) epoch_seen<=narration[23];
+   if(new_page || !frame_valid) begin
+    scroll<=0;focus_mix<=0;entry_age<=0;teacher_shown<=0;frame_count<=0;
+   end else begin
+    frame_count<=frame_count+1'b1;
+    if(scroll+{8'd0,scroll_step}>=(text_length*12'd32+12'd1280)) scroll<=0;
+    else scroll<=scroll+{8'd0,scroll_step};
+    if(highlight_now) begin
+     if(focus_mix<16) focus_mix<=focus_mix+1'b1;
+    end else begin
+     if(focus_mix!=0) focus_mix<=focus_mix-1'b1;
+    end
+    if(enabled_frame && timeline_match && narration[16] && focus_lines!=0 && narration[15:0]>=demo_start)
+     teacher_shown<=1;
+    if(teacher_shown && entry_age<32) entry_age<=entry_age+1'b1;
+   end
+  end
+ end
+end
+// Cover the current image, acknowledge the matching ticket, then uncover the
+// committed image. No third frame buffer or simultaneous dual-frame reads.
+// Controls change at VS only; cancel restores the still-current picture.
+localparam [1:0] FX_IDLE=0,FX_COVER=1,FX_WAIT=2,FX_REVEAL=3;
+reg [1:0] transition_state,transition_kind;
+reg [4:0] transition_level;
+reg transition_seen,transition_token,transition_auto;
+reg [2:0] cancel_frames;
+wire [4:0] transition_step=transition_auto ? 5'd1 : 5'd2;
+function [1:0] page_effect;
+ input [5:0] page;
+ begin page_effect=page[1:0]-2'd1;end
+endfunction
+always @(posedge clk or posedge rst) begin
+ if(rst) begin
+  transition_state<=FX_IDLE;transition_kind<=0;transition_level<=0;
+  transition_seen<=0;transition_token<=0;transition_auto<=0;cancel_frames<=0;transition_reply<=0;
+ end else if(vs_in && !vs_last) begin
+  if(ENABLE_TRANSITIONS==0 || !frame_valid) begin
+   transition_state<=FX_IDLE;transition_level<=0;transition_seen<=0;transition_reply<=0;cancel_frames<=0;
+  end else begin
+   if(!transition_command[8]) transition_seen<=0;
+   if(transition_command[8] && (!transition_seen || transition_command[7]!=transition_token)) begin
+    transition_seen<=1;transition_token<=transition_command[7];transition_auto<=transition_command[6];
+    transition_kind<=page_effect(transition_command[5:0]);
+    transition_state<=FX_COVER;transition_reply<=0;cancel_frames<=0;
+   end else if(page_changed) begin
+    transition_state<=FX_REVEAL;transition_level<=16;transition_reply<=0;cancel_frames<=0;
+    transition_kind<=page_effect(visible_page);
+   end else case(transition_state)
+    FX_COVER: begin
+     if(!transition_command[8]) begin transition_state<=FX_REVEAL;transition_reply<=0;end
+     else if(transition_level>=16-transition_step) begin
+      transition_level<=16;transition_state<=FX_WAIT;transition_reply<={1'b1,transition_token};
+     end else transition_level<=transition_level+transition_step;
+    end
+    FX_WAIT: begin
+     // Allow independent coherent status/command CDCs several frame edges to
+     // converge after commit. A true cancelled command restores the old page.
+     if(!transition_command[8]) begin
+      if(cancel_frames==3) begin transition_state<=FX_REVEAL;transition_reply<=0;end
+      else cancel_frames<=cancel_frames+1'b1;
+     end else cancel_frames<=0;
+    end
+    FX_REVEAL: begin
+     transition_reply<=0;
+     if(transition_level<=transition_step) begin transition_level<=0;transition_state<=FX_IDLE;end
+     else transition_level<=transition_level-transition_step;
+    end
+    default: begin transition_level<=0;transition_reply<=0;end
+   endcase
+  end
+ end
+end
+// First and subsequent passes enter at x1280, completely outside the right
+// edge, then move left. Reset on every committed page/narration session.
+// A full-screen gap separates repeats. Position updates only in blanking.
+reg signed [13:0] ticker_sum_pre,ticker_position_pre;
+// No resets on data registers: valid markers mask startup values. This avoids
+// adding reset fanout while separating coordinate and character-ROM clocks.
+always @(posedge clk) begin
+ x_pre0<=raw_x;y_pre0<=raw_y;x_pre1<=x_pre0;y_pre1<=y_pre0;
+ rgb_pre0<=rgb_in;rgb_pre1<=rgb_pre0;
+ ticker_sum_pre<=$signed({3'd0,raw_x})+$signed({2'd0,scroll})-14'sd1280;
+ // Phase0..text_width+1279 guarantees no second copy within this scanline.
+ // Keep the second coordinate register for the existing eight-clock pipeline.
+ ticker_position_pre<=ticker_sum_pre;
+end
+always @(posedge clk or posedge rst) begin
+ if(rst) begin de_pre<=0;hs_pre<=0;vs_pre<=0;end
+ else begin
+  de_pre<={de_pre[0],de_in};hs_pre<={hs_pre[0],hs_in};vs_pre<={vs_pre[0],vs_in};
+ end
+end
+wire signed [13:0] ticker_position=ticker_position_pre;
+wire sub_area=enabled_frame && pixel_de && y>=672;
+wire sub_text=sub_area && y>=680 && y<712 && ticker_position>=0 &&
+ ticker_position<$signed({2'd0,text_length,5'd0});
+// Decode the character independently of clipping. submask_pipe already masks
+// every out-of-strip/out-of-text pixel at composition, so an invalid pixel's
+// speculative glyph is never displayed. This removes the range-comparator ->
+// index mux -> large character lookup chain without adding a pixel clock.
+wire [6:0] character_index=ticker_position[11:5];
+wire [10:0] caption_y=y-11'd680;
+wire [8:0] character_id,focus_id;
+wire [31:0] font_row,focus_row;
+wire [5:0] sprite_pixel;
+// Native32px focus glyphs stay at exact2x throughout the fade. Shift-only
+// addressing preserves even strokes and removes two variable-scale products.
+reg [10:0] teacher_left;
+reg [10:0] focus_top,focus_bottom,card_top,card_bottom;
+wire [10:0] focus_dx=x-11'd256,focus_dy=y-focus_top;
+wire [8:0] focus_u=focus_dx[9:1];
+wire [6:0] focus_v=focus_dy[7:1];
+wire focus_text=enabled_frame && focus_mix!=0 && x>=256 && x<1024 && y>=focus_top && y<focus_bottom;
+wire [5:0] focus_index=({4'd0,focus_v[6:5]}<<3)+({4'd0,focus_v[6:5]}<<2)+{2'd0,focus_u[8:5]};
+//96x144 source ->144x216 output:12.5% larger than the previous128x192.
+// Exact bounded3/2 nearest-neighbor mapping, with no larger sprite ROM.
+wire [10:0] teacher_dx=x-teacher_left,teacher_dy=y-teacher_y;
+wire [7:0] teacher_dy8=teacher_dy[7:0],teacher_dx8=teacher_dx[7:0];
+// floor(171*dy/256)==floor(2*dy/3) for0<=dy<216.
+wire [15:0] teacher_v_scaled=({8'd0,teacher_dy8}<<7)+({8'd0,teacher_dy8}<<5)+
+ ({8'd0,teacher_dy8}<<3)+({8'd0,teacher_dy8}<<1)+{8'd0,teacher_dy8};
+wire [7:0] teacher_v=teacher_v_scaled[15:8];
+wire teacher_area=enabled_frame && teacher_shown && pixel_de &&
+ x>=teacher_left && x<teacher_left+144 && y>=teacher_y && y<teacher_y+216;
+reg [1:0] pose;
+// Geometry changes once per frame and settles while DE is low. Register it
+// before per-pixel ROM addressing. The render-pipeline latency is unchanged.
+always @(posedge clk or posedge rst) begin
+ if(rst) begin teacher_left<=1304;pose<=0;focus_top<=296;focus_bottom<=424;card_top<=264;card_bottom<=456;end
+ else if(!pixel_de) begin
+  focus_top<=11'd360-({9'd0,focus_lines}<<5);
+  focus_bottom<=11'd360+({9'd0,focus_lines}<<5);
+  card_top<=11'd328-({9'd0,focus_lines}<<5);
+  card_bottom<=11'd392+({9'd0,focus_lines}<<5);
+  teacher_left<=teacher_x+((11'd32-{5'd0,entry_age})<<2)+(11'd32-{5'd0,entry_age});
+  pose<=entry_age<20 ? 2'd1 : focus_mix!=0 ? (frame_count[3] ? 2'd3 : 2'd2) : 2'd0;
+ end
+end
+wire [14:0] sprite_base=pose==0 ? 15'd0 : pose==1 ? 15'd4608 : pose==2 ? 15'd9216 : 15'd13824;
+// floor(57*dx/256)==floor(2*dx/9) for0<=dx<144: packed3-pixel word.
+// The residual0..8 selects floor(residual/3), avoiding general division.
+wire [15:0] teacher_word_scaled=({8'd0,teacher_dx8}<<6)-({8'd0,teacher_dx8}<<3)+{8'd0,teacher_dx8};
+wire [4:0] sprite_word_x=teacher_word_scaled[12:8];
+wire [8:0] teacher_residual={teacher_dx8,1'b0}-(({4'd0,sprite_word_x}<<3)+{4'd0,sprite_word_x});
+wire [1:0] sprite_lane=teacher_residual<3 ? 2'd0 : teacher_residual<6 ? 2'd1 : 2'd2;
+wire [14:0] sprite_address=teacher_area ? sprite_base+{2'd0,teacher_v,5'd0}+{10'd0,sprite_word_x} : 15'd0;
+reg [4:0] sub_row0,sub_col0,sub_col1,sub_col2,focus_row0,focus_col0,focus_col1,focus_col2;
+reg [2:0] focusmask_pipe;
+album_teaching_assets assets(
+ .clk(clk),.page(page_frame[3:0]),.character_index(character_index),.focus_index(focus_index),
+ .subtitle_font_address({character_id[7:0],sub_row0}),
+ .focus_font_address({focus_id[7:0],focus_row0}),.sprite_address(sprite_address),.sprite_lane(sprite_lane),
+ .focus_font_select(focusmask_pipe[0]),
+ .character_id(character_id),.focus_id(focus_id),.subtitle_font_row(font_row),.focus_font_row(focus_row),
+ .sprite_pixel(sprite_pixel),.text_length(text_length),.demo_start_cs(demo_start),.demo_end_cs(demo_end),
+ .teacher_x(teacher_x),.teacher_y(teacher_y),.focus_lines(focus_lines),.scroll_step(scroll_step));
+// Real separable 3x3 spatial blur, weights [1,2,1] in both directions.
+// Two previous scanlines; clamp unavailable top/left neighbors to edge pixels.
+reg [23:0] line1[0:1279]; /* fehdl force_ram=1, ram_style="bram" */
+reg [23:0] line2[0:1279]; /* fehdl force_ram=1, ram_style="bram" */
+reg [23:0] q1,q2,rgb0,rgb1,rgb2,vertical1,blur2,left1,left2,bg3,bg4;
+reg [10:0] x0,y0,x1;
+reg [4:0] de_pipe,hs_pipe,vs_pipe,sub_pipe,submask_pipe,teacher_pipe;
+reg [5:0] sprite2,sprite3,sprite4;
+reg sub_ink3,sub_ink4,focus_ink3;
+reg [3:0] effect0,effect1,effect2,effect3;
+wire preserve_ui=(x>=STATUS_X && x<STATUS_X+224 && y>=STATUS_Y && y<STATUS_Y+64) ||
+ (sidebar_visible && x<144 && y>=192 && y<528);
+wire card=enabled_frame && focus_mix!=0 && x>=224 && x<1056 && y>=card_top && y<card_bottom;
+// Warm paper with a fine ochre keyline and short traditional corner rules.
+wire card_border=card && (
+ (((x==236 || x==1043) && y>=card_top+12 && y<card_bottom-12) ||
+  ((y==card_top+12 || y==card_bottom-13) && x>=236 && x<1044)) ||
+ ((x<226 || x>=1054) && (y<card_top+24 || y>=card_bottom-24)) ||
+ ((y<card_top+2 || y>=card_bottom-2) && (x<248 || x>=1032)));
+wire shadow=enabled_frame && focus_mix!=0 && !card && x>=232 && x<1064 && y>=card_top+8 && y<card_bottom+8;
+reg [10:0] wipe_edge;
+reg [5:0] blind_edge;
+always @(posedge clk or posedge rst) begin
+ if(rst) begin wipe_edge<=0;blind_edge<=0;end
+ else if(!pixel_de) begin
+  //720p raster thresholds settle during blanking, off the RGB critical path.
+  if(transition_state==FX_REVEAL) begin
+   wipe_edge<=({6'd0,(5'd16-transition_level)}<<6)+({6'd0,(5'd16-transition_level)}<<4);
+   blind_edge<={1'b0,(5'd16-transition_level)}<<1;
+  end else begin
+   wipe_edge<=({6'd0,transition_level}<<6)+({6'd0,transition_level}<<4);
+   blind_edge<={1'b0,transition_level}<<1;
+  end
+ end
+end
+wire [3:0] dissolve_order=x[3:0]^y[3:0]^{x[6:5],y[6:5]};
+reg [4:0] transition_alpha;
+reg [4:0] trans0,trans1,trans2,trans3,trans4,trans5;
+always @* begin
+ transition_alpha=0;
+ if(ENABLE_TRANSITIONS!=0 && frame_valid && !preserve_ui) begin
+  case(transition_kind)
+   0:transition_alpha=transition_level;
+   1:transition_alpha=(transition_state==FX_REVEAL ? x>=wipe_edge : x<wipe_edge) ? 5'd16 : 5'd0;
+   2:transition_alpha=(transition_state==FX_REVEAL ? {1'b0,y[4:0]}>=blind_edge :
+                       {1'b0,y[4:0]}<blind_edge) ? 5'd16 : 5'd0;
+   3:transition_alpha={1'b0,dissolve_order}<transition_level ? 5'd16 : 5'd0;
+   default:transition_alpha=0;
+  endcase
+ end
+end
+function [7:0] filter_channel;
+ input [7:0] a,b,c;
+ reg [9:0] sum;
+ begin sum={2'd0,a}+{1'd0,b,1'b0}+{2'd0,c};filter_channel=sum[9:2];end
+endfunction
+function [23:0] filter3;
+ input [23:0] a,b,c;
+ begin filter3={filter_channel(a[23:16],b[23:16],c[23:16]),
+ filter_channel(a[15:8],b[15:8],c[15:8]),filter_channel(a[7:0],b[7:0],c[7:0])};end
+endfunction
+function [7:0] mix_channel;
+ input [7:0] foreground,background;
+ input [4:0] alpha;
+ reg signed [9:0] difference;
+ reg signed [15:0] sum;
+ begin
+  difference=$signed({2'd0,foreground})-$signed({2'd0,background});
+  sum=$signed({4'd0,background,4'd0})+difference*$signed({1'b0,alpha});
+  mix_channel=sum[11:4];
+ end
+endfunction
+function [23:0] mix_rgb;
+ input [23:0] foreground,background;
+ input [4:0] alpha;
+ begin mix_rgb={mix_channel(foreground[23:16],background[23:16],alpha),
+ mix_channel(foreground[15:8],background[15:8],alpha),mix_channel(foreground[7:0],background[7:0],alpha)};end
+endfunction
+wire [23:0] teacher_rgb;
+album_teacher_palette palette(.index(sprite4[4:0]),.rgb(teacher_rgb));
+wire [4:0] teacher_alpha=entry_age>=16 ? 5'd16 : entry_age[4:0];
+reg hs_composite,vs_composite,de_composite;
+reg [23:0] rgb_composite;
+always @(posedge clk) begin
+ if(pixel_de) begin q1<=line1[x];q2<=line2[x];line1[x]<=pixel_rgb;end
+ if(de_pipe[0]) line2[x0]<=q1;
+end
+always @(posedge clk or posedge rst) begin
+ if(rst) begin
+  de_pipe<=0;hs_pipe<=0;vs_pipe<=0;sub_pipe<=0;submask_pipe<=0;teacher_pipe<=0;focusmask_pipe<=0;
+  rgb0<=0;rgb1<=0;rgb2<=0;vertical1<=0;blur2<=0;left1<=0;left2<=0;bg3<=0;bg4<=0;
+  x0<=0;y0<=0;x1<=0;sub_row0<=0;sub_col0<=0;sub_col1<=0;sub_col2<=0;
+  focus_row0<=0;focus_col0<=0;focus_col1<=0;focus_col2<=0;
+  sprite2<=0;sprite3<=0;sprite4<=0;sub_ink3<=0;sub_ink4<=0;
+  focus_ink3<=0;effect0<=0;effect1<=0;effect2<=0;effect3<=0;
+  de_composite<=0;hs_composite<=0;vs_composite<=0;rgb_composite<=0;
+  trans0<=0;trans1<=0;trans2<=0;trans3<=0;trans4<=0;trans5<=0;
+ end else begin
+  de_pipe<={de_pipe[3:0],pixel_de};hs_pipe<={hs_pipe[3:0],pixel_hs};vs_pipe<={vs_pipe[3:0],pixel_vs};
+  sub_pipe<={sub_pipe[3:0],sub_area};submask_pipe<={submask_pipe[3:0],sub_text};
+  teacher_pipe<={teacher_pipe[3:0],teacher_area};focusmask_pipe<={focusmask_pipe[1:0],focus_text};
+  x0<=x;y0<=y;x1<=x0;rgb0<=pixel_rgb;rgb1<=rgb0;rgb2<=rgb1;
+  sub_row0<=caption_y[4:0];sub_col0<=ticker_position[4:0];sub_col1<=sub_col0;sub_col2<=sub_col1;
+  focus_row0<=focus_v[4:0];focus_col0<=focus_u[4:0];focus_col1<=focus_col0;focus_col2<=focus_col1;
+  vertical1<=filter3(rgb0,y0==0 ? rgb0 : q1,y0<2 ? (y0==0 ? rgb0 : q1) : q2);
+  if(de_pipe[1]) begin
+   blur2<=filter3(vertical1,x1==0 ? vertical1 : left1,x1==0 ? vertical1 : x1==1 ? left1 : left2);
+   left1<=vertical1;left2<=left1;
+  end
+  effect0<={preserve_ui,shadow,card_border,card};effect1<=effect0;effect2<=effect1;effect3<=effect2;
+  trans0<=transition_alpha;trans1<=trans0;trans2<=trans1;trans3<=trans2;trans4<=trans3;trans5<=trans4;
+  // Span ROM adds a memory access. Reuse the previous ink/sprite delay slots
+  // so the external six-stage RGB/HS/VS/DE latency remains unchanged.
+  sprite2<=sprite_pixel;sprite3<=sprite2;sprite4<=sprite3;
+  sub_ink3<=submask_pipe[2] && font_row[31-sub_col2];sub_ink4<=sub_ink3;
+  focus_ink3<=focusmask_pipe[2] && focus_row[31-focus_col2];
+  bg3<=effect2[3] ? rgb2 : mix_rgb({1'b0,blur2[23:17],1'b0,blur2[15:9],1'b0,blur2[7:1]},rgb2,focus_mix);
+  if(focus_ink3) bg4<=mix_rgb(24'h382c22,bg3,focus_mix);
+  else if(effect3[1]) bg4<=mix_rgb(24'ha18858,bg3,focus_mix);
+  else if(effect3[0]) bg4<=mix_rgb(24'hf1e5cb,bg3,focus_mix);
+  else if(effect3[2]) bg4<=mix_rgb(24'd0,bg3,{1'b0,focus_mix[4:1]});
+  else bg4<=bg3;
+  hs_composite<=hs_pipe[4];vs_composite<=vs_pipe[4];de_composite<=de_pipe[4];
+  if(!de_pipe[4]) rgb_composite<=0;
+  else if(sub_ink4) rgb_composite<=24'hffffff;
+  else if(sub_pipe[4]) rgb_composite<={2'd0,bg4[23:18],2'd0,bg4[15:10],2'd0,bg4[7:2]};
+  else if(teacher_pipe[4] && sprite4[5]) rgb_composite<=mix_rgb(teacher_rgb,bg4,teacher_alpha);
+  else rgb_composite<=bg4;
+ end
+end
+// Separate registered transition blend avoids chaining teacher alpha and
+// page alpha in one pixel period. HDMI timing markers gain the same clock.
+always @(posedge clk or posedge rst) begin
+ if(rst) begin hs_out<=0;vs_out<=0;de_out<=0;rgb_out<=0;end
+ else begin
+  hs_out<=hs_composite;vs_out<=vs_composite;de_out<=de_composite;
+  rgb_out<=de_composite ? mix_rgb(24'hf1e5cb,rgb_composite,trans5) : 24'd0;
+ end
+end
+endmodule
