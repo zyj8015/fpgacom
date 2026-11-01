@@ -1,0 +1,1407 @@
+============================================================
+   Tang Dynasty, V5.6.71036
+      Copyright (c) 2012-2023 Anlogic Inc.
+   Executable = D:/Anlogic/TD5.6.2/bin/td.exe
+   Built at =   20:34:38 Mar 21 2023
+   Run by =     zyj
+   Run Date =   Sat Oct 31 20:19:35 2026
+
+   Run on =     LAPTOP-VFVTNN2M
+============================================================
+RUN-1002 : start command "open_project func1.prj"
+RUN-1001 : Print Global Property
+RUN-1001 : ---------------------------------------------------------------
+RUN-1001 :        Parameters        |  Settings  |  Default Values  |  Note  
+RUN-1001 : ---------------------------------------------------------------
+RUN-1001 :          message         |  standard  |     standard     |        
+RUN-1001 :   mixed_pack_place_flow  |     on     |        on        |        
+RUN-1001 :        qor_monitor       |    off     |       off        |        
+RUN-1001 :        syn_ip_flow       |    off     |       off        |        
+RUN-1001 :          thread          |    auto    |       auto       |        
+RUN-1001 : ---------------------------------------------------------------
+RUN-1001 : Print Design Property
+RUN-1001 : --------------------------------------------------------------
+RUN-1001 :        Parameters       |  Settings  |  Default Values  |  Note  
+RUN-1001 : --------------------------------------------------------------
+RUN-1001 :   default_reg_initial   |    auto    |       auto       |        
+RUN-1001 :        infer_add        |     on     |        on        |        
+RUN-1001 :        infer_fsm        |    off     |       off        |        
+RUN-1001 :        infer_mult       |     on     |        on        |        
+RUN-1001 :        infer_ram        |     on     |        on        |        
+RUN-1001 :        infer_reg        |     on     |        on        |        
+RUN-1001 :   infer_reg_init_value  |     on     |        on        |        
+RUN-1001 :        infer_rom        |     on     |        on        |        
+RUN-1001 :      infer_shifter      |     on     |        on        |        
+RUN-1001 : --------------------------------------------------------------
+RUN-1001 : Print Rtl Property
+RUN-1001 : --------------------------------------------------------------
+RUN-1001 :        Parameters       |  Settings  |  Default Values  |  Note  
+RUN-1001 : --------------------------------------------------------------
+RUN-1001 :       compress_add      |   ripple   |      ripple      |        
+RUN-1001 :        elf_sload        |    off     |       off        |        
+RUN-1001 :       fix_undriven      |     0      |        0         |        
+RUN-1001 :         flatten         |    off     |       off        |        
+RUN-1001 :       gate_sharing      |     on     |        on        |        
+RUN-1001 :    hdl_warning_level    |   normal   |      normal      |        
+RUN-1001 :   impl_internal_tribuf  |     on     |        on        |        
+RUN-1001 :      impl_set_reset     |     on     |        on        |        
+RUN-1001 :        infer_gsr        |    off     |       off        |        
+RUN-1001 :      keep_hierarchy     |    auto    |       auto       |        
+RUN-1001 :        max_fanout       |    9999    |       9999       |        
+RUN-1001 :      max_oh2bin_len     |     10     |        10        |        
+RUN-1001 :       merge_equal       |     on     |        on        |        
+RUN-1001 :       merge_equiv       |     on     |        on        |        
+RUN-1001 :        merge_mux        |    off     |       off        |        
+RUN-1001 :     min_control_set     |     8      |        8         |        
+RUN-1001 :      min_ripple_len     |    auto    |       auto       |        
+RUN-1001 :       oh2bin_ratio      |    0.08    |       0.08       |        
+RUN-1001 :     opt_adder_fanout    |     on     |        on        |        
+RUN-1001 :        opt_arith        |     on     |        on        |        
+RUN-1001 :       opt_big_gate      |    off     |       off        |        
+RUN-1001 :        opt_const        |     on     |        on        |        
+RUN-1001 :      opt_const_mult     |     on     |        on        |        
+RUN-1001 :       opt_lessthan      |     on     |        on        |        
+RUN-1001 :         opt_mux         |    off     |       off        |        
+RUN-1001 :         opt_ram         |    high    |       high       |        
+RUN-1001 :      rtl_sim_model      |    off     |       off        |        
+RUN-1001 :         seq_syn         |     on     |        on        |        
+RUN-1001 : --------------------------------------------------------------
+HDL-1007 : analyze verilog file ../../../user_source/hdl_source/ip/afifo_16_32_256.v
+HDL-1007 : analyze verilog file ../../../user_source/hdl_source/ip/afifo_32_16_256.v
+HDL-1007 : analyze verilog file ../../../user_source/hdl_source/ip/sys_pll.v
+HDL-1007 : undeclared symbol 'open', assumed default net type 'wire' in ../../../user_source/hdl_source/ip/sys_pll.v(85)
+HDL-1007 : analyze verilog file ../../../user_source/hdl_source/ip/video_pll.v
+HDL-1007 : analyze verilog file ../../../user_source/hdl_source/hdmi_phy_warpper.v
+HDL-1007 : analyze verilog file ../../../user_source/hdl_source/lane_lvds_10_1.v
+HDL-1007 : analyze verilog file ../../../user_source/hdl_source/hdmi1.4b_transmitter_core/hdmi_1_4b_transmitter_core_wrapper.enc.v
+Copyright (c) 1998-2019 The OpenSSL Project.  All rights reserved.
+This product includes software developed by the OpenSSL Project
+for use in the OpenSSL Toolkit (http://www.openssl.org/)
+Copyright (C) 1995-1998 Eric Young (eay@cryptsoft.com)
+All rights reserved.
+This product includes cryptographic software written by Eric Young (eay@cryptsoft.com)
+HDL-1007 : undeclared symbol '**', assumed default net type '**' in encrypted_text(0)
+HDL-1007 : undeclared symbol '**', assumed default net type '**' in encrypted_text(0)
+HDL-1007 : undeclared symbol '**', assumed default net type '**' in encrypted_text(0)
+HDL-1007 : undeclared symbol '**', assumed default net type '**' in encrypted_text(0)
+HDL-1007 : undeclared symbol '**', assumed default net type '**' in encrypted_text(0)
+HDL-1007 : back to file '../../../user_source/hdl_source/hdmi1.4b_transmitter_core/hdmi_1_4b_transmitter_core_wrapper.enc.v' in ../../../user_source/hdl_source/hdmi1.4b_transmitter_core/hdmi_1_4b_transmitter_core_wrapper.enc.v(5038)
+HDL-1007 : analyze verilog file ../../../user_source/hdl_source/top_tf_hdmi_audio.v
+HDL-1007 : analyze verilog file ../../../user_source/hdl_source/SD/bmp_read.v
+HDL-1007 : analyze verilog file ../../../user_source/hdl_source/SD/color_bar.v
+HDL-1007 : analyze included file ../../../user_source/hdl_source/SD/video_define.v in ../../../user_source/hdl_source/SD/color_bar.v(2)
+HDL-1007 : back to file '../../../user_source/hdl_source/SD/color_bar.v' in ../../../user_source/hdl_source/SD/color_bar.v(2)
+HDL-1007 : analyze verilog file ../../../user_source/hdl_source/SD/frame_fifo_read.v
+HDL-1007 : analyze verilog file ../../../user_source/hdl_source/SD/frame_fifo_write.v
+HDL-1007 : analyze verilog file ../../../user_source/hdl_source/SD/frame_read_write.v
+HDL-1007 : analyze verilog file ../../../user_source/hdl_source/SD/sd_card_bmp.v
+HDL-1007 : analyze verilog file ../../../user_source/hdl_source/SD/video_delay.v
+HDL-1007 : analyze verilog file ../../../user_source/hdl_source/SD/video_timing_data.v
+HDL-1007 : analyze verilog file ../../../user_source/hdl_source/startup_pulse.v
+HDL-1007 : analyze verilog file ../../../user_source/hdl_source/video_rgb_to_axis_640x480.v
+HDL-1007 : analyze verilog file ../../../user_source/hdl_source/SD/sd_card_cmd.v
+HDL-1007 : analyze verilog file ../../../user_source/hdl_source/SD/sd_card_sec_read_write.v
+HDL-1007 : analyze verilog file ../../../user_source/hdl_source/SD/sd_card_top.v
+HDL-1007 : analyze verilog file ../../../user_source/hdl_source/SD/spi_master.v
+HDL-1007 : analyze verilog file ../../../user_source/hdl_source/SD/sdram.v
+HDL-1007 : analyze included file D:\gitdome\fpgacom\FPGA_project\src\td_project\/../user_source/hdl_source/include/global_def.v in ../../../user_source/hdl_source/SD/sdram.v(10)
+HDL-1007 : back to file '../../../user_source/hdl_source/SD/sdram.v' in ../../../user_source/hdl_source/SD/sdram.v(10)
+HDL-1007 : undeclared symbol 'SDR_CKE', assumed default net type 'wire' in ../../../user_source/hdl_source/SD/sdram.v(89)
+HDL-1007 : analyze verilog file ../../../user_source/hdl_source/include/sdr_as_ram.enc.v
+HDL-1007 : analyze included file ../../../user_source/hdl_source/include/global_def.v in ../../../user_source/hdl_source/include/sdr_as_ram.enc.v(10)
+HDL-1007 : back to file '../../../user_source/hdl_source/include/sdr_as_ram.enc.v' in ../../../user_source/hdl_source/include/sdr_as_ram.enc.v(10)
+HDL-1007 : back to file '../../../user_source/hdl_source/include/sdr_as_ram.enc.v' in ../../../user_source/hdl_source/include/sdr_as_ram.enc.v(148)
+HDL-1007 : analyze verilog file ../../../user_source/hdl_source/include/sdr_init_ref.enc.v
+HDL-1007 : analyze included file D:\gitdome\fpgacom\FPGA_project\src\td_project\/../user_source/hdl_source/include/global_def.v in ../../../user_source/hdl_source/include/sdr_init_ref.enc.v(11)
+HDL-1007 : back to file '../../../user_source/hdl_source/include/sdr_init_ref.enc.v' in ../../../user_source/hdl_source/include/sdr_init_ref.enc.v(11)
+HDL-1007 : undeclared symbol '**', assumed default net type '**' in encrypted_text(0)
+HDL-1007 : back to file '../../../user_source/hdl_source/include/sdr_init_ref.enc.v' in ../../../user_source/hdl_source/include/sdr_init_ref.enc.v(243)
+HDL-5007 WARNING: concatenation with an unsized literal will be treated as 32 bits in encrypted_text(0)
+HDL-1007 : analyze verilog file ../../../user_source/hdl_source/include/sdr_wrrd.enc.v
+HDL-5007 WARNING: concatenation with an unsized literal will be treated as 32 bits in encrypted_text(0)
+HDL-1007 : back to file '../../../user_source/hdl_source/include/sdr_wrrd.enc.v' in ../../../user_source/hdl_source/include/sdr_wrrd.enc.v(255)
+HDL-1007 : analyze verilog file ../../../user_source/hdl_source/SD/seg_decoder.v
+HDL-1007 : analyze verilog file ../../../user_source/hdl_source/SD/seg_scan.v
+RUN-1001 : Project manager successfully analyzed 30 source files.
+RUN-1003 : finish command "open_project func1.prj" in  1.272468s wall, 0.484375s user + 0.781250s system = 1.265625s CPU (99.5%)
+
+RUN-1004 : used memory is 64 MB, reserved memory is 33 MB, peak memory is 64 MB
+RUN-1002 : start command "import_device eagle_s20.db -package EG4S20BG256"
+ARC-1001 : Device Initialization.
+ARC-1001 : ------------------------------------------------------------------
+ARC-1001 :            OPTION            |          IO          |   SETTING   
+ARC-1001 : ------------------------------------------------------------------
+ARC-1001 :   cso_b/cclk/mosi/miso/dout  |  T3/R11/T10/P10/S11  |    gpio    
+ARC-1001 :             done             |         P13          |    gpio    
+ARC-1001 :           program_b          |          T2          |  dedicate  
+ARC-1001 :        tdi/tms/tck/tdo       |   C12/A15/C14/E14    |  dedicate  
+ARC-1001 : ------------------------------------------------------------------
+ARC-1004 : Device setting, marked 5 dedicate IOs in total.
+RUN-1002 : start command "elaborate -top top"
+RUN-1001 : Print Design Property
+RUN-1001 : --------------------------------------------------------------
+RUN-1001 :        Parameters       |  Settings  |  Default Values  |  Note  
+RUN-1001 : --------------------------------------------------------------
+RUN-1001 :   default_reg_initial   |    auto    |       auto       |        
+RUN-1001 :        infer_add        |     on     |        on        |        
+RUN-1001 :        infer_fsm        |    off     |       off        |        
+RUN-1001 :        infer_mult       |     on     |        on        |        
+RUN-1001 :        infer_ram        |     on     |        on        |        
+RUN-1001 :        infer_reg        |     on     |        on        |        
+RUN-1001 :   infer_reg_init_value  |     on     |        on        |        
+RUN-1001 :        infer_rom        |     on     |        on        |        
+RUN-1001 :      infer_shifter      |     on     |        on        |        
+RUN-1001 : --------------------------------------------------------------
+RUN-1001 : Print Rtl Property
+RUN-1001 : --------------------------------------------------------------
+RUN-1001 :        Parameters       |  Settings  |  Default Values  |  Note  
+RUN-1001 : --------------------------------------------------------------
+RUN-1001 :       compress_add      |   ripple   |      ripple      |        
+RUN-1001 :        elf_sload        |    off     |       off        |        
+RUN-1001 :       fix_undriven      |     0      |        0         |        
+RUN-1001 :         flatten         |    off     |       off        |        
+RUN-1001 :       gate_sharing      |     on     |        on        |        
+RUN-1001 :    hdl_warning_level    |   normal   |      normal      |        
+RUN-1001 :   impl_internal_tribuf  |     on     |        on        |        
+RUN-1001 :      impl_set_reset     |     on     |        on        |        
+RUN-1001 :        infer_gsr        |    off     |       off        |        
+RUN-1001 :      keep_hierarchy     |    auto    |       auto       |        
+RUN-1001 :        max_fanout       |    9999    |       9999       |        
+RUN-1001 :      max_oh2bin_len     |     10     |        10        |        
+RUN-1001 :       merge_equal       |     on     |        on        |        
+RUN-1001 :       merge_equiv       |     on     |        on        |        
+RUN-1001 :        merge_mux        |    off     |       off        |        
+RUN-1001 :     min_control_set     |     8      |        8         |        
+RUN-1001 :      min_ripple_len     |    auto    |       auto       |        
+RUN-1001 :       oh2bin_ratio      |    0.08    |       0.08       |        
+RUN-1001 :     opt_adder_fanout    |     on     |        on        |        
+RUN-1001 :        opt_arith        |     on     |        on        |        
+RUN-1001 :       opt_big_gate      |    off     |       off        |        
+RUN-1001 :        opt_const        |     on     |        on        |        
+RUN-1001 :      opt_const_mult     |     on     |        on        |        
+RUN-1001 :       opt_lessthan      |     on     |        on        |        
+RUN-1001 :         opt_mux         |    off     |       off        |        
+RUN-1001 :         opt_ram         |    high    |       high       |        
+RUN-1001 :      rtl_sim_model      |    off     |       off        |        
+RUN-1001 :         seq_syn         |     on     |        on        |        
+RUN-1001 : --------------------------------------------------------------
+RUN-1001 : Print Global Property
+RUN-1001 : ---------------------------------------------------------------
+RUN-1001 :        Parameters        |  Settings  |  Default Values  |  Note  
+RUN-1001 : ---------------------------------------------------------------
+RUN-1001 :          message         |  standard  |     standard     |        
+RUN-1001 :   mixed_pack_place_flow  |     on     |        on        |        
+RUN-1001 :        qor_monitor       |    off     |       off        |        
+RUN-1001 :        syn_ip_flow       |    off     |       off        |        
+RUN-1001 :          thread          |    auto    |       auto       |        
+RUN-1001 : ---------------------------------------------------------------
+RUN-1001 : Print Design Property
+RUN-1001 : --------------------------------------------------------------
+RUN-1001 :        Parameters       |  Settings  |  Default Values  |  Note  
+RUN-1001 : --------------------------------------------------------------
+RUN-1001 :   default_reg_initial   |    auto    |       auto       |        
+RUN-1001 :        infer_add        |     on     |        on        |        
+RUN-1001 :        infer_fsm        |    off     |       off        |        
+RUN-1001 :        infer_mult       |     on     |        on        |        
+RUN-1001 :        infer_ram        |     on     |        on        |        
+RUN-1001 :        infer_reg        |     on     |        on        |        
+RUN-1001 :   infer_reg_init_value  |     on     |        on        |        
+RUN-1001 :        infer_rom        |     on     |        on        |        
+RUN-1001 :      infer_shifter      |     on     |        on        |        
+RUN-1001 : --------------------------------------------------------------
+HDL-1007 : elaborate module top in ../../../user_source/hdl_source/top_tf_hdmi_audio.v(2)
+HDL-1007 : elaborate module sys_pll in ../../../user_source/hdl_source/ip/sys_pll.v(24)
+HDL-1007 : elaborate module EG_LOGIC_BUFG in D:/Anlogic/TD5.6.2/arch/eagle_macro.v(8)
+HDL-1007 : elaborate module EG_PHY_PLL(FIN="50.000000",FBCLK_DIV=2,CLKC0_DIV=10,CLKC1_DIV=8,CLKC2_DIV=8,CLKC0_ENABLE="ENABLE",CLKC1_ENABLE="ENABLE",CLKC2_ENABLE="ENABLE",FEEDBK_PATH="CLKC0_EXT",STDBY_ENABLE="DISABLE",CLKC0_CPHASE=9,CLKC1_CPHASE=7,CLKC2_CPHASE=3,GMC_GAIN=4,ICP_CURRENT=29,KVCO=4,LPF_CAPACITOR=1,LPF_RESISTOR=2,SYNC_ENABLE="DISABLE") in D:/Anlogic/TD5.6.2/arch/eagle_macro.v(930)
+HDL-1007 : elaborate module video_pll in ../../../user_source/hdl_source/ip/video_pll.v(23)
+HDL-1007 : elaborate module EG_PHY_PLL(FIN="50.000000",REFCLK_DIV=20,FBCLK_DIV=99,CLKC0_DIV=10,CLKC1_DIV=2,CLKC2_DIV=3,CLKC0_ENABLE="ENABLE",CLKC1_ENABLE="ENABLE",CLKC2_ENABLE="ENABLE",FEEDBK_PATH="CLKC2_INT",STDBY_ENABLE="DISABLE",CLKC0_CPHASE=9,CLKC2_CPHASE=2,GMC_GAIN=2,ICP_CURRENT=9,KVCO=2,LPF_CAPACITOR=1,LPF_RESISTOR=8,SYNC_ENABLE="DISABLE") in D:/Anlogic/TD5.6.2/arch/eagle_macro.v(930)
+HDL-1007 : elaborate module sd_card_bmp(ENABLE_WAV=1,OUTPUT_WIDTH=1280,OUTPUT_HEIGHT=720,FILL_MODE=1,WRITE_BACKPRESSURE=1,PIXEL_PERIOD=4,ENABLE_PREFETCH=1,COMBINED_PAGE_KEY=1,AUTO_AUDIO_GAP_MS=1000,ENABLE_TRANSITIONS=1,ENABLE_WRITE_CANCEL=1) in ../../../user_source/hdl_source/SD/sd_card_bmp.v(1)
+HDL-1007 : extracting RAM for identifier 'catalog_memory' in ../../../user_source/hdl_source/SD/sd_card_bmp.v(104)
+HDL-1007 : elaborate module album_short_long_button in ../../../user_source/hdl_source/SD/sd_card_bmp.v(517)
+HDL-1007 : elaborate module key_press_debounce(DEBOUNCE_MS=50) in ../../../user_source/hdl_source/SD/sd_card_bmp.v(556)
+HDL-1007 : elaborate module bmp_read(OUTPUT_WIDTH=1280,OUTPUT_HEIGHT=720,FILL_MODE=1,WRITE_BACKPRESSURE=1,PIXEL_PERIOD=4) in ../../../user_source/hdl_source/SD/bmp_read.v(8)
+HDL-1007 : extracting RAM for identifier 'sector_buffer' in ../../../user_source/hdl_source/SD/bmp_read.v(241)
+HDL-1007 : elaborate module album_bmp_scaler(PIXEL_PERIOD=4,OUTPUT_WIDTH=1280,OUTPUT_HEIGHT=720,FILL_MODE=1,WRITE_BACKPRESSURE=1) in ../../../user_source/hdl_source/SD/bmp_read.v(789)
+HDL-1007 : extracting RAM for identifier 'line_pixels' in ../../../user_source/hdl_source/SD/bmp_read.v(832)
+HDL-7007 CRITICAL-WARNING: synthesis - simulation differences may occur when using parallel_case directive in ../../../user_source/hdl_source/SD/bmp_read.v(503)
+HDL-1007 : elaborate module album_sector_arbiter(ENABLE_IMAGE_CANCEL=1) in ../../../user_source/hdl_source/SD/sd_card_bmp.v(609)
+HDL-1007 : elaborate module album_wav_player in ../../../user_source/hdl_source/SD/sd_card_bmp.v(725)
+HDL-1007 : extracting RAM for identifier 'pcm_memory' in ../../../user_source/hdl_source/SD/sd_card_bmp.v(794)
+HDL-1007 : elaborate module sd_card_top in ../../../user_source/hdl_source/SD/sd_card_top.v(2)
+HDL-1007 : elaborate module sd_card_sec_read_write in ../../../user_source/hdl_source/SD/sd_card_sec_read_write.v(2)
+HDL-1007 : elaborate module sd_card_cmd in ../../../user_source/hdl_source/SD/sd_card_cmd.v(2)
+HDL-1007 : elaborate module spi_master in ../../../user_source/hdl_source/SD/spi_master.v(2)
+HDL-1007 : elaborate module seg_scan(CLK_FREQ=100000000) in ../../../user_source/hdl_source/SD/seg_scan.v(5)
+HDL-1007 : elaborate module seg_decoder in ../../../user_source/hdl_source/SD/seg_decoder.v(1)
+HDL-1007 : elaborate module video_timing_data(H_ACTIVE=1280,H_FP=110,H_SYNC=40,H_BP=220,V_ACTIVE=720,V_FP=5,V_SYNC=5,V_BP=20,HS_POL=1,VS_POL=1) in ../../../user_source/hdl_source/SD/video_timing_data.v(1)
+HDL-1007 : elaborate module color_bar(H_ACTIVE=1280,H_FP=110,H_SYNC=40,H_BP=220,V_ACTIVE=720,V_FP=5,V_SYNC=5,V_BP=20,HS_POL=1,VS_POL=1) in ../../../user_source/hdl_source/SD/color_bar.v(3)
+HDL-1007 : elaborate module video_delay in ../../../user_source/hdl_source/SD/video_delay.v(1)
+HDL-1007 : elaborate module album_status_cdc(WIDTH=88) in ../../../user_source/hdl_source/top_tf_hdmi_audio.v(709)
+HDL-1007 : elaborate module album_picture_controls in ../../../user_source/hdl_source/top_tf_hdmi_audio.v(738)
+HDL-1007 : elaborate module album_status_cdc(WIDTH=8) in ../../../user_source/hdl_source/top_tf_hdmi_audio.v(709)
+HDL-1007 : elaborate module album_status_cdc(WIDTH=24) in ../../../user_source/hdl_source/top_tf_hdmi_audio.v(709)
+HDL-1007 : elaborate module album_video_osd(X_POS=4,Y_POS=4,ENABLE_ADJUST=1) in ../../../user_source/hdl_source/top_tf_hdmi_audio.v(771)
+HDL-1007 : elaborate module album_status_cdc(WIDTH=9) in ../../../user_source/hdl_source/top_tf_hdmi_audio.v(709)
+HDL-1007 : elaborate module album_status_cdc(WIDTH=2) in ../../../user_source/hdl_source/top_tf_hdmi_audio.v(709)
+HDL-1007 : elaborate module album_teaching_scene(STATUS_X=4,STATUS_Y=4,ENABLE_TRANSITIONS=1) in ../../../user_source/hdl_source/top_tf_hdmi_audio.v(2271)
+HDL-1007 : extracting RAM for identifier 'line1' in ../../../user_source/hdl_source/top_tf_hdmi_audio.v(2474)
+HDL-1007 : extracting RAM for identifier 'line2' in ../../../user_source/hdl_source/top_tf_hdmi_audio.v(2475)
+HDL-1007 : elaborate module album_teaching_assets in ../../../user_source/hdl_source/top_tf_hdmi_audio.v(2614)
+HDL-1007 : extracting RAM for identifier 'text_id_lo' in ../../../user_source/hdl_source/top_tf_hdmi_audio.v(2624)
+HDL-1007 : extracting RAM for identifier 'text_id_hi' in ../../../user_source/hdl_source/top_tf_hdmi_audio.v(2883)
+HDL-1007 : extracting RAM for identifier 'focus_id_rom' in ../../../user_source/hdl_source/top_tf_hdmi_audio.v(3142)
+HDL-1007 : extracting RAM for identifier 'font_span_rom' in ../../../user_source/hdl_source/top_tf_hdmi_audio.v(3273)
+HDL-1007 : extracting RAM for identifier 'font_rom' in ../../../user_source/hdl_source/top_tf_hdmi_audio.v(3308)
+HDL-1007 : extracting RAM for identifier 'sprite_span_rom' in ../../../user_source/hdl_source/top_tf_hdmi_audio.v(4013)
+HDL-1007 : extracting RAM for identifier 'sprite_rom' in ../../../user_source/hdl_source/top_tf_hdmi_audio.v(4088)
+HDL-5007 WARNING: net 'text_id_lo' does not have a driver in ../../../user_source/hdl_source/top_tf_hdmi_audio.v(2624)
+HDL-5007 WARNING: net 'text_id_hi' does not have a driver in ../../../user_source/hdl_source/top_tf_hdmi_audio.v(2883)
+HDL-5007 WARNING: net 'focus_id_rom' does not have a driver in ../../../user_source/hdl_source/top_tf_hdmi_audio.v(3142)
+HDL-5007 WARNING: net 'font_span_rom' does not have a driver in ../../../user_source/hdl_source/top_tf_hdmi_audio.v(3273)
+HDL-5007 WARNING: net 'font_rom' does not have a driver in ../../../user_source/hdl_source/top_tf_hdmi_audio.v(3308)
+HDL-5007 WARNING: net 'sprite_span_rom' does not have a driver in ../../../user_source/hdl_source/top_tf_hdmi_audio.v(4013)
+HDL-5007 WARNING: net 'sprite_rom' does not have a driver in ../../../user_source/hdl_source/top_tf_hdmi_audio.v(4088)
+HDL-1007 : elaborate module album_teacher_palette in ../../../user_source/hdl_source/top_tf_hdmi_audio.v(4669)
+HDL-1007 : port 'valid' remains unconnected for this instance in ../../../user_source/hdl_source/SD/frame_read_write.v(105)
+HDL-1007 : port 'afull' remains unconnected for this instance in ../../../user_source/hdl_source/SD/frame_read_write.v(105)
+HDL-1007 : port 'aempty' remains unconnected for this instance in ../../../user_source/hdl_source/SD/frame_read_write.v(105)
+HDL-1007 : port 'valid' remains unconnected for this instance in ../../../user_source/hdl_source/SD/frame_read_write.v(160)
+HDL-1007 : port 'afull' remains unconnected for this instance in ../../../user_source/hdl_source/SD/frame_read_write.v(160)
+HDL-1007 : port 'aempty' remains unconnected for this instance in ../../../user_source/hdl_source/SD/frame_read_write.v(160)
+HDL-1007 : elaborate module frame_read_write(FRAME_WIDTH=1280,FRAME_HEIGHT=720,ENABLE_WRITE_CANCEL=1) in ../../../user_source/hdl_source/SD/frame_read_write.v(2)
+HDL-1007 : port 'doa' remains unconnected for this instance in ../../../user_source/hdl_source/ip/afifo_16_32_256.v(226)
+HDL-1007 : port 'dib' remains unconnected for this instance in ../../../user_source/hdl_source/ip/afifo_16_32_256.v(226)
+HDL-1007 : elaborate module wfifo_32_32_512 in ../../../user_source/hdl_source/ip/afifo_16_32_256.v(13)
+HDL-1007 : elaborate module fifo_cross_domain_addr_process_al_wfifo_32_32_512 in ../../../user_source/hdl_source/ip/afifo_16_32_256.v(250)
+HDL-1007 : elaborate module ram_infer_wfifo_32_32_512(ADDRWIDTH_A=9,DATAWIDTH_B=32,ADDRWIDTH_B=9) in ../../../user_source/hdl_source/ip/afifo_16_32_256.v(333)
+HDL-1007 : extracting RAM for identifier 'memory' in ../../../user_source/hdl_source/ip/afifo_16_32_256.v(398)
+HDL-5007 WARNING: input port 'dib[31]' is not connected on this instance in ../../../user_source/hdl_source/ip/afifo_16_32_256.v(231)
+HDL-1007 : elaborate module frame_fifo_write(BURST_SIZE=256,FRAME_WIDTH=1280,FRAME_HEIGHT=720,ENABLE_CANCEL=1) in ../../../user_source/hdl_source/SD/frame_fifo_write.v(2)
+HDL-1007 : port 'doa' remains unconnected for this instance in ../../../user_source/hdl_source/ip/afifo_32_16_256.v(226)
+HDL-1007 : port 'dib' remains unconnected for this instance in ../../../user_source/hdl_source/ip/afifo_32_16_256.v(226)
+HDL-1007 : elaborate module rfifo_32_32_512 in ../../../user_source/hdl_source/ip/afifo_32_16_256.v(13)
+HDL-1007 : elaborate module fifo_cross_domain_addr_process_al_rfifo_32_32_512 in ../../../user_source/hdl_source/ip/afifo_32_16_256.v(250)
+HDL-1007 : elaborate module ram_infer_rfifo_32_32_512(ADDRWIDTH_A=9,DATAWIDTH_B=32,ADDRWIDTH_B=9) in ../../../user_source/hdl_source/ip/afifo_32_16_256.v(333)
+HDL-1007 : extracting RAM for identifier 'memory' in ../../../user_source/hdl_source/ip/afifo_32_16_256.v(398)
+HDL-5007 WARNING: input port 'dib[31]' is not connected on this instance in ../../../user_source/hdl_source/ip/afifo_32_16_256.v(231)
+HDL-1007 : elaborate module frame_fifo_read(BURST_SIZE=256) in ../../../user_source/hdl_source/SD/frame_fifo_read.v(2)
+HDL-5007 WARNING: actual bit length 24 differs from formal bit length 21 for port 'read_addr_0' in ../../../user_source/hdl_source/top_tf_hdmi_audio.v(430)
+HDL-5007 WARNING: actual bit length 24 differs from formal bit length 21 for port 'read_addr_1' in ../../../user_source/hdl_source/top_tf_hdmi_audio.v(431)
+HDL-5007 WARNING: actual bit length 24 differs from formal bit length 21 for port 'read_addr_2' in ../../../user_source/hdl_source/top_tf_hdmi_audio.v(432)
+HDL-5007 WARNING: actual bit length 24 differs from formal bit length 21 for port 'read_addr_3' in ../../../user_source/hdl_source/top_tf_hdmi_audio.v(433)
+HDL-5007 WARNING: actual bit length 24 differs from formal bit length 21 for port 'read_len' in ../../../user_source/hdl_source/top_tf_hdmi_audio.v(435)
+HDL-5007 WARNING: actual bit length 24 differs from formal bit length 21 for port 'write_addr_0' in ../../../user_source/hdl_source/top_tf_hdmi_audio.v(448)
+HDL-5007 WARNING: actual bit length 24 differs from formal bit length 21 for port 'write_addr_1' in ../../../user_source/hdl_source/top_tf_hdmi_audio.v(449)
+HDL-5007 WARNING: actual bit length 24 differs from formal bit length 21 for port 'write_addr_2' in ../../../user_source/hdl_source/top_tf_hdmi_audio.v(450)
+HDL-5007 WARNING: actual bit length 24 differs from formal bit length 21 for port 'write_addr_3' in ../../../user_source/hdl_source/top_tf_hdmi_audio.v(451)
+HDL-5007 WARNING: actual bit length 24 differs from formal bit length 21 for port 'write_len' in ../../../user_source/hdl_source/top_tf_hdmi_audio.v(453)
+HDL-1007 : elaborate module sdram in ../../../user_source/hdl_source/SD/sdram.v(12)
+HDL-1007 : elaborate module sdr_as_ram(self_refresh_open=1'b1) in ../../../user_source/hdl_source/include/sdr_as_ram.enc.v(12)
+HDL-5007 WARNING: concatenation with an unsized literal will be treated as 32 bits in encrypted_text(0)
+HDL-1007 : elaborate module sdr_init_ref(self_refresh_open=1'b1) in ../../../user_source/hdl_source/include/sdr_init_ref.enc.v(13)
+HDL-5007 WARNING: concatenation with an unsized literal will be treated as 32 bits in encrypted_text(0)
+HDL-1007 : elaborate module ** in encrypted_text(0)
+HDL-5007 WARNING: input port '**' is not connected on this instance in encrypted_text(0)
+HDL-1007 : elaborate module EG_PHY_SDRAM_2M_32 in D:/Anlogic/TD5.6.2/arch/eagle_macro.v(721)
+HDL-1007 : elaborate module album_pcm_hdmi_bridge(PIXEL_HZ=74250000) in ../../../user_source/hdl_source/SD/sd_card_bmp.v(670)
+HDL-1007 : elaborate module album_audio_waveform in ../../../user_source/hdl_source/top_tf_hdmi_audio.v(1065)
+HDL-1007 : extracting RAM for identifier 'peaks' in ../../../user_source/hdl_source/top_tf_hdmi_audio.v(1085)
+HDL-1007 : extracting RAM for identifier 'height_memory' in ../../../user_source/hdl_source/top_tf_hdmi_audio.v(1107)
+HDL-1007 : elaborate module album_pcm_spectrum in ../../../user_source/hdl_source/top_tf_hdmi_audio.v(1720)
+HDL-1007 : extracting RAM for identifier 'state_lo' in ../../../user_source/hdl_source/top_tf_hdmi_audio.v(1736)
+HDL-1007 : extracting RAM for identifier 'state_mid' in ../../../user_source/hdl_source/top_tf_hdmi_audio.v(1737)
+HDL-1007 : extracting RAM for identifier 'state_hi' in ../../../user_source/hdl_source/top_tf_hdmi_audio.v(1738)
+HDL-1007 : extracting RAM for identifier 'coefficient_feedback' in ../../../user_source/hdl_source/top_tf_hdmi_audio.v(1764)
+HDL-1007 : extracting RAM for identifier 'coefficient_cos' in ../../../user_source/hdl_source/top_tf_hdmi_audio.v(1765)
+HDL-1007 : extracting RAM for identifier 'coefficient_sin' in ../../../user_source/hdl_source/top_tf_hdmi_audio.v(1766)
+HDL-1007 : extracting RAM for identifier 'level_memory' in ../../../user_source/hdl_source/top_tf_hdmi_audio.v(2156)
+HDL-5007 WARNING: net 'coefficient_feedback' does not have a driver in ../../../user_source/hdl_source/top_tf_hdmi_audio.v(1764)
+HDL-5007 WARNING: net 'coefficient_cos' does not have a driver in ../../../user_source/hdl_source/top_tf_hdmi_audio.v(1765)
+HDL-5007 WARNING: net 'coefficient_sin' does not have a driver in ../../../user_source/hdl_source/top_tf_hdmi_audio.v(1766)
+HDL-1007 : elaborate module album_visual_label_rom in ../../../user_source/hdl_source/top_tf_hdmi_audio.v(1318)
+HDL-1007 : extracting RAM for identifier 'memory' in ../../../user_source/hdl_source/top_tf_hdmi_audio.v(1319)
+HDL-5007 WARNING: net 'memory' does not have a driver in ../../../user_source/hdl_source/top_tf_hdmi_audio.v(1319)
+HDL-1007 : elaborate module video_rgb_to_axis_640x480(ACTIVE_WIDTH=1280) in ../../../user_source/hdl_source/video_rgb_to_axis_640x480.v(3)
+HDL-1007 : elaborate module startup_pulse in ../../../user_source/hdl_source/startup_pulse.v(2)
+HDL-1007 : elaborate module hdmi_1_4b_transmitter_core_wrapper(HTOTAL=1650,HSA=40,HFP=110,HBP=220,HACTIVE=1280,VTOTAL=750,VFP=5,VBP=20,VACTIVE=720,VIDEO_TPG="Disable",VIDEO_VIC=4,IIC_SCL_DIV=743) in ../../../user_source/hdl_source/hdmi1.4b_transmitter_core/hdmi_1_4b_transmitter_core_wrapper.enc.v(2)
+HDL-1007 : elaborate module ** in encrypted_text(0)
+HDL-1007 : elaborate module ** in encrypted_text(0)
+HDL-1007 : elaborate module ** in encrypted_text(0)
+HDL-1007 : elaborate module ** in encrypted_text(0)
+HDL-1007 : elaborate module ** in encrypted_text(0)
+HDL-1007 : elaborate module ** in encrypted_text(0)
+HDL-1007 : elaborate module EG_LOGIC_RAMFIFO(DATA_WIDTH=11,ADDR_WIDTH=10,IMPLEMENT="9K") in D:/Anlogic/TD5.6.2/arch/eagle_macro.v(793)
+HDL-1007 : elaborate module ** in encrypted_text(0)
+HDL-1007 : elaborate module ** in encrypted_text(0)
+HDL-1007 : elaborate module EG_LOGIC_RAMFIFO(DATA_WIDTH=9,ADDR_WIDTH=10,IMPLEMENT="9K") in D:/Anlogic/TD5.6.2/arch/eagle_macro.v(793)
+HDL-1007 : elaborate module ** in encrypted_text(0)
+HDL-1007 : port '**' remains unconnected for this instance in encrypted_text(0)
+HDL-1007 : elaborate module ** in encrypted_text(0)
+HDL-1007 : elaborate module ** in encrypted_text(0)
+HDL-1007 : elaborate module ** in encrypted_text(0)
+HDL-1007 : elaborate module ** in encrypted_text(0)
+HDL-1007 : elaborate module ** in encrypted_text(0)
+HDL-1007 : elaborate module ** in encrypted_text(0)
+HDL-1007 : elaborate module ** in encrypted_text(0)
+HDL-1007 : elaborate module ** in encrypted_text(0)
+HDL-1007 : elaborate module ** in encrypted_text(0)
+HDL-5007 WARNING: actual bit length ** differs from formal bit length ** for port '**' in encrypted_text(0)
+HDL-1007 : elaborate module ** in encrypted_text(0)
+HDL-5007 WARNING: actual bit length ** differs from formal bit length ** for port '**' in encrypted_text(0)
+HDL-1007 : elaborate module ** in encrypted_text(0)
+HDL-1007 : elaborate module ** in encrypted_text(0)
+HDL-1007 : elaborate module ** in encrypted_text(0)
+HDL-1007 : elaborate module ** in encrypted_text(0)
+HDL-1007 : elaborate module EG_LOGIC_RAMFIFO(DATA_WIDTH=96,ADDR_WIDTH=10,IMPLEMENT="9K") in D:/Anlogic/TD5.6.2/arch/eagle_macro.v(793)
+HDL-1007 : elaborate module ** in encrypted_text(0)
+HDL-1007 : elaborate module ** in encrypted_text(0)
+HDL-1007 : elaborate module EG_LOGIC_RAMFIFO(DATA_WIDTH=24,ADDR_WIDTH=10,IMPLEMENT="9K") in D:/Anlogic/TD5.6.2/arch/eagle_macro.v(793)
+HDL-1007 : elaborate module ** in encrypted_text(0)
+HDL-1007 : elaborate module ** in encrypted_text(0)
+HDL-1007 : elaborate module ** in encrypted_text(0)
+HDL-1007 : elaborate module ** in encrypted_text(0)
+HDL-1007 : elaborate module ** in encrypted_text(0)
+HDL-1007 : elaborate module ** in encrypted_text(0)
+HDL-1007 : elaborate module ** in encrypted_text(0)
+HDL-1007 : elaborate module hdmi_phy_wrapper in ../../../user_source/hdl_source/hdmi_phy_warpper.v(3)
+HDL-1007 : elaborate module lane_lvds_10_1 in ../../../user_source/hdl_source/lane_lvds_10_1.v(4)
+HDL-1007 : elaborate module EG_LOGIC_ODDR in D:/Anlogic/TD5.6.2/arch/eagle_macro.v(87)
+HDL-5001 WARNING: Contains anonymous inst(s) and/or net(s) that have not been renamed
+HDL-5001 WARNING: Contains anonymous inst(s) and/or net(s) that have not been renamed
+HDL-5001 WARNING: Contains anonymous inst(s) and/or net(s) that have not been renamed
+HDL-1200 : Current top model is top
+HDL-1100 : Inferred 25 RAMs.
+RUN-1003 : finish command "elaborate -top top" in  3.855537s wall, 3.562500s user + 0.218750s system = 3.781250s CPU (98.1%)
+
+RUN-1004 : used memory is 298 MB, reserved memory is 276 MB, peak memory is 593 MB
+RUN-1002 : start command "export_db func1_elaborate.db"
+RUN-1001 : Exported /
+RUN-1001 : Exported flow parameters
+RUN-1001 : Exported libs
+RUN-1001 : Exported entities
+RUN-1001 : Exported ports
+RUN-1001 : Exported pins
+RUN-1001 : Exported instances
+RUN-1001 : Exported nets
+RUN-1001 : Exported buses
+RUN-1001 : Exported models
+RUN-1001 : Exported congestions
+RUN-1001 : Exported violations
+RUN-1001 : Exported IO constraints
+RUN-1001 : Exported Inst constraints
+RUN-1003 : finish command "export_db func1_elaborate.db" in  2.427675s wall, 3.546875s user + 0.031250s system = 3.578125s CPU (147.4%)
+
+RUN-1004 : used memory is 303 MB, reserved memory is 288 MB, peak memory is 593 MB
+RUN-1002 : start command "read_adc ../../../user_source/constraints_source/pin.adc"
+RUN-1002 : start command "set_pin_assignment  HDMI_DDC_SCL   LOCATION = P2; IOSTANDARD = LVCMOS33;DRIVESTRENGTH = 8; PULLTYPE = PULLUP;"
+RUN-1002 : start command "set_pin_assignment  HDMI_DDC_SDA   LOCATION = R2; IOSTANDARD = LVCMOS33;DRIVESTRENGTH = 8; PULLTYPE = PULLUP; "
+RUN-1002 : start command "set_pin_assignment  HDMI_CLK_P   LOCATION = C3; IOSTANDARD = LVDS33; PULLTYPE = NONE; "
+RUN-1002 : start command "set_pin_assignment  HDMI_D0_P   LOCATION = G5; IOSTANDARD = LVDS33; PULLTYPE = NONE; "
+RUN-1002 : start command "set_pin_assignment  HDMI_D1_P   LOCATION = F1; IOSTANDARD = LVDS33; PULLTYPE = NONE; "
+RUN-1002 : start command "set_pin_assignment  HDMI_D2_P   LOCATION = E1; IOSTANDARD = LVDS33; PULLTYPE = NONE; "
+RUN-1002 : start command "set_pin_assignment  clk   LOCATION = R7; IOSTANDARD = LVCMOS33; PULLTYPE = NONE; "
+RUN-1002 : start command "set_pin_assignment  key1   LOCATION = A2; IOSTANDARD = LVCMOS33; PULLTYPE = PULLUP; "
+RUN-1002 : start command "set_pin_assignment  key2   LOCATION = B2; IOSTANDARD = LVCMOS33; PULLTYPE = PULLUP; "
+RUN-1002 : start command "set_pin_assignment  rst_n   LOCATION = C1; IOSTANDARD = LVCMOS33; PULLTYPE = PULLUP; "
+RUN-1002 : start command "set_pin_assignment  sd_dclk   LOCATION = A14; IOSTANDARD = LVCMOS33; DRIVESTRENGTH = 8; PULLTYPE = NONE; "
+RUN-1002 : start command "set_pin_assignment  sd_miso   LOCATION = B14; IOSTANDARD = LVCMOS33; PULLTYPE = NONE; "
+RUN-1002 : start command "set_pin_assignment  sd_mosi   LOCATION = A13; IOSTANDARD = LVCMOS33; DRIVESTRENGTH = 8; PULLTYPE = NONE; "
+RUN-1002 : start command "set_pin_assignment  sd_ncs   LOCATION = A12; IOSTANDARD = LVCMOS33; DRIVESTRENGTH = 8; PULLTYPE = NONE; "
+RUN-1002 : start command "set_pin_assignment  seg_data[0]   LOCATION = C15; IOSTANDARD = LVCMOS33; DRIVESTRENGTH = 8; PULLTYPE = NONE; "
+RUN-1002 : start command "set_pin_assignment  seg_data[1]   LOCATION = C16; IOSTANDARD = LVCMOS33; DRIVESTRENGTH = 8; PULLTYPE = NONE; "
+RUN-1002 : start command "set_pin_assignment  seg_data[2]   LOCATION = B6; IOSTANDARD = LVCMOS33; DRIVESTRENGTH = 8; PULLTYPE = NONE; "
+RUN-1002 : start command "set_pin_assignment  seg_data[3]   LOCATION = A5; IOSTANDARD = LVCMOS33; DRIVESTRENGTH = 8; PULLTYPE = NONE; "
+RUN-1002 : start command "set_pin_assignment  seg_data[4]   LOCATION = B5; IOSTANDARD = LVCMOS33; DRIVESTRENGTH = 8; PULLTYPE = NONE; "
+RUN-1002 : start command "set_pin_assignment  seg_data[5]   LOCATION = A8; IOSTANDARD = LVCMOS33; DRIVESTRENGTH = 8; PULLTYPE = NONE; "
+RUN-1002 : start command "set_pin_assignment  seg_data[6]   LOCATION = A7; IOSTANDARD = LVCMOS33; DRIVESTRENGTH = 8; PULLTYPE = NONE; "
+RUN-1002 : start command "set_pin_assignment  seg_data[7]   LOCATION = A6; IOSTANDARD = LVCMOS33; DRIVESTRENGTH = 8; PULLTYPE = NONE; "
+RUN-1002 : start command "set_pin_assignment  key3   LOCATION = B1; IOSTANDARD = LVCMOS33; PULLTYPE = PULLUP; "
+RUN-1002 : start command "set_pin_assignment  seg_sel[0]   LOCATION = F16; IOSTANDARD = LVCMOS33; DRIVESTRENGTH = 8; PULLTYPE = NONE; "
+RUN-1002 : start command "set_pin_assignment  seg_sel[1]   LOCATION = E16; IOSTANDARD = LVCMOS33; DRIVESTRENGTH = 8; PULLTYPE = NONE; "
+RUN-1002 : start command "set_pin_assignment  seg_sel[2]   LOCATION = E12; IOSTANDARD = LVCMOS33; DRIVESTRENGTH = 8; PULLTYPE = NONE; "
+RUN-1002 : start command "set_pin_assignment  seg_sel[3]   LOCATION = E10; IOSTANDARD = LVCMOS33; DRIVESTRENGTH = 8; PULLTYPE = NONE; "
+RUN-1002 : start command "set_pin_assignment  seg_sel[4]   LOCATION = C13; IOSTANDARD = LVCMOS33; DRIVESTRENGTH = 8; PULLTYPE = NONE; "
+RUN-1002 : start command "set_pin_assignment  seg_sel[5]   LOCATION = F10; IOSTANDARD = LVCMOS33; DRIVESTRENGTH = 8; PULLTYPE = NONE; "
+RUN-1002 : start command "set_pin_assignment  seg_sel[6]   LOCATION = E11; IOSTANDARD = LVCMOS33; DRIVESTRENGTH = 8; PULLTYPE = NONE; "
+RUN-1002 : start command "set_pin_assignment  seg_sel[7]   LOCATION = D11; IOSTANDARD = LVCMOS33; DRIVESTRENGTH = 8; PULLTYPE = NONE; "
+RUN-1001 : Starting of IO setups legality check.
+RUN-1001 : Starting of IO setups legality check.
+RUN-1001 : Starting of IO vref setups legality check.
+RUN-1002 : start command "optimize_rtl"
+RUN-1001 : Open license file D:/Anlogic/TD5.6.2/license/Anlogic.lic
+RUN-1001 : Print Global Property
+RUN-1001 : ---------------------------------------------------------------
+RUN-1001 :        Parameters        |  Settings  |  Default Values  |  Note  
+RUN-1001 : ---------------------------------------------------------------
+RUN-1001 :          message         |  standard  |     standard     |        
+RUN-1001 :   mixed_pack_place_flow  |     on     |        on        |        
+RUN-1001 :        qor_monitor       |    off     |       off        |        
+RUN-1001 :        syn_ip_flow       |    off     |       off        |        
+RUN-1001 :          thread          |    auto    |       auto       |        
+RUN-1001 : ---------------------------------------------------------------
+RUN-1001 : Print Rtl Property
+RUN-1001 : --------------------------------------------------------------
+RUN-1001 :        Parameters       |  Settings  |  Default Values  |  Note  
+RUN-1001 : --------------------------------------------------------------
+RUN-1001 :       compress_add      |   ripple   |      ripple      |        
+RUN-1001 :        elf_sload        |    off     |       off        |        
+RUN-1001 :       fix_undriven      |     0      |        0         |        
+RUN-1001 :         flatten         |    off     |       off        |        
+RUN-1001 :       gate_sharing      |     on     |        on        |        
+RUN-1001 :    hdl_warning_level    |   normal   |      normal      |        
+RUN-1001 :   impl_internal_tribuf  |     on     |        on        |        
+RUN-1001 :      impl_set_reset     |     on     |        on        |        
+RUN-1001 :        infer_gsr        |    off     |       off        |        
+RUN-1001 :      keep_hierarchy     |    auto    |       auto       |        
+RUN-1001 :        max_fanout       |    9999    |       9999       |        
+RUN-1001 :      max_oh2bin_len     |     10     |        10        |        
+RUN-1001 :       merge_equal       |     on     |        on        |        
+RUN-1001 :       merge_equiv       |     on     |        on        |        
+RUN-1001 :        merge_mux        |    off     |       off        |        
+RUN-1001 :     min_control_set     |     8      |        8         |        
+RUN-1001 :      min_ripple_len     |    auto    |       auto       |        
+RUN-1001 :       oh2bin_ratio      |    0.08    |       0.08       |        
+RUN-1001 :     opt_adder_fanout    |     on     |        on        |        
+RUN-1001 :        opt_arith        |     on     |        on        |        
+RUN-1001 :       opt_big_gate      |    off     |       off        |        
+RUN-1001 :        opt_const        |     on     |        on        |        
+RUN-1001 :      opt_const_mult     |     on     |        on        |        
+RUN-1001 :       opt_lessthan      |     on     |        on        |        
+RUN-1001 :         opt_mux         |    off     |       off        |        
+RUN-1001 :         opt_ram         |    high    |       high       |        
+RUN-1001 :      rtl_sim_model      |    off     |       off        |        
+RUN-1001 :         seq_syn         |     on     |        on        |        
+RUN-1001 : --------------------------------------------------------------
+SYN-1012 : SanityCheck: Model "top"
+SYN-1012 : SanityCheck: Model "sdram"
+SYN-1012 : SanityCheck: Model "sdr_as_ram(self_refresh_open=1'b1)"
+SYN-1012 : SanityCheck: Model "sdr_init_ref(self_refresh_open=1'b1)"
+SYN-1012 : SanityCheck: Model "sdr_wrrd"
+SYN-1012 : SanityCheck: Model "frame_read_write(FRAME_WIDTH=1280,FRAME_HEIGHT=720,ENABLE_WRITE_CANCEL=1)"
+SYN-1012 : SanityCheck: Model "frame_fifo_read(BURST_SIZE=256)"
+SYN-1012 : SanityCheck: Model "frame_fifo_write(BURST_SIZE=256,FRAME_WIDTH=1280,FRAME_HEIGHT=720,ENABLE_CANCEL=1)"
+SYN-1012 : SanityCheck: Model "rfifo_32_32_512"
+SYN-1012 : SanityCheck: Model "ram_infer_rfifo_32_32_512(ADDRWIDTH_A=9,DATAWIDTH_B=32,ADDRWIDTH_B=9)"
+SYN-1012 : SanityCheck: Model "fifo_cross_domain_addr_process_al_rfifo_32_32_512"
+SYN-1012 : SanityCheck: Model "wfifo_32_32_512"
+SYN-1012 : SanityCheck: Model "ram_infer_wfifo_32_32_512(ADDRWIDTH_A=9,DATAWIDTH_B=32,ADDRWIDTH_B=9)"
+SYN-1012 : SanityCheck: Model "fifo_cross_domain_addr_process_al_wfifo_32_32_512"
+SYN-1012 : SanityCheck: Model "sd_card_bmp(ENABLE_WAV=1,OUTPUT_WIDTH=1280,OUTPUT_HEIGHT=720,FILL_MODE=1,WRITE_BACKPRESSURE=1,PIXEL_PERIOD=4,ENABLE_PREFETCH=1,COMBINED_PAGE_KEY=1,AUTO_AUDIO_GAP_MS=1000,ENABLE_TRANSITIONS=1,ENABLE_WRITE_CANCEL=1)"
+SYN-1012 : SanityCheck: Model "bmp_read(OUTPUT_WIDTH=1280,OUTPUT_HEIGHT=720,FILL_MODE=1,WRITE_BACKPRESSURE=1,PIXEL_PERIOD=4)"
+SYN-1012 : SanityCheck: Model "album_bmp_scaler(PIXEL_PERIOD=4,OUTPUT_WIDTH=1280,OUTPUT_HEIGHT=720,FILL_MODE=1,WRITE_BACKPRESSURE=1)"
+SYN-1012 : SanityCheck: Model "album_short_long_button"
+SYN-1012 : SanityCheck: Model "album_sector_arbiter(ENABLE_IMAGE_CANCEL=1)"
+SYN-1012 : SanityCheck: Model "album_wav_player"
+SYN-1012 : SanityCheck: Model "sd_card_top"
+SYN-1012 : SanityCheck: Model "sd_card_cmd"
+SYN-1012 : SanityCheck: Model "sd_card_sec_read_write"
+SYN-1012 : SanityCheck: Model "spi_master"
+SYN-1012 : SanityCheck: Model "key_press_debounce(DEBOUNCE_MS=50)"
+SYN-1012 : SanityCheck: Model "seg_scan(CLK_FREQ=100000000)"
+SYN-1012 : SanityCheck: Model "sys_pll"
+SYN-1012 : SanityCheck: Model "album_video_osd(X_POS=4,Y_POS=4,ENABLE_ADJUST=1)"
+SYN-1012 : SanityCheck: Model "album_audio_waveform"
+SYN-1012 : SanityCheck: Model "album_visual_label_rom"
+SYN-1012 : SanityCheck: Model "album_pcm_spectrum"
+SYN-1012 : SanityCheck: Model "hdmi_phy_wrapper"
+SYN-1012 : SanityCheck: Model "lane_lvds_10_1"
+SYN-1012 : SanityCheck: Model "hdmi_1_4b_transmitter_core_wrapper(HTOTAL=1650,HSA=40,HFP=110,HBP=220,HACTIVE=1280,VTOTAL=750,VFP=5,VBP=20,VACTIVE=720,VIDEO_TPG="Disable",VIDEO_VIC=4,IIC_SCL_DIV=743)"
+SYN-1012 : SanityCheck: Model "hdmi_1_4b_tx_reset_sync"
+SYN-1012 : SanityCheck: Model "hdmi_edid_wrapper(IIC_SCL_DIV=743)"
+SYN-1012 : SanityCheck: Model "hdmi_edid_read_controller"
+SYN-1012 : SanityCheck: Model "iic_master_wrapper(IIC_SCL_DIV=743)"
+SYN-1012 : SanityCheck: Model "iic_bit_transmitter(IIC_SCL_DIV=743)"
+SYN-1012 : SanityCheck: Model "iic_receiver_controller"
+SYN-1012 : SanityCheck: Model "iic_w9_d1024_fifo(DEVICE="EG")"
+SYN-1012 : SanityCheck: Model "iic_transmitter_controller"
+SYN-1012 : SanityCheck: Model "iic_w11_d1024_fifo(DEVICE="EG")"
+SYN-1012 : SanityCheck: Model "hdmi_tx_controller_wrapper(HTOTAL=1650,HSA=40,HFP=110,HBP=220,HACTIVE=1280,VTOTAL=750,VFP=5,VBP=20,VACTIVE=720,VIDEO_TPG="Disable",VIDEO_FORMAT="RGB",VIDEO_VIC=4)"
+SYN-1012 : SanityCheck: Model "hdmi_tmds_encode"
+SYN-1012 : SanityCheck: Model "hdmi_tmds_encode(CHANNEL_NUM=1)"
+SYN-1012 : SanityCheck: Model "hdmi_tmds_encode(CHANNEL_NUM=2)"
+SYN-1012 : SanityCheck: Model "hdmi_data_distribution"
+SYN-1012 : SanityCheck: Model "hdmi_island_data_assemble"
+SYN-1012 : SanityCheck: Model "hdmi_island_data_gen(VIDEO_VIC=4)"
+SYN-1012 : SanityCheck: Model "audio_sample_packet_2_channel"
+SYN-1012 : SanityCheck: Model "BCH_32_24_encode"
+SYN-1012 : SanityCheck: Model "BCH_64_56_encode"
+SYN-1012 : SanityCheck: Model "w96_d1024_fifo(DEVICE="EG")"
+SYN-1012 : SanityCheck: Model "audio_clock_regeneration_packet"
+SYN-1012 : SanityCheck: Model "audio_info_frame_packet"
+SYN-1012 : SanityCheck: Model "avi_info_frame_packet"
+SYN-1012 : SanityCheck: Model "general_control_packet"
+SYN-1012 : SanityCheck: Model "spd_info_frame_packet"
+SYN-1012 : SanityCheck: Model "hdmi_video_data_assemble"
+SYN-1012 : SanityCheck: Model "hdmi_video_source(HTOTAL=1650,HSA=40,HFP=110,HBP=220,HACTIVE=1280,VTOTAL=750,VFP=5,VBP=20,VACTIVE=720)"
+SYN-1012 : SanityCheck: Model "hdmi_video_source_mux"
+SYN-1012 : SanityCheck: Model "hdmi_video_tpg_gen(HTOTAL=1650,HACTIVE=1280,VTOTAL=750,VACTIVE=720)"
+SYN-1012 : SanityCheck: Model "video_tpg_rgb444_gen(HTOTAL=1650,HACTIVE=1280,VTOTAL=750,VACTIVE=720)"
+SYN-1012 : SanityCheck: Model "video_axi_stream_receiver"
+SYN-1012 : SanityCheck: Model "w24_d1024_fifo(DEVICE="EG")"
+SYN-1012 : SanityCheck: Model "album_status_cdc(WIDTH=24)"
+SYN-1012 : SanityCheck: Model "seg_decoder"
+SYN-1012 : SanityCheck: Model "album_picture_controls"
+SYN-1012 : SanityCheck: Model "album_status_cdc(WIDTH=8)"
+SYN-1012 : SanityCheck: Model "startup_pulse"
+SYN-1012 : SanityCheck: Model "album_status_cdc(WIDTH=88)"
+SYN-1012 : SanityCheck: Model "album_teaching_scene(STATUS_X=4,STATUS_Y=4,ENABLE_TRANSITIONS=1)"
+SYN-1012 : SanityCheck: Model "album_teaching_assets"
+SYN-1012 : SanityCheck: Model "album_teacher_palette"
+SYN-1012 : SanityCheck: Model "album_status_cdc(WIDTH=9)"
+SYN-1012 : SanityCheck: Model "album_status_cdc(WIDTH=2)"
+SYN-1012 : SanityCheck: Model "video_rgb_to_axis_640x480(ACTIVE_WIDTH=1280)"
+SYN-1012 : SanityCheck: Model "album_pcm_hdmi_bridge(PIXEL_HZ=74250000)"
+SYN-1012 : SanityCheck: Model "video_delay"
+SYN-1012 : SanityCheck: Model "video_pll"
+SYN-1012 : SanityCheck: Model "video_timing_data(H_ACTIVE=1280,H_FP=110,H_SYNC=40,H_BP=220,V_ACTIVE=720,V_FP=5,V_SYNC=5,V_BP=20,HS_POL=1,VS_POL=1)"
+SYN-1012 : SanityCheck: Model "color_bar(H_ACTIVE=1280,H_FP=110,H_SYNC=40,H_BP=220,V_ACTIVE=720,V_FP=5,V_SYNC=5,V_BP=20,HS_POL=1,VS_POL=1)"
+SYN-1043 : Mark video_pll as IO macro for instance bufg_feedback
+SYN-1043 : Mark iic_master_wrapper(IIC_SCL_DIV=743) as IO macro for instance IO_iic_sda_i
+SYN-1043 : Mark hdmi_edid_wrapper(IIC_SCL_DIV=743) as IO macro for instance u_iic_master_wrapper
+SYN-1043 : Mark hdmi_1_4b_transmitter_core_wrapper(HTOTAL=1650,HSA=40,HFP=110,HBP=220,HACTIVE=1280,VTOTAL=750,VFP=5,VBP=20,VACTIVE=720,VIDEO_TPG="Disable",VIDEO_VIC=4,IIC_SCL_DIV=743) as IO macro for instance u_hdmi_edid_wrapper
+SYN-1043 : Mark lane_lvds_10_1 as IO macro for instance U_EG4_ODDR
+SYN-1043 : Mark hdmi_phy_wrapper as IO macro for instance u0_lane_lvds_8_1
+SYN-1043 : Mark sys_pll as IO macro for instance bufg_feedback
+SYN-1043 : Mark sdr_wrrd as IO macro for instance SDR_DQ_i
+SYN-1043 : Mark sdr_as_ram(self_refresh_open=1'b1) as IO macro for instance u2_wrrd
+SYN-1043 : Mark sdram as IO macro for instance u2_ram
+SYN-1011 : Flatten model top
+SYN-1050 : Instances selected by 'keep_hierarchy':
+RUN-1001 : -------------------------------------------------------------------------------------------------
+RUN-1001 :            instance           |  keep_hierarchy  |    down_module    |          file(line)          
+RUN-1001 : -------------------------------------------------------------------------------------------------
+RUN-1001 :   frame_read_write_m0/wri...  |       true       |  wfifo_32_32_512  |  ../../../user_source/hd...  
+RUN-1001 :   frame_read_write_m0/rea...  |       true       |  rfifo_32_32_512  |  ../../../user_source/hd...  
+RUN-1001 : -------------------------------------------------------------------------------------------------
+SYN-5033 CRITICAL-WARNING: The model (top) has (36) unstable comb insts loops, print one loop:
+		<Inst: u_hdmi_1_4b_transmitter_core_wrapper/u_hdmi_tx_controller_wrapper/u0_hdmi_tmds_encode/S_q_m_comb_b1_i> <Inpin: u_hdmi_1_4b_transmitter_core_wrapper/u_hdmi_tx_controller_wrapper/u0_hdmi_tmds_encode/S_q_m_comb_b1_i.I[0]> <Outpin: u_hdmi_1_4b_transmitter_core_wrapper/u_hdmi_tx_controller_wrapper/u0_hdmi_tmds_encode/S_q_m_comb_b1_i.O>   // encrypted_text(0)
+		<Net: u_hdmi_1_4b_transmitter_core_wrapper/u_hdmi_tx_controller_wrapper/u0_hdmi_tmds_encode/S_q_m_comb_b1[6]>   
+		<Inst: u_hdmi_1_4b_transmitter_core_wrapper/u_hdmi_tx_controller_wrapper/u0_hdmi_tmds_encode/mux16> <Inpin: u_hdmi_1_4b_transmitter_core_wrapper/u_hdmi_tx_controller_wrapper/u0_hdmi_tmds_encode/mux16.i1[6]> <Outpin: u_hdmi_1_4b_transmitter_core_wrapper/u_hdmi_tx_controller_wrapper/u0_hdmi_tmds_encode/mux16.o[5]>   // encrypted_text(0)
+		<Net: u_hdmi_1_4b_transmitter_core_wrapper/u_hdmi_tx_controller_wrapper/u0_hdmi_tmds_encode/S_q_m_comb[6]>   // encrypted_text(0)
+
+SYN-1032 : 63682/5085 useful/useless nets, 17823/661 useful/useless insts
+SYN-1001 : Optimize 3 less-than instances
+SYN-1001 : Bypass 2 mux instances
+SYN-1016 : Merged 11894 instances.
+SYN-1025 : Merged 53 RAM ports.
+SYN-1026 : Infer Logic BRAM(frame_read_write_m0/read_buf/ram_inst/ramread0_syn_6)
+	 port mode: single dual port
+	 port a size: 512 x 32	 write mode: NORMAL
+	 port b size: 512 x 32	 write mode: READBEFOREWRITE
+SYN-1026 : Infer Logic BRAM(frame_read_write_m0/write_buf/ram_inst/ramread0_syn_6)
+	 port mode: single dual port
+	 port a size: 512 x 32	 write mode: NORMAL
+	 port b size: 512 x 32	 write mode: READBEFOREWRITE
+SYN-1026 : Infer Logic BRAM(sd_card_bmp_m0/ramread0_syn_6)
+	 port mode: single dual port
+	 port a size: 32 x 64	 write mode: NORMAL
+	 port b size: 32 x 64	 write mode: READBEFOREWRITE
+SYN-1026 : Infer Logic BRAM(sd_card_bmp_m0/bmp_read_m0/ramread0_syn_6)
+	 port mode: single dual port
+	 port a size: 512 x 8	 write mode: NORMAL
+	 port b size: 512 x 8	 write mode: READBEFOREWRITE
+SYN-1026 : Infer Logic BRAM(sd_card_bmp_m0/bmp_read_m0/scaler/ramread0_syn_6)
+	 port mode: single dual port
+	 port a size: 2048 x 24	 write mode: NORMAL
+	 port b size: 2048 x 24	 write mode: READBEFOREWRITE
+SYN-1026 : Infer Logic BRAM(sd_card_bmp_m0/g_wav$u_wav_player/ramread0_syn_6)
+	 port mode: single dual port
+	 port a size: 2048 x 16	 write mode: NORMAL
+	 port b size: 2048 x 16	 write mode: READBEFOREWRITE
+SYN-1026 : Infer Logic BRAM(u_audio_waveform/ramread0_syn_6)
+	 port mode: single dual port
+	 port a size: 128 x 14	 write mode: NORMAL
+	 port b size: 128 x 14	 write mode: READBEFOREWRITE
+SYN-1026 : Infer Logic BRAM(u_audio_waveform/ramread1_syn_6)
+	 port mode: single dual port
+	 port a size: 128 x 12	 write mode: NORMAL
+	 port b size: 128 x 12	 write mode: READBEFOREWRITE
+SYN-1026 : Infer Logic BRAM(u_audio_waveform/spectrum/ramread0_syn_6)
+	 port mode: single dual port
+	 port a size: 128 x 18	 write mode: NORMAL
+	 port b size: 128 x 18	 write mode: READBEFOREWRITE
+SYN-1026 : Infer Logic BRAM(u_audio_waveform/spectrum/ramread1_syn_6)
+	 port mode: single dual port
+	 port a size: 128 x 18	 write mode: NORMAL
+	 port b size: 128 x 18	 write mode: READBEFOREWRITE
+SYN-1026 : Infer Logic BRAM(u_audio_waveform/spectrum/ramread2_syn_6)
+	 port mode: single dual port
+	 port a size: 128 x 18	 write mode: NORMAL
+	 port b size: 128 x 18	 write mode: READBEFOREWRITE
+SYN-1026 : Infer Logic BRAM(u_audio_waveform/spectrum/ramread6_syn_6)
+	 port mode: single dual port
+	 port a size: 512 x 6	 write mode: NORMAL
+	 port b size: 512 x 6	 write mode: READBEFOREWRITE
+SYN-1026 : Infer Logic BRAM(u_teaching_scene/ramread0_syn_6)
+	 port mode: single dual port
+	 port a size: 2048 x 24	 write mode: NORMAL
+	 port b size: 2048 x 24	 write mode: READBEFOREWRITE
+SYN-1026 : Infer Logic BRAM(u_teaching_scene/ramread1_syn_6)
+	 port mode: single dual port
+	 port a size: 2048 x 24	 write mode: NORMAL
+	 port b size: 2048 x 24	 write mode: READBEFOREWRITE
+SYN-1023 : Infer 0 Logic DRAMs, 25 Logic BRAMs.
+SYN-1032 : 52663/13658 useful/useless nets, 7919/5645 useful/useless insts
+SYN-1016 : Merged 6681 instances.
+SYN-1001 : Optimize 1 decoder instances
+SYN-5011 WARNING: Undriven pin: model "top" / inst "U3/u2_ram/u2_wrrd/reg10_syn_12" in encrypted_text(0) / pin "d"
+SYN-5011 WARNING: Undriven pin: model "top" / inst "sd_card_bmp_m0/bmp_read_m0/reg85_syn_15" in ../../../user_source/hdl_source/SD/bmp_read.v(410) / pin "d"
+SYN-5011 WARNING: Undriven pin: model "top" / inst "u_album_osd/sel0_syn_85" in ../../../user_source/hdl_source/top_tf_hdmi_audio.v(869) / pin "i0"
+SYN-5011 WARNING: Undriven pin: model "top" / inst "u_album_osd/sel0_syn_85" in ../../../user_source/hdl_source/top_tf_hdmi_audio.v(869) / pin "i1"
+SYN-5011 WARNING: Undriven pin: model "top" / inst "u_album_osd/sel7_syn_1301" in ../../../user_source/hdl_source/top_tf_hdmi_audio.v(938) / pin "i1"
+SYN-5011 WARNING: Undriven pin: model "top" / inst "u_album_osd/sel7_syn_1343" in ../../../user_source/hdl_source/top_tf_hdmi_audio.v(938) / pin "i1"
+SYN-5011 WARNING: Undriven pin: model "top" / inst "u_album_osd/sel7_syn_1371" in ../../../user_source/hdl_source/top_tf_hdmi_audio.v(938) / pin "i1"
+SYN-5011 WARNING: Undriven pin: model "top" / inst "u_album_osd/sel7_syn_1386" in ../../../user_source/hdl_source/top_tf_hdmi_audio.v(938) / pin "i0"
+SYN-5011 WARNING: Undriven pin: model "top" / inst "u_album_osd/sel7_syn_1386" in ../../../user_source/hdl_source/top_tf_hdmi_audio.v(938) / pin "i1"
+SYN-5011 WARNING: Undriven pin: model "top" / inst "u_album_osd/sel7_syn_1394" in ../../../user_source/hdl_source/top_tf_hdmi_audio.v(938) / pin "i1"
+SYN-5011 Similar messages will be suppressed.
+SYN-5013 WARNING: Undriven net: model "top" / net "U3/u2_ram/u2_wrrd/Sdr_init_ref_ba[1]" in encrypted_text(0)
+SYN-5014 WARNING: the net's pin: pin "i1" in encrypted_text(0)
+SYN-5013 WARNING: Undriven net: model "top" / net "U3/u2_ram/u2_wrrd/Sdr_init_ref_ba[0]" in encrypted_text(0)
+SYN-5014 WARNING: the net's pin: pin "i1" in encrypted_text(0)
+SYN-5025 WARNING: Using 0 for all undriven pins and nets
+SYN-1032 : 46345/894 useful/useless nets, 41498/2409 useful/useless insts
+SYN-1014 : Optimize round 1
+SYN-1032 : 46125/220 useful/useless nets, 41478/20 useful/useless insts
+SYN-1017 : Remove 21 const input seq instances
+SYN-1002 :     reg0_syn_9
+SYN-1002 :     U3/u2_ram/u1_init_ref/ref_req_reg
+SYN-1002 :     U3/u2_ram/u2_wrrd/reg33_syn_4
+SYN-1002 :     frame_read_write_m0/frame_fifo_read_m0/reg6_syn_10
+SYN-1002 :     sd_card_bmp_m0/bmp_read_m0/reg76_syn_26
+SYN-1002 :     sd_card_bmp_m0/g_combined_page$u_page_button/reg0_syn_23
+SYN-1002 :     u_album_osd/reg1_syn_12
+SYN-1002 :     u_hdmi2phy_wrapper/u3_lane_lvds_8_1/reg1_syn_2
+SYN-1002 :     u_hdmi_1_4b_transmitter_core_wrapper/u_hdmi_tx_controller_wrapper/u0_hdmi_tmds_encode/reg24_syn_10
+SYN-1002 :     u_hdmi_1_4b_transmitter_core_wrapper/u_hdmi_tx_controller_wrapper/u_hdmi_data_distribution/reg3_syn_3
+SYN-1002 :     u_hdmi_1_4b_transmitter_core_wrapper/u_hdmi_tx_controller_wrapper/u_hdmi_island_data_gen/U_audio_sample_packet_2_channel/reg5_syn_10
+SYN-1002 :     U3/u2_ram/u2_wrrd/reg25_syn_2
+SYN-1002 :     frame_read_write_m0/frame_fifo_read_m0/reg7_syn_10
+SYN-1002 :     u_hdmi_1_4b_transmitter_core_wrapper/u_hdmi_tx_controller_wrapper/u0_hdmi_tmds_encode/reg21_syn_10
+SYN-1002 :     u_hdmi_1_4b_transmitter_core_wrapper/u_hdmi_tx_controller_wrapper/u_hdmi_island_data_gen/u_audio_info_frame_packet/reg0_syn_59
+SYN-1002 :     U3/u2_ram/u2_wrrd/reg26_syn_2
+SYN-1002 :     u_hdmi_1_4b_transmitter_core_wrapper/u_hdmi_tx_controller_wrapper/u0_hdmi_tmds_encode/reg22_syn_10
+SYN-1002 :     U3/u2_ram/u2_wrrd/reg27_syn_2
+SYN-1002 :     u_hdmi_1_4b_transmitter_core_wrapper/u_hdmi_tx_controller_wrapper/u0_hdmi_tmds_encode/reg23_syn_10
+SYN-1002 :     U3/u2_ram/u2_wrrd/reg28_syn_2
+SYN-1002 :     U3/u2_ram/u2_wrrd/reg29_syn_2
+SYN-1018 : Transformed 12 mux instances.
+SYN-1019 : Optimized 55 mux instances.
+SYN-1021 : Optimized 892 onehot mux instances.
+SYN-1020 : Optimized 8708 distributor mux.
+SYN-1001 : Optimize 131 less-than instances
+SYN-1019 : Optimized 234 mux instances.
+SYN-1016 : Merged 29396 instances.
+SYN-1015 : Optimize round 1, 45341 better
+SYN-1014 : Optimize round 2
+SYN-1044 : Optimized 32 inv instances.
+SYN-1032 : 51690/508 useful/useless nets, 47115/12266 useful/useless insts
+SYN-1017 : Remove 35 const input seq instances
+SYN-1002 :     frame_read_write_m0/frame_fifo_read_m0/reg5_syn_2
+SYN-1002 :     frame_read_write_m0/frame_fifo_read_m0/reg8_syn_10
+SYN-1002 :     frame_read_write_m0/frame_fifo_write_m0/reg12_syn_10
+SYN-1002 :     sd_card_bmp_m0/bmp_read_m0/reg14_syn_5
+SYN-1002 :     sd_card_bmp_m0/bmp_read_m0/reg29_syn_30
+SYN-1002 :     sd_card_bmp_m0/bmp_read_m0/reg45_syn_2
+SYN-1002 :     sd_card_bmp_m0/bmp_read_m0/reg64_syn_2
+SYN-1002 :     sd_card_bmp_m0/bmp_read_m0/reg76_syn_2
+SYN-1002 :     sd_card_bmp_m0/bmp_read_m0/reg76_syn_3
+SYN-1002 :     sd_card_bmp_m0/bmp_read_m0/scaler/reg1_syn_13
+SYN-1002 :     sd_card_bmp_m0/bmp_read_m0/scaler/reg10_syn_2
+SYN-1002 :     sd_card_bmp_m0/bmp_read_m0/scaler/reg20_syn_13
+SYN-1002 :     sd_card_bmp_m0/bmp_read_m0/scaler/reg27_syn_2
+SYN-1002 :     sd_card_bmp_m0/bmp_read_m0/scaler/reg7_syn_13
+SYN-1002 :     sd_card_bmp_m0/g_combined_page$u_page_button/reg1_syn_29
+SYN-1002 :     sd_card_bmp_m0/g_wav$u_wav_player/reg21_syn_30
+SYN-1002 :     sd_card_bmp_m0/g_wav$u_wav_player/reg32_syn_2
+SYN-1002 :     sd_card_bmp_m0/g_wav$u_wav_player/reg45_syn_2
+SYN-1002 :     sd_card_bmp_m0/g_wav$u_wav_player/reg56_syn_33
+SYN-1002 :     seg_scan_m0/reg2_syn_9
+SYN-1002 :     u_album_osd/reg18_syn_9
+SYN-1002 :     u_album_osd/reg19_syn_6
+SYN-1002 :     u_hdmi2phy_wrapper/u3_lane_lvds_8_1/reg1_syn_6
+SYN-1002 :     u_hdmi_1_4b_transmitter_core_wrapper/u_hdmi_tx_controller_wrapper/u_hdmi_island_data_gen/reg1_syn_14
+SYN-1002 :     u_hdmi_1_4b_transmitter_core_wrapper/u_hdmi_tx_controller_wrapper/u_hdmi_island_data_gen/U_audio_sample_packet_2_channel/reg3_syn_2
+SYN-1002 :     u_hdmi_1_4b_transmitter_core_wrapper/u_hdmi_tx_controller_wrapper/u_hdmi_island_data_gen/u_audio_clock_regeneration_packet/reg5_syn_10
+SYN-1002 :     u_picture_controls/u_adjust_button/reg1_syn_29
+SYN-1002 :     u_status_cdc/reg2_syn_2
+SYN-1002 :     u_teaching_scene/reg14_syn_10
+SYN-1002 :     u_teaching_scene/reg14_syn_11
+SYN-1002 :     u_wav_hdmi_bridge/reg2_syn_2
+SYN-1002 :     sd_card_bmp_m0/bmp_read_m0/reg6_syn_30
+SYN-1002 :     u_hdmi_1_4b_transmitter_core_wrapper/u_hdmi_tx_controller_wrapper/u_hdmi_island_data_gen/u_audio_clock_regeneration_packet/reg0_syn_11
+SYN-1002 :     u_hdmi_1_4b_transmitter_core_wrapper/u_hdmi_tx_controller_wrapper/u_hdmi_island_data_gen/U_audio_sample_packet_2_channel/reg1_syn_2
+SYN-1002 :     u_hdmi_1_4b_transmitter_core_wrapper/u_hdmi_tx_controller_wrapper/u_hdmi_island_data_gen/U_audio_sample_packet_2_channel/reg4_syn_2
+SYN-1019 : Optimized 145 mux instances.
+SYN-1020 : Optimized 60 distributor mux.
+SYN-1019 : Optimized 2 mux instances.
+SYN-1016 : Merged 129 instances.
+SYN-1015 : Optimize round 2, 14425 better
+SYN-1032 : 51287/121 useful/useless nets, 46827/83 useful/useless insts
+SYN-3003 : Optimized 1 equivalent DFF(s)
+SYN-3003 : Optimized 1 equivalent DFF(s)
+SYN-3003 : Optimized 1 equivalent DFF(s)
+SYN-3003 : Optimized 1 equivalent DFF(s)
+SYN-3003 : Optimized 1 equivalent DFF(s)
+SYN-3003 : Optimized 1 equivalent DFF(s)
+SYN-3003 : Optimized 1 equivalent DFF(s)
+SYN-3003 : Optimized 1 equivalent DFF(s)
+SYN-3003 : Optimized 1 equivalent DFF(s)
+SYN-3004 : Optimized 1 const0 DFF(s)
+SYN-3004 : Optimized 7 const0 DFF(s)
+SYN-3003 : Optimized 1 equivalent DFF(s)
+SYN-3003 : Optimized 1 equivalent DFF(s)
+SYN-3003 : Optimized 1 equivalent DFF(s)
+SYN-3003 : Optimized 1 equivalent DFF(s)
+SYN-3003 : Optimized 1 equivalent DFF(s)
+SYN-3003 : Optimized 1 equivalent DFF(s)
+SYN-3003 : Optimized 1 equivalent DFF(s)
+SYN-3003 : Optimized 1 equivalent DFF(s)
+SYN-3003 : Optimized 1 equivalent DFF(s)
+SYN-3003 : Optimized 2 equivalent DFF(s)
+SYN-3003 : Optimized 2 equivalent DFF(s)
+SYN-3003 : Optimized 2 equivalent DFF(s)
+SYN-3003 : Optimized 2 equivalent DFF(s)
+SYN-3003 : Optimized 2 equivalent DFF(s)
+SYN-3003 : Optimized 1 equivalent DFF(s)
+SYN-3003 : Optimized 1 equivalent DFF(s)
+SYN-3003 : Optimized 1 equivalent DFF(s)
+SYN-3003 : Optimized 1 equivalent DFF(s)
+SYN-3003 : Optimized 1 equivalent DFF(s)
+SYN-3003 : Optimized 1 equivalent DFF(s)
+SYN-3003 : Optimized 1 equivalent DFF(s)
+SYN-3003 : Optimized 1 equivalent DFF(s)
+SYN-3003 : Optimized 1 equivalent DFF(s)
+SYN-3003 : Optimized 1 equivalent DFF(s)
+SYN-3003 : Optimized 1 equivalent DFF(s)
+SYN-3003 : Optimized 1 equivalent DFF(s)
+SYN-3003 : Optimized 1 equivalent DFF(s)
+SYN-3003 : Optimized 1 equivalent DFF(s)
+SYN-3004 : Optimized 32 const0 DFF(s)
+SYN-3003 : Optimized 1 equivalent DFF(s)
+SYN-3003 : Optimized 1 equivalent DFF(s)
+SYN-3003 : Optimized 1 equivalent DFF(s)
+SYN-3003 : Optimized 2 equivalent DFF(s)
+SYN-3003 : Optimized 2 equivalent DFF(s)
+SYN-3004 : Optimized 10 const0 DFF(s)
+SYN-3003 : Optimized 1 equivalent DFF(s)
+SYN-3003 : Optimized 1 equivalent DFF(s)
+SYN-3003 : Optimized 2 equivalent DFF(s)
+SYN-3003 : Optimized 1 equivalent DFF(s)
+SYN-3004 : Optimized 166 const0 DFF(s)
+SYN-3003 : Optimized 1 equivalent DFF(s)
+SYN-3003 : Optimized 2 equivalent DFF(s)
+SYN-3003 : Optimized 1 equivalent DFF(s)
+SYN-3003 : Optimized 1 equivalent DFF(s)
+SYN-3003 : Optimized 1 equivalent DFF(s)
+SYN-3003 : Optimized 1 equivalent DFF(s)
+SYN-3004 : Optimized 4 const0 DFF(s)
+SYN-3003 : Optimized 1 equivalent DFF(s)
+SYN-3003 : Optimized 1 equivalent DFF(s)
+SYN-3003 : Optimized 1 equivalent DFF(s)
+SYN-1032 : 49819/1468 useful/useless nets, 45418/1125 useful/useless insts
+SYN-1014 : Optimize round 1
+SYN-1044 : Optimized 3 inv instances.
+SYN-1032 : 49798/3 useful/useless nets, 45397/0 useful/useless insts
+SYN-1017 : Remove 6 const input seq instances
+SYN-1002 :     frame_read_write_m0/frame_fifo_read_m0/reg3_syn_5
+SYN-1002 :     frame_read_write_m0/frame_fifo_write_m0/reg7_syn_5
+SYN-1002 :     sd_card_bmp_m0/reg0_syn_5
+SYN-1002 :     frame_read_write_m0/frame_fifo_read_m0/reg4_syn_5
+SYN-1002 :     frame_read_write_m0/frame_fifo_write_m0/reg8_syn_5
+SYN-1002 :     sd_card_bmp_m0/reg1_syn_5
+SYN-1019 : Optimized 63 mux instances.
+SYN-1019 : Optimized 1 mux instances.
+SYN-1016 : Merged 23 instances.
+SYN-1015 : Optimize round 1, 180 better
+SYN-1014 : Optimize round 2
+SYN-1044 : Optimized 2 inv instances.
+SYN-1032 : 49676/37 useful/useless nets, 45308/2 useful/useless insts
+SYN-1019 : Optimized 6 mux instances.
+SYN-1016 : Merged 1 instances.
+SYN-1015 : Optimize round 2, 15 better
+SYN-1014 : Optimize round 3
+SYN-1032 : 49668/0 useful/useless nets, 45300/1 useful/useless insts
+SYN-1015 : Optimize round 3, 1 better
+SYN-1014 : Optimize round 4
+SYN-1015 : Optimize round 4, 0 better
+RUN-1003 : finish command "optimize_rtl" in  66.546570s wall, 56.671875s user + 7.812500s system = 64.484375s CPU (96.9%)
+
+RUN-1004 : used memory is 496 MB, reserved memory is 476 MB, peak memory is 593 MB
+RUN-1002 : start command "report_area -file func1_rtl.area"
+RUN-1001 : standard
+***Report Model: top Device: EG4S20BG256***
+
+IO Statistics
+#IO                        31
+  #input                    6
+  #output                  24
+  #inout                    1
+
+Gate Statistics
+#Basic gates            35708
+  #and                  12432
+  #nand                     0
+  #or                   10817
+  #nor                      0
+  #xor                    126
+  #xnor                    21
+  #buf                      0
+  #not                    526
+  #bufif1                  33
+  #MX21                  3052
+  #FADD                     0
+  #DFF                   8701
+  #LATCH                    0
+#MACRO_ADD                727
+#MACRO_EQ                 382
+#MACRO_MULT                26
+#MACRO_MUX               7907
+#MACRO_OTHERS              34
+
+Report Hierarchy Area:
++---------------------------------------------------------------------------------------------------------------------+
+|Instance                                  |Module                                            |gates  |seq    |macros |
++---------------------------------------------------------------------------------------------------------------------+
+|top                                       |top                                               |27007  |8701   |1169   |
+|  U3                                      |sdram                                             |100    |518    |8      |
+|    u2_ram                                |sdr_as_ram                                        |100    |518    |8      |
+|      u1_init_ref                         |sdr_init_ref                                      |21     |81     |1      |
+|      u2_wrrd                             |sdr_wrrd                                          |79     |437    |7      |
+|  frame_read_write_m0                     |frame_read_write                                  |139    |331    |62     |
+|    frame_fifo_read_m0                    |frame_fifo_read                                   |20     |61     |17     |
+|    frame_fifo_write_m0                   |frame_fifo_write                                  |40     |81     |29     |
+|    read_buf                              |rfifo_32_32_512                                   |36     |94     |7      |
+|      ram_inst                            |ram_infer_rfifo_32_32_512                         |0      |0      |1      |
+|      rd_to_wr_cross_inst                 |fifo_cross_domain_addr_process_al_rfifo_32_32_512 |16     |36     |0      |
+|      wr_to_rd_cross_inst                 |fifo_cross_domain_addr_process_al_rfifo_32_32_512 |16     |36     |0      |
+|    write_buf                             |wfifo_32_32_512                                   |36     |94     |8      |
+|      ram_inst                            |ram_infer_wfifo_32_32_512                         |0      |0      |1      |
+|      rd_to_wr_cross_inst                 |fifo_cross_domain_addr_process_al_wfifo_32_32_512 |16     |36     |0      |
+|      wr_to_rd_cross_inst                 |fifo_cross_domain_addr_process_al_wfifo_32_32_512 |16     |36     |0      |
+|  sd_card_bmp_m0                          |sd_card_bmp                                       |25015  |4523   |379    |
+|    bmp_read_m0                           |bmp_read                                          |22766  |2445   |194    |
+|      scaler                              |album_bmp_scaler                                  |162    |345    |49     |
+|    g_combined_page$u_page_button         |album_short_long_button                           |96     |55     |4      |
+|    g_wav$u_sector_arbiter                |album_sector_arbiter                              |24     |57     |2      |
+|    g_wav$u_wav_player                    |album_wav_player                                  |1128   |1245   |96     |
+|    sd_card_top_m0                        |sd_card_top                                       |247    |178    |43     |
+|      sd_card_cmd_m0                      |sd_card_cmd                                       |106    |52     |20     |
+|      sd_card_sec_read_write_m0           |sd_card_sec_read_write                            |114    |85     |13     |
+|      spi_master_m0                       |spi_master                                        |27     |41     |10     |
+|    u_key_auto                            |key_press_debounce                                |30     |27     |2      |
+|  seg_scan_m0                             |seg_scan                                          |8      |29     |4      |
+|  sys_pll_m0                              |sys_pll                                           |0      |0      |1      |
+|  u_album_osd                             |album_video_osd                                   |475    |316    |113    |
+|  u_audio_waveform                        |album_audio_waveform                              |462    |436    |121    |
+|    label_rom                             |album_visual_label_rom                            |0      |0      |1      |
+|    spectrum                              |album_pcm_spectrum                                |217    |260    |35     |
+|  u_hdmi2phy_wrapper                      |hdmi_phy_wrapper                                  |2      |47     |4      |
+|    u0_lane_lvds_8_1                      |lane_lvds_10_1                                    |2      |18     |1      |
+|    u1_lane_lvds_8_1                      |lane_lvds_10_1                                    |0      |12     |1      |
+|    u2_lane_lvds_8_1                      |lane_lvds_10_1                                    |0      |12     |1      |
+|    u3_lane_lvds_8_1                      |lane_lvds_10_1                                    |0      |5      |1      |
+|  u_hdmi_1_4b_transmitter_core_wrapper    |hdmi_1_4b_transmitter_core_wrapper                |435    |1253   |220    |
+|    u0_reset_sync                         |hdmi_1_4b_tx_reset_sync                           |0      |2      |0      |
+|    u_hdmi_edid_wrapper                   |hdmi_edid_wrapper                                 |170    |102    |47     |
+|      u_hdmi_edid_read_controller         |hdmi_edid_read_controller                         |16     |11     |5      |
+|      u_iic_master_wrapper                |iic_master_wrapper                                |154    |91     |42     |
+|        u_iic_bit_transmitter             |iic_bit_transmitter                               |107    |33     |14     |
+|        u_iic_transmitter_controller      |iic_transmitter_controller                        |45     |58     |28     |
+|          u_iic_w11_d1024_fifo            |iic_w11_d1024_fifo                                |0      |0      |1      |
+|    u_hdmi_tx_controller_wrapper          |hdmi_tx_controller_wrapper                        |265    |1149   |173    |
+|      u0_hdmi_tmds_encode                 |hdmi_tmds_encode                                  |39     |161    |42     |
+|      u1_hdmi_tmds_encode                 |hdmi_tmds_encode                                  |38     |109    |38     |
+|      u2_hdmi_tmds_encode                 |hdmi_tmds_encode                                  |38     |109    |38     |
+|      u_hdmi_data_distribution            |hdmi_data_distribution                            |0      |43     |0      |
+|      u_hdmi_island_data_assemble         |hdmi_island_data_assemble                         |3      |414    |2      |
+|      u_hdmi_island_data_gen              |hdmi_island_data_gen                              |120    |233    |27     |
+|        U_audio_sample_packet_2_channel   |audio_sample_packet_2_channel                     |12     |116    |21     |
+|          u_BCH_32_24_encode              |BCH_32_24_encode                                  |0      |1      |0      |
+|          u_BCH_64_56_encode              |BCH_64_56_encode                                  |0      |8      |0      |
+|          u_w96_d1024_fifo                |w96_d1024_fifo                                    |0      |0      |1      |
+|        u_audio_clock_regeneration_packet |audio_clock_regeneration_packet                   |5      |9      |0      |
+|          u_BCH_64_56_encode              |BCH_64_56_encode                                  |0      |1      |0      |
+|      u_hdmi_video_data_assemble          |hdmi_video_data_assemble                          |0      |40     |0      |
+|      u_hdmi_video_source                 |hdmi_video_source                                 |17     |38     |25     |
+|      u_video_axi_stream_receiver         |video_axi_stream_receiver                         |10     |2      |1      |
+|        u_w24_d1024_fifo                  |w24_d1024_fifo                                    |0      |0      |1      |
+|  u_narration_cdc                         |album_status_cdc                                  |5      |54     |1      |
+|  u_page_seg                              |seg_decoder                                       |0      |0      |0      |
+|  u_page_tens_seg                         |seg_decoder                                       |4      |0      |0      |
+|  u_picture_controls                      |album_picture_controls                            |105    |90     |10     |
+|    u_adjust_button                       |album_short_long_button                           |96     |55     |4      |
+|  u_picture_settings_cdc                  |album_status_cdc                                  |5      |22     |1      |
+|  u_startup_pulse                         |startup_pulse                                     |2      |22     |2      |
+|  u_status_cdc                            |album_status_cdc                                  |5      |127    |1      |
+|  u_teaching_scene                        |album_teaching_scene                              |188    |657    |219    |
+|    assets                                |album_teaching_assets                             |33     |16     |24     |
+|    palette                               |album_teacher_palette                             |0      |0      |0      |
+|  u_transition_command_cdc                |album_status_cdc                                  |5      |20     |1      |
+|  u_transition_reply_cdc                  |album_status_cdc                                  |5      |10     |1      |
+|  u_video_rgb_to_axis_640x480             |video_rgb_to_axis_640x480                         |7      |28     |0      |
+|  u_wav_hdmi_bridge                       |album_pcm_hdmi_bridge                             |9      |63     |2      |
+|  video_delay_m0                          |video_delay                                       |0      |66     |0      |
+|  video_pll_m0                            |video_pll                                         |0      |0      |1      |
+|  video_timing_data_m0                    |video_timing_data                                 |16     |35     |9      |
+|    color_bar_m0                          |color_bar                                         |12     |28     |9      |
++---------------------------------------------------------------------------------------------------------------------+
+
+RUN-1002 : start command "export_db func1_rtl.db"
+RUN-1001 : Exported /
+RUN-1001 : Exported flow parameters
+RUN-1001 : Exported libs
+RUN-1001 : Exported entities
+RUN-1001 : Exported ports
+RUN-1001 : Exported pins
+RUN-1001 : Exported instances
+RUN-1001 : Exported nets
+RUN-1001 : Exported buses
+RUN-1001 : Exported models
+RUN-1001 : Exported congestions
+RUN-1001 : Exported violations
+RUN-1001 : Exported IO constraints
+RUN-1001 : Exported Inst constraints
+RUN-1003 : finish command "export_db func1_rtl.db" in  3.668326s wall, 5.828125s user + 0.078125s system = 5.906250s CPU (161.0%)
+
+RUN-1004 : used memory is 497 MB, reserved memory is 479 MB, peak memory is 622 MB
+RUN-1002 : start command "read_sdc ../../../user_source/constraints_source/timing.sdc"
+RUN-1002 : start command "get_ports clk"
+RUN-1002 : start command "create_clock -name clk -period 20 -waveform 0 10 "
+RUN-1102 : create_clock: clock name: clk, type: 0, period: 20000, rise: 0, fall: 10000.
+RUN-1002 : start command "get_ports clk"
+RUN-1002 : start command "get_pins sys_pll_m0/pll_inst.clkc[0]"
+RUN-1002 : start command "create_generated_clock -name sd_card_clk -source  -multiply_by 2 "
+RUN-1002 : start command "get_ports clk"
+RUN-1002 : start command "get_pins sys_pll_m0/pll_inst.clkc[1]"
+RUN-1002 : start command "create_generated_clock -name ext_mem_clk -source  -multiply_by 2.5 "
+RUN-1002 : start command "get_ports clk"
+RUN-1002 : start command "get_pins sys_pll_m0/pll_inst.clkc[2]"
+RUN-1002 : start command "create_generated_clock -name ext_mem_clk_sft -source  -multiply_by 2.5 -invert "
+RUN-1002 : start command "get_ports clk"
+RUN-1002 : start command "get_pins video_pll_m0/pll_inst.clkc[0]"
+RUN-1002 : start command "create_generated_clock -name video_clk -source  -multiply_by 1.485 "
+RUN-1002 : start command "get_ports clk"
+RUN-1002 : start command "get_pins video_pll_m0/pll_inst.clkc[1]"
+RUN-1002 : start command "create_generated_clock -name hdmi_5x_clk -source  -multiply_by 7.425 "
+RUN-1002 : start command "get_clocks sd_card_clk ext_mem_clk ext_mem_clk_sft"
+RUN-1002 : start command "get_clocks video_clk hdmi_5x_clk"
+RUN-1002 : start command "set_clock_groups -name system_video_cdc -asynchronous -group  -group "
+RUN-1002 : start command "get_clocks clk"
+RUN-1002 : start command "get_clocks video_clk"
+RUN-1002 : start command "set_false_path -from  -to "
+RUN-1002 : start command "get_clocks video_clk"
+RUN-1002 : start command "get_pins *u*_lane_lvds_8_1/*.sr"
+RUN-1002 : start command "get_clocks hdmi_5x_clk"
+RUN-1002 : start command "set_false_path -from  -through  -to "
+RUN-1002 : start command "get_regs rst_all_reg*"
+RUN-1002 : start command "get_clocks sd_card_clk ext_mem_clk"
+RUN-1002 : start command "set_false_path -from  -to "
+RUN-1002 : start command "get_regs *frame_fifo_write*/*fifo_aclr*"
+RUN-1002 : start command "get_pins *write_buf*/*asy_w_rst*.sr"
+RUN-1002 : start command "get_clocks sd_card_clk"
+RUN-1002 : start command "set_false_path -from  -through  -to "
+RUN-1002 : start command "read_sdc -ip rfifo_32_32_512 ../../../user_source/hdl_source/ip/afifo_32_16_256.tcl"
+RUN-1002 : start command "get_ports clkw"
+RUN-1002 : start command "get_nets  clkw  "
+RUN-1002 : start command "get_clocks -nowarn -of nets 24472723652608"
+RUN-1002 : start command "get_ports clkr"
+RUN-1002 : start command "get_nets  clkr  "
+RUN-1002 : start command "get_clocks -nowarn -of nets 24468428685312"
+RUN-1002 : start command "get_property -nowarn -max PERIOD "
+RUN-1002 : start command "get_property -nowarn -max PERIOD "
+RUN-1002 : start command "get_regs -nowarn */primary_addr_gray_reg[*]"
+RUN-1002 : start command "get_regs -nowarn */sync_r1[*]"
+RUN-1002 : start command "set_max_delay -from  -to  7.7000000000000002 -datapath_only"
+RUN-1002 : start command "get_regs -nowarn */primary_addr_gray_reg[*]"
+RUN-1002 : start command "get_regs -nowarn */sync_r1[*]"
+RUN-1002 : start command "set_false_path -from  -to  -hold 7.7000000000000002"
+USR-1002 : set_false_path -help -setup -hold -from <list> -rise_from <list> -fall_from <list> -to <list> -rise_to <list> -fall_to <list> -through <list>
+RUN-1002 : start command "read_sdc -ip wfifo_32_32_512 ../../../user_source/hdl_source/ip/afifo_16_32_256.tcl"
+RUN-1002 : start command "get_ports clkw"
+RUN-1002 : start command "get_nets  clkw  "
+RUN-1002 : start command "get_clocks -nowarn -of nets 32615981645824"
+RUN-1002 : start command "get_ports clkr"
+RUN-1002 : start command "get_nets  clkr  "
+RUN-1002 : start command "get_clocks -nowarn -of nets 32611686678528"
+RUN-1002 : start command "get_property -nowarn -max PERIOD "
+RUN-1002 : start command "get_property -nowarn -max PERIOD "
+RUN-1002 : start command "get_regs -nowarn */primary_addr_gray_reg[*]"
+RUN-1002 : start command "get_regs -nowarn */sync_r1[*]"
+RUN-1002 : start command "set_max_delay -from  -to  7.7000000000000002 -datapath_only"
+RUN-1002 : start command "get_regs -nowarn */primary_addr_gray_reg[*]"
+RUN-1002 : start command "get_regs -nowarn */sync_r1[*]"
+RUN-1002 : start command "set_false_path -from  -to  -hold 7.7000000000000002"
+USR-1002 : set_false_path -help -setup -hold -from <list> -rise_from <list> -fall_from <list> -to <list> -rise_to <list> -fall_to <list> -through <list>
+RUN-1002 : start command "optimize_gate -maparea func1_gate.area"
+RUN-1001 : Open license file D:/Anlogic/TD5.6.2/license/Anlogic.lic
+RUN-1001 : Print Global Property
+RUN-1001 : ---------------------------------------------------------------
+RUN-1001 :        Parameters        |  Settings  |  Default Values  |  Note  
+RUN-1001 : ---------------------------------------------------------------
+RUN-1001 :          message         |  standard  |     standard     |        
+RUN-1001 :   mixed_pack_place_flow  |     on     |        on        |        
+RUN-1001 :        qor_monitor       |    off     |       off        |        
+RUN-1001 :        syn_ip_flow       |    off     |       off        |        
+RUN-1001 :          thread          |    auto    |       auto       |        
+RUN-1001 : ---------------------------------------------------------------
+RUN-1001 : Print Gate Property
+RUN-1001 : ------------------------------------------------------------------
+RUN-1001 :          Parameters         |  Settings  |  Default Values  |  Note  
+RUN-1001 : ------------------------------------------------------------------
+RUN-1001 :         cascade_dsp         |    off     |       off        |        
+RUN-1001 :         cascade_eram        |    off     |       off        |        
+RUN-1001 :        gate_sim_model       |    off     |       off        |        
+RUN-1001 :        map_sim_model        |    off     |       off        |        
+RUN-1001 :         map_strategy        |     1      |        1         |        
+RUN-1001 :           opt_area          |   medium   |      medium      |        
+RUN-1001 :          opt_timing         |    auto    |       auto       |        
+RUN-1001 :         pack_effort         |   medium   |      medium      |        
+RUN-1001 :      pack_lslice_ripple     |     on     |        on        |        
+RUN-1001 :   pack_lslice_ripple_ratio  |    0.5     |       0.5        |        
+RUN-1001 :        pack_seq_in_io       |    auto    |       auto       |        
+RUN-1001 :        ph1_mux_ratio        |    1.0     |       1.0        |        
+RUN-1001 :            report           |  standard  |     standard     |        
+RUN-1001 :           retiming          |    off     |       off        |        
+RUN-1001 : ------------------------------------------------------------------
+SYN-2002 : EG_PHY_SDRAM_2M_32 instance U3/sdram.
+SYN-2001 : Map 86 IOs to PADs
+SYN-1032 : 49599/100 useful/useless nets, 45257/132 useful/useless insts
+RUN-1002 : start command "update_pll_param -module top"
+SYN-2501 : Processed 0 LOGIC_BUF instances.
+SYN-2501 : 2 BUFG to GCLK
+SYN-2541 : Logic Ram FIFO "u_hdmi_1_4b_transmitter_core_wrapper/u_hdmi_edid_wrapper/u_iic_master_wrapper/u_iic_transmitter_controller/u_iic_w11_d1024_fifo/u_logic_ramfifo"
+SYN-2541 : Logic Ram FIFO "u_hdmi_1_4b_transmitter_core_wrapper/u_hdmi_tx_controller_wrapper/u_hdmi_island_data_gen/U_audio_sample_packet_2_channel/u_w96_d1024_fifo/u_logic_ramfifo"
+SYN-2541 : Logic Ram FIFO "u_hdmi_1_4b_transmitter_core_wrapper/u_hdmi_tx_controller_wrapper/u_video_axi_stream_receiver/u_w24_d1024_fifo/u_logic_ramfifo"
+SYN-2595 : bram inst: frame_read_write_m0/read_buf/ram_inst/ramread0_syn_6 is set to PDPW/SP from DP for resource saving
+SYN-2595 : bram inst: frame_read_write_m0/write_buf/ram_inst/ramread0_syn_6 is set to PDPW/SP from DP for resource saving
+SYN-2595 : bram inst: sd_card_bmp_m0/ramread0_syn_6 is set to PDPW/SP from DP for resource saving
+SYN-2595 : bram inst: sd_card_bmp_m0/bmp_read_m0/ramread0_syn_6 is set to PDPW/SP from DP for resource saving
+SYN-2595 : bram inst: sd_card_bmp_m0/bmp_read_m0/scaler/ramread0_syn_6 is set to PDPW/SP from DP for resource saving
+SYN-2595 : bram inst: sd_card_bmp_m0/g_wav$u_wav_player/ramread0_syn_6 is set to PDPW/SP from DP for resource saving
+SYN-2595 : bram inst: u_audio_waveform/ramread0_syn_6 is set to PDPW/SP from DP for resource saving
+SYN-2595 : bram inst: u_audio_waveform/ramread1_syn_6 is set to PDPW/SP from DP for resource saving
+SYN-2595 : bram inst: u_audio_waveform/spectrum/ramread0_syn_6 is set to PDPW/SP from DP for resource saving
+SYN-2595 : bram inst: u_audio_waveform/spectrum/ramread1_syn_6 is set to PDPW/SP from DP for resource saving
+SYN-2595 : bram inst: u_audio_waveform/spectrum/ramread2_syn_6 is set to PDPW/SP from DP for resource saving
+SYN-2595 : bram inst: u_audio_waveform/spectrum/ramread6_syn_6 is set to PDPW/SP from DP for resource saving
+SYN-2595 : bram inst: u_teaching_scene/ramread0_syn_6 is set to PDPW/SP from DP for resource saving
+SYN-2595 : bram inst: u_teaching_scene/ramread1_syn_6 is set to PDPW/SP from DP for resource saving
+SYN-2593 : bram inst: frame_read_write_m0/read_buf/ram_inst/ramread0_syn_8 will be optimized to a new one with A-width 24 due to unused data out
+SYN-2593 : bram inst: u_audio_waveform/spectrum/ramread2_syn_8 will be optimized to a new one with A-width 16 due to unused data out
+SYN-2512 : LOGIC BRAM "frame_read_write_m0/read_buf/ram_inst/ramread0_syn_10"
+SYN-2512 : LOGIC BRAM "frame_read_write_m0/write_buf/ram_inst/ramread0_syn_8"
+SYN-2512 : LOGIC BRAM "sd_card_bmp_m0/ramread0_syn_8"
+SYN-2512 : LOGIC BRAM "sd_card_bmp_m0/bmp_read_m0/ramread0_syn_8"
+SYN-2512 : LOGIC BRAM "sd_card_bmp_m0/bmp_read_m0/scaler/ramread0_syn_8"
+SYN-2512 : LOGIC BRAM "sd_card_bmp_m0/g_wav$u_wav_player/ramread0_syn_8"
+SYN-2512 : LOGIC BRAM "u_audio_waveform/ramread0_syn_8"
+SYN-2512 : LOGIC BRAM "u_audio_waveform/ramread1_syn_8"
+SYN-2512 : LOGIC BRAM "u_audio_waveform/label_rom/ramread0_syn_6"
+SYN-2512 : LOGIC BRAM "u_audio_waveform/spectrum/ramread0_syn_8"
+SYN-2512 : LOGIC BRAM "u_audio_waveform/spectrum/ramread1_syn_8"
+SYN-2512 : LOGIC BRAM "u_audio_waveform/spectrum/ramread2_syn_10"
+SYN-2512 : LOGIC BRAM "u_audio_waveform/spectrum/ramread3_syn_6"
+SYN-2512 : LOGIC BRAM "u_audio_waveform/spectrum/ramread4_syn_6"
+SYN-2512 : LOGIC BRAM "u_audio_waveform/spectrum/ramread5_syn_6"
+SYN-2512 : LOGIC BRAM "u_audio_waveform/spectrum/ramread6_syn_8"
+SYN-2512 : LOGIC BRAM "u_hdmi_1_4b_transmitter_core_wrapper/u_hdmi_edid_wrapper/u_iic_master_wrapper/u_iic_transmitter_controller/u_iic_w11_d1024_fifo/u_logic_ramfifo_syn_327"
+SYN-2512 : LOGIC BRAM "u_hdmi_1_4b_transmitter_core_wrapper/u_hdmi_tx_controller_wrapper/u_hdmi_island_data_gen/U_audio_sample_packet_2_channel/u_w96_d1024_fifo/u_logic_ramfifo_syn_497"
+SYN-2512 : LOGIC BRAM "u_hdmi_1_4b_transmitter_core_wrapper/u_hdmi_tx_controller_wrapper/u_video_axi_stream_receiver/u_w24_d1024_fifo/u_logic_ramfifo_syn_353"
+SYN-2512 : LOGIC BRAM "u_teaching_scene/ramread0_syn_8"
+SYN-2512 : LOGIC BRAM "u_teaching_scene/ramread1_syn_8"
+SYN-2512 : LOGIC BRAM "u_teaching_scene/assets/ramread0_syn_6"
+SYN-2512 : LOGIC BRAM "u_teaching_scene/assets/ramread1_syn_6"
+SYN-2512 : LOGIC BRAM "u_teaching_scene/assets/ramread2_syn_6"
+SYN-2512 : LOGIC BRAM "u_teaching_scene/assets/ramread3_syn_6"
+SYN-2512 : LOGIC BRAM "u_teaching_scene/assets/ramread4_syn_6"
+SYN-2512 : LOGIC BRAM "u_teaching_scene/assets/ramread5_syn_6"
+SYN-2512 : LOGIC BRAM "u_teaching_scene/assets/ramread6_syn_6"
+SYN-2571 : Map 26 macro multiplier
+SYN-2571 : Optimize after map_dsp, round 1
+SYN-1032 : 50443/2464 useful/useless nets, 46047/2112 useful/useless insts
+SYN-1016 : Merged 37 instances.
+SYN-2571 : Optimize after map_dsp, round 1, 4344 better
+SYN-2571 : Optimize after map_dsp, round 2
+SYN-2571 : Optimize after map_dsp, round 2, 0 better
+SYN-1001 : Throwback 167 control mux instances
+SYN-1001 : Convert 12 adder
+SYN-1001 : Optimize 8 less-than instances
+SYN-2501 : Optimize round 1
+SYN-1032 : 53980/73 useful/useless nets, 49834/78 useful/useless insts
+SYN-1016 : Merged 973 instances.
+SYN-2501 : Optimize round 1, 4011 better
+SYN-2501 : Optimize round 2
+SYN-2501 : Optimize round 2, 0 better
+SYN-2501 : Map 681 macro adder
+SYN-3001 : Mapper mapped 3 instances into 1 LUTs, name keeping = 100%.
+SYN-3001 : Mapper mapped 15 instances into 1 LUTs, name keeping = 100%.
+SYN-3001 : Mapper mapped 15 instances into 1 LUTs, name keeping = 100%.
+SYN-3001 : Mapper mapped 7 instances into 1 LUTs, name keeping = 100%.
+SYN-3001 : Mapper mapped 7 instances into 1 LUTs, name keeping = 100%.
+SYN-3001 : Mapper mapped 7 instances into 1 LUTs, name keeping = 100%.
+SYN-3001 : Mapper mapped 15 instances into 1 LUTs, name keeping = 100%.
+SYN-3001 : Mapper mapped 15 instances into 1 LUTs, name keeping = 100%.
+SYN-3001 : Mapper mapped 3 instances into 1 LUTs, name keeping = 100%.
+SYN-3001 : Mapper mapped 3 instances into 1 LUTs, name keeping = 100%.
+SYN-3001 : Mapper mapped 7 instances into 1 LUTs, name keeping = 100%.
+SYN-3001 : Mapper mapped 7 instances into 1 LUTs, name keeping = 100%.
+SYN-3001 : Mapper mapped 7 instances into 1 LUTs, name keeping = 100%.
+SYN-3001 : Mapper mapped 7 instances into 1 LUTs, name keeping = 100%.
+SYN-3001 : Mapper mapped 7 instances into 1 LUTs, name keeping = 100%.
+SYN-3001 : Mapper mapped 7 instances into 1 LUTs, name keeping = 100%.
+SYN-3001 : Mapper mapped 7 instances into 1 LUTs, name keeping = 100%.
+SYN-3001 : Mapper mapped 7 instances into 1 LUTs, name keeping = 100%.
+SYN-3001 : Mapper mapped 7 instances into 1 LUTs, name keeping = 0%.
+SYN-3001 : Mapper mapped 7 instances into 1 LUTs, name keeping = 100%.
+SYN-3001 : Mapper mapped 15 instances into 1 LUTs, name keeping = 100%.
+SYN-3001 : Mapper mapped 15 instances into 1 LUTs, name keeping = 100%.
+SYN-3001 : Mapper mapped 15 instances into 1 LUTs, name keeping = 100%.
+SYN-3001 : Mapper mapped 15 instances into 1 LUTs, name keeping = 100%.
+SYN-3001 : Mapper mapped 15 instances into 1 LUTs, name keeping = 100%.
+SYN-3001 : Mapper mapped 15 instances into 1 LUTs, name keeping = 100%.
+SYN-3001 : Mapper mapped 15 instances into 1 LUTs, name keeping = 100%.
+SYN-3001 : Mapper mapped 15 instances into 1 LUTs, name keeping = 100%.
+SYN-3001 : Mapper mapped 15 instances into 1 LUTs, name keeping = 100%.
+SYN-3001 : Mapper mapped 15 instances into 1 LUTs, name keeping = 100%.
+SYN-3001 : Mapper mapped 15 instances into 1 LUTs, name keeping = 100%.
+SYN-3001 : Mapper mapped 15 instances into 1 LUTs, name keeping = 100%.
+SYN-3001 : Mapper mapped 15 instances into 1 LUTs, name keeping = 100%.
+SYN-3001 : Mapper mapped 15 instances into 1 LUTs, name keeping = 100%.
+SYN-3001 : Mapper mapped 15 instances into 1 LUTs, name keeping = 100%.
+SYN-3001 : Mapper mapped 15 instances into 1 LUTs, name keeping = 100%.
+SYN-3001 : Mapper mapped 15 instances into 1 LUTs, name keeping = 100%.
+SYN-3001 : Mapper mapped 15 instances into 1 LUTs, name keeping = 100%.
+SYN-3001 : Mapper mapped 15 instances into 1 LUTs, name keeping = 100%.
+SYN-3001 : Mapper mapped 15 instances into 1 LUTs, name keeping = 100%.
+SYN-3001 : Mapper mapped 15 instances into 1 LUTs, name keeping = 100%.
+SYN-3001 : Mapper mapped 15 instances into 1 LUTs, name keeping = 100%.
+SYN-3001 : Mapper mapped 15 instances into 1 LUTs, name keeping = 100%.
+SYN-3001 : Mapper mapped 15 instances into 1 LUTs, name keeping = 100%.
+SYN-3001 : Mapper mapped 15 instances into 1 LUTs, name keeping = 100%.
+SYN-3001 : Mapper mapped 15 instances into 1 LUTs, name keeping = 100%.
+SYN-3001 : Mapper mapped 15 instances into 1 LUTs, name keeping = 100%.
+SYN-3001 : Mapper mapped 3 instances into 1 LUTs, name keeping = 100%.
+SYN-3001 : Mapper mapped 15 instances into 1 LUTs, name keeping = 100%.
+SYN-3001 : Mapper mapped 15 instances into 1 LUTs, name keeping = 100%.
+SYN-3001 : Mapper mapped 15 instances into 1 LUTs, name keeping = 100%.
+SYN-3001 : Mapper mapped 15 instances into 1 LUTs, name keeping = 100%.
+SYN-3001 : Mapper mapped 15 instances into 1 LUTs, name keeping = 100%.
+SYN-3001 : Mapper mapped 15 instances into 1 LUTs, name keeping = 100%.
+SYN-3001 : Mapper mapped 31 instances into 3 LUTs, name keeping = 66%.
+SYN-3001 : Mapper mapped 31 instances into 3 LUTs, name keeping = 66%.
+SYN-3001 : Mapper mapped 31 instances into 3 LUTs, name keeping = 100%.
+SYN-3001 : Mapper mapped 31 instances into 3 LUTs, name keeping = 33%.
+SYN-3001 : Mapper mapped 31 instances into 3 LUTs, name keeping = 100%.
+SYN-3001 : Mapper mapped 31 instances into 3 LUTs, name keeping = 66%.
+SYN-3001 : Mapper mapped 31 instances into 2 LUTs, name keeping = 100%.
+SYN-3001 : Mapper mapped 31 instances into 2 LUTs, name keeping = 50%.
+SYN-3001 : Mapper mapped 31 instances into 3 LUTs, name keeping = 100%.
+SYN-3001 : Mapper mapped 31 instances into 3 LUTs, name keeping = 66%.
+SYN-3001 : Mapper mapped 31 instances into 3 LUTs, name keeping = 66%.
+SYN-3001 : Mapper mapped 31 instances into 3 LUTs, name keeping = 66%.
+SYN-3001 : Mapper mapped 31 instances into 3 LUTs, name keeping = 33%.
+SYN-3001 : Mapper mapped 31 instances into 3 LUTs, name keeping = 100%.
+SYN-3001 : Mapper mapped 31 instances into 3 LUTs, name keeping = 100%.
+SYN-3001 : Mapper mapped 31 instances into 3 LUTs, name keeping = 33%.
+SYN-3001 : Mapper mapped 31 instances into 3 LUTs, name keeping = 66%.
+SYN-3001 : Mapper mapped 31 instances into 3 LUTs, name keeping = 33%.
+SYN-3001 : Mapper mapped 31 instances into 3 LUTs, name keeping = 66%.
+SYN-3001 : Mapper mapped 31 instances into 3 LUTs, name keeping = 66%.
+SYN-3001 : Mapper mapped 31 instances into 3 LUTs, name keeping = 66%.
+SYN-3001 : Mapper mapped 31 instances into 3 LUTs, name keeping = 33%.
+SYN-3001 : Mapper mapped 31 instances into 3 LUTs, name keeping = 66%.
+SYN-3001 : Mapper mapped 31 instances into 3 LUTs, name keeping = 33%.
+SYN-2501 : Inferred 69 ROM instances
+SYN-1019 : Optimized 6177 mux instances.
+SYN-1016 : Merged 5319 instances.
+SYN-1032 : 65573/1268 useful/useless nets, 61481/494 useful/useless insts
+RUN-1002 : start command "start_timer -prepack"
+TMR-2505 : Start building timing graph for model top.
+TMR-2506 : Build timing graph completely. Port num: 17, tpin num: 214238, tnet num: 65575, tinst num: 61481, tnode num: 237595, tedge num: 301096.
+TMR-2508 : Levelizing timing graph completed, there are 97 levels in total.
+TMR-2501 : Timing graph initialized successfully.
+RUN-1003 : finish command "start_timer -prepack" in  2.520249s wall, 2.312500s user + 0.109375s system = 2.421875s CPU (96.1%)
+
+RUN-1004 : used memory is 777 MB, reserved memory is 771 MB, peak memory is 777 MB
+TMR-2503 : Start to update net delay, extr mode = 2.
+TMR-2504 : Update delay of 65575 nets completely.
+TMR-2502 : Annotate delay completely, extr mode = 2.
+TMR-3001 : Initiate 6 clocks from SDC.
+TMR-3004 : Map sdc constraints, there are 8 constraints in total.
+TMR-3003 : Constraints initiated successfully.
+TMR-3501 : Forward propagation: start to calculate arrival time...
+TMR-3502 : Backward propagation: start to calculate required time...
+TMR-3503 : Timing propagation completes.
+SYN-3001 : Running gate level optimization.
+SYN-2581 : Mapping with K=5, #lut = 9693 (3.68), #lev = 10 (3.48)
+SYN-2551 : Post LUT mapping optimization.
+SYN-2581 : Mapping with K=5, #lut = 9208 (3.61), #lev = 9 (3.71)
+SYN-3001 : Logic optimization runtime opt =   3.47 sec, map =   0.00 sec
+SYN-3001 : Mapper mapped 44927 instances into 9268 LUTs, name keeping = 63%.
+SYN-3001 : Mapper removed 14 lut buffers
+RUN-1002 : start command "report_area -file func1_gate.area"
+RUN-1001 : standard
+***Report Model: top Device: EG4S20BG256***
+
+IO Statistics
+#IO                        31
+  #input                    6
+  #output                  24
+  #inout                    1
+
+LUT Statistics
+#Total_luts             16344
+  #lut4                  7866
+  #lut5                  1457
+  #lut6                     0
+  #lut5_mx41                0
+  #lut4_alu1b            7021
+
+Utilization Statistics
+#lut                    16344   out of  19600   83.39%
+#reg                     8788   out of  19600   44.84%
+#le                         0
+#dsp                       17   out of     29   58.62%
+#bram                      49   out of     64   76.56%
+  #bram9k                  49
+  #fifo9k                   0
+#bram32k                   16   out of     16  100.00%
+#pad                       35   out of    188   18.62%
+  #ireg                     4
+  #oreg                    17
+  #treg                     1
+#pll                        2   out of      4   50.00%
+
+Report Hierarchy Area:
++------------------------------------------------------------------------------------------------------------------------------------------+
+|Instance                                  |Module                                            |lut     |ripple  |seq     |bram    |dsp     |
++------------------------------------------------------------------------------------------------------------------------------------------+
+|top                                       |top                                               |9323    |7021    |8810    |65      |17      |
+|  U3                                      |sdram                                             |80      |19      |437     |0       |0       |
+|    u2_ram                                |sdr_as_ram                                        |80      |19      |437     |0       |0       |
+|      u1_init_ref                         |sdr_init_ref                                      |13      |19      |81      |0       |0       |
+|      u2_wrrd                             |sdr_wrrd                                          |67      |0       |356     |0       |0       |
+|  frame_read_write_m0                     |frame_read_write                                  |285     |376     |331     |4       |0       |
+|    frame_fifo_read_m0                    |frame_fifo_read                                   |71      |71      |61      |0       |0       |
+|    frame_fifo_write_m0                   |frame_fifo_write                                  |137     |203     |81      |0       |0       |
+|    read_buf                              |rfifo_32_32_512                                   |36      |51      |94      |2       |0       |
+|      ram_inst                            |ram_infer_rfifo_32_32_512                         |0       |0       |0       |2       |0       |
+|      rd_to_wr_cross_inst                 |fifo_cross_domain_addr_process_al_rfifo_32_32_512 |16      |0       |36      |0       |0       |
+|      wr_to_rd_cross_inst                 |fifo_cross_domain_addr_process_al_rfifo_32_32_512 |16      |0       |36      |0       |0       |
+|    write_buf                             |wfifo_32_32_512                                   |37      |51      |94      |2       |0       |
+|      ram_inst                            |ram_infer_wfifo_32_32_512                         |0       |0       |0       |2       |0       |
+|      rd_to_wr_cross_inst                 |fifo_cross_domain_addr_process_al_wfifo_32_32_512 |16      |0       |36      |0       |0       |
+|      wr_to_rd_cross_inst                 |fifo_cross_domain_addr_process_al_wfifo_32_32_512 |16      |0       |36      |0       |0       |
+|  sd_card_bmp_m0                          |sd_card_bmp                                       |5008    |3240    |4466    |9       |4       |
+|    bmp_read_m0                           |bmp_read                                          |2446    |1876    |2390    |4       |4       |
+|      scaler                              |album_bmp_scaler                                  |520     |345     |312     |3       |2       |
+|    g_combined_page$u_page_button         |album_short_long_button                           |54      |102     |54      |0       |0       |
+|    g_wav$u_sector_arbiter                |album_sector_arbiter                              |44      |0       |57      |0       |0       |
+|    g_wav$u_wav_player                    |album_wav_player                                  |1364    |917     |1245    |1       |0       |
+|    sd_card_top_m0                        |sd_card_top                                       |466     |71      |178     |0       |0       |
+|      sd_card_cmd_m0                      |sd_card_cmd                                       |266     |54      |52      |0       |0       |
+|      sd_card_sec_read_write_m0           |sd_card_sec_read_write                            |144     |0       |85      |0       |0       |
+|      spi_master_m0                       |spi_master                                        |56      |17      |41      |0       |0       |
+|    u_key_auto                            |key_press_debounce                                |25      |49      |26      |0       |0       |
+|  seg_scan_m0                             |seg_scan                                          |48      |120     |20      |0       |0       |
+|  sys_pll_m0                              |sys_pll                                           |0       |0       |0       |0       |0       |
+|  u_album_osd                             |album_video_osd                                   |875     |556     |388     |0       |0       |
+|  u_audio_waveform                        |album_audio_waveform                              |818     |746     |436     |10      |2       |
+|    label_rom                             |album_visual_label_rom                            |46      |0       |0       |1       |0       |
+|    spectrum                              |album_pcm_spectrum                                |485     |333     |260     |7       |2       |
+|  u_hdmi2phy_wrapper                      |hdmi_phy_wrapper                                  |34      |0       |47      |0       |0       |
+|    u0_lane_lvds_8_1                      |lane_lvds_10_1                                    |12      |0       |18      |0       |0       |
+|    u1_lane_lvds_8_1                      |lane_lvds_10_1                                    |10      |0       |12      |0       |0       |
+|    u2_lane_lvds_8_1                      |lane_lvds_10_1                                    |10      |0       |12      |0       |0       |
+|    u3_lane_lvds_8_1                      |lane_lvds_10_1                                    |2       |0       |5       |0       |0       |
+|  u_hdmi_1_4b_transmitter_core_wrapper    |hdmi_1_4b_transmitter_core_wrapper                |1075    |446     |1415    |16      |0       |
+|    u0_reset_sync                         |hdmi_1_4b_tx_reset_sync                           |0       |0       |2       |0       |0       |
+|    u_hdmi_edid_wrapper                   |hdmi_edid_wrapper                                 |190     |71      |157     |2       |0       |
+|      u_hdmi_edid_read_controller         |hdmi_edid_read_controller                         |1       |11      |11      |0       |0       |
+|      u_iic_master_wrapper                |iic_master_wrapper                                |189     |60      |146     |2       |0       |
+|        u_iic_bit_transmitter             |iic_bit_transmitter                               |63      |26      |33      |0       |0       |
+|        u_iic_transmitter_controller      |iic_transmitter_controller                        |120     |34      |113     |2       |0       |
+|          u_iic_w11_d1024_fifo            |iic_w11_d1024_fifo                                |24      |0       |55      |2       |0       |
+|    u_hdmi_tx_controller_wrapper          |hdmi_tx_controller_wrapper                        |885     |375     |1256    |14      |0       |
+|      u0_hdmi_tmds_encode                 |hdmi_tmds_encode                                  |104     |50      |160     |0       |0       |
+|      u1_hdmi_tmds_encode                 |hdmi_tmds_encode                                  |100     |50      |108     |0       |0       |
+|      u2_hdmi_tmds_encode                 |hdmi_tmds_encode                                  |100     |50      |108     |0       |0       |
+|      u_hdmi_data_distribution            |hdmi_data_distribution                            |2       |0       |43      |0       |0       |
+|      u_hdmi_island_data_assemble         |hdmi_island_data_assemble                         |273     |0       |414     |0       |0       |
+|      u_hdmi_island_data_gen              |hdmi_island_data_gen                              |237     |9       |288     |11      |0       |
+|        U_audio_sample_packet_2_channel   |audio_sample_packet_2_channel                     |105     |9       |171     |11      |0       |
+|          u_BCH_32_24_encode              |BCH_32_24_encode                                  |0       |0       |1       |0       |0       |
+|          u_BCH_64_56_encode              |BCH_64_56_encode                                  |0       |0       |8       |0       |0       |
+|          u_w96_d1024_fifo                |w96_d1024_fifo                                    |24      |0       |55      |11      |0       |
+|        u_audio_clock_regeneration_packet |audio_clock_regeneration_packet                   |6       |0       |9       |0       |0       |
+|          u_BCH_64_56_encode              |BCH_64_56_encode                                  |0       |0       |1       |0       |0       |
+|      u_hdmi_video_data_assemble          |hdmi_video_data_assemble                          |0       |0       |40      |0       |0       |
+|      u_hdmi_video_source                 |hdmi_video_source                                 |42      |216     |38      |0       |0       |
+|      u_video_axi_stream_receiver         |video_axi_stream_receiver                         |27      |0       |57      |3       |0       |
+|        u_w24_d1024_fifo                  |w24_d1024_fifo                                    |25      |0       |55      |3       |0       |
+|  u_narration_cdc                         |album_status_cdc                                  |35      |0       |54      |0       |0       |
+|  u_page_seg                              |seg_decoder                                       |10      |0       |0       |0       |0       |
+|  u_picture_controls                      |album_picture_controls                            |102     |131     |89      |0       |0       |
+|    u_adjust_button                       |album_short_long_button                           |54      |102     |54      |0       |0       |
+|  u_picture_settings_cdc                  |album_status_cdc                                  |8       |0       |22      |0       |0       |
+|  u_startup_pulse                         |startup_pulse                                     |15      |21      |22      |0       |0       |
+|  u_status_cdc                            |album_status_cdc                                  |60      |0       |127     |0       |0       |
+|  u_teaching_scene                        |album_teaching_scene                              |703     |1316    |659     |26      |11      |
+|    assets                                |album_teaching_assets                             |81      |72      |18      |20      |0       |
+|    palette                               |album_teacher_palette                             |21      |0       |0       |0       |0       |
+|  u_transition_command_cdc                |album_status_cdc                                  |13      |0       |20      |0       |0       |
+|  u_transition_reply_cdc                  |album_status_cdc                                  |6       |0       |10      |0       |0       |
+|  u_video_rgb_to_axis_640x480             |video_rgb_to_axis_640x480                         |2       |0       |28      |0       |0       |
+|  u_wav_hdmi_bridge                       |album_pcm_hdmi_bridge                             |45      |0       |63      |0       |0       |
+|  video_delay_m0                          |video_delay                                       |24      |0       |66      |0       |0       |
+|  video_pll_m0                            |video_pll                                         |0       |0       |0       |0       |0       |
+|  video_timing_data_m0                    |video_timing_data                                 |36      |13      |35      |0       |0       |
+|    color_bar_m0                          |color_bar                                         |35      |13      |28      |0       |0       |
++------------------------------------------------------------------------------------------------------------------------------------------+
+
+SYN-1001 : Packing model "top" ...
+SYN-4010 : Pack lib has 57 rtl pack models with 25 top pack blocks
+SYN-1014 : Optimize round 1
+SYN-1017 : Remove 4 const input seq instances
+SYN-1002 :     sd_card_bmp_m0/bmp_read_m0/scaler/reg0_syn_14
+SYN-1002 :     sd_card_bmp_m0/bmp_read_m0/scaler/reg0_syn_17
+SYN-1002 :     sd_card_bmp_m0/bmp_read_m0/scaler/reg0_syn_19
+SYN-1002 :     sd_card_bmp_m0/bmp_read_m0/scaler/reg13_syn_16
+SYN-1015 : Optimize round 1, 4 better
+SYN-1014 : Optimize round 2
+SYN-1032 : 29618/0 useful/useless nets, 25818/4 useful/useless insts
+SYN-1015 : Optimize round 2, 0 better
+SYN-4002 : Packing 8784 DFF/LATCH to SEQ ...
+SYN-4009 : Pack 223 carry chain into lslice
+SYN-4007 : Packing 3648 adder to BLE ...
+SYN-4008 : Packed 3648 adder and 16 SEQ to BLE.
+SYN-4007 : Packing 0 gate4 to BLE ...
+SYN-4008 : Packed 0 gate4 and 0 SEQ to BLE.
+SYN-4012 : Packed 0 FxMUX
+RUN-1003 : finish command "optimize_gate -maparea func1_gate.area" in  40.143670s wall, 38.234375s user + 0.968750s system = 39.203125s CPU (97.7%)
+
+RUN-1004 : used memory is 529 MB, reserved memory is 532 MB, peak memory is 1056 MB
+RUN-1002 : start command "legalize_phy_inst"
+SYN-1011 : Flatten model top
+RUN-1002 : start command "export_db func1_gate.db"
+RUN-1001 : Exported /
+RUN-1001 : Exported flow parameters
+RUN-1001 : Exported libs
+RUN-1001 : Exported entities
+RUN-1001 : Exported ports
+RUN-1001 : Exported pins
+RUN-1001 : Exported instances
+RUN-1001 : Exported nets
+RUN-1001 : Exported buses
+RUN-1001 : Exported models
+RUN-1001 : Exported congestions
+RUN-1001 : Exported violations
+RUN-1001 : Exported timing constraints
+RUN-1001 : Exported IO constraints
+RUN-1001 : Exported Inst constraints
+RUN-1003 : finish command "export_db func1_gate.db" in  4.686356s wall, 7.671875s user + 0.109375s system = 7.781250s CPU (166.0%)
+
+RUN-1004 : used memory is 573 MB, reserved memory is 571 MB, peak memory is 1056 MB
+RUN-1002 : start command "backup_run_log run.log ../.logs/syn_1/td_20261031_201935.log"
+RUN-1001 : Backing up run's log file succeed.
